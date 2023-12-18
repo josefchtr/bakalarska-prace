@@ -8,13 +8,13 @@
 
         <visual name="visual">
           <geometry>
-            <mesh><uri>model://Cube/meshes/Cube_done.dae</uri></mesh>
+            <mesh><uri>model://Cube/meshes/demo_cube.dae</uri></mesh>
           </geometry>
         </visual>
 
         <collision name="collision">
           <geometry>
-            <mesh><uri>model://Cube/meshes/Cube_done.dae</uri></mesh>
+            <mesh><uri>model://Cube/meshes/demo_cube.dae</uri></mesh>
           </geometry>
         </collision>
 
