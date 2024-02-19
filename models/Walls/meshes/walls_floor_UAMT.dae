@@ -146,14 +146,14 @@
     </effect>
     <effect id="corridor_4-effect">
       <profile_COMMON>
-        <newparam sid="corridor_v4_jpg-surface">
+        <newparam sid="corridor_jpg-surface">
           <surface type="2D">
-            <init_from>corridor_v4_jpg</init_from>
+            <init_from>corridor_jpg</init_from>
           </surface>
         </newparam>
-        <newparam sid="corridor_v4_jpg-sampler">
+        <newparam sid="corridor_jpg-sampler">
           <sampler2D>
-            <source>corridor_v4_jpg-surface</source>
+            <source>corridor_jpg-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -162,7 +162,7 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <texture texture="corridor_v4_jpg-sampler" texcoord="UVMap"/>
+              <texture texture="corridor_jpg-sampler" texcoord="UVMap"/>
             </diffuse>
             <index_of_refraction>
               <float sid="ior">1.45</float>
@@ -173,8 +173,8 @@
     </effect>
   </library_effects>
   <library_images>
-    <image id="corridor_v4_jpg" name="corridor_v4_jpg">
-      <init_from>corridor_v4.jpg</init_from>
+    <image id="corridor_jpg" name="corridor_jpg">
+      <init_from>corridor.jpg</init_from>
     </image>
     <image id="rooms_png" name="rooms_png">
       <init_from>rooms.png</init_from>
