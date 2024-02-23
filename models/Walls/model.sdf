@@ -7,13 +7,13 @@
       
         <visual name="visual">
           <geometry>
-            <mesh><uri>model://models/Walls/meshes/walls_UAMT.dae</uri></mesh>
+            <mesh><uri>model://models/Walls/meshes/no_roof_UAMT.dae</uri></mesh>
           </geometry>
         </visual>
 
         <collision name="collision">
           <geometry>
-            <mesh><uri>model://models_Walls/meshes/walls_UAMT.dae</uri></mesh>
+            <mesh><uri>model://models_Walls/meshes/no_roof_UAMT.dae</uri></mesh>
           </geometry>
         </collision>
 
