@@ -13,7 +13,7 @@
 <model name="Cube_01">          
 <include>
     <uri>
-    model://Cube_demo
+    model://Cube
     </uri>
 </include>
       <pose>5 4 0 0 0 0</pose>
