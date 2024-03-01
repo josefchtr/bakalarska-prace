@@ -13,14 +13,21 @@
 <model name="Cube_01">          
 <include>
     <uri>
-    model://Cube
+    model://Cube_demo
     </uri>
 </include>
       <pose>5 4 0 0 0 0</pose>
 </model>
 
 -->
- 
+ <model name="door_jamb_160_01">          
+<include>
+    <uri>
+    model://door_jamb_160
+    </uri>
+</include>
+      <pose>5 4 0 0 0 0</pose>
+</model>
  
 <model name="Walls_01">
 <include>
