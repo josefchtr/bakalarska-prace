@@ -103,7 +103,7 @@
       <profile_COMMON>
         <newparam sid="corridor_jpg-surface">
           <surface type="2D">
-            <init_from>../textures/corridor_jpg</init_from>
+            <init_from>corridor_jpg</init_from>
           </surface>
         </newparam>
         <newparam sid="corridor_jpg-sampler">
@@ -130,7 +130,7 @@
       <profile_COMMON>
         <newparam sid="rooms_png-surface">
           <surface type="2D">
-            <init_from>../textures/rooms_png</init_from>
+            <init_from>rooms_png</init_from>
           </surface>
         </newparam>
         <newparam sid="rooms_png-sampler">
@@ -157,7 +157,7 @@
       <profile_COMMON>
         <newparam sid="walls_jpg-surface">
           <surface type="2D">
-            <init_from>../textures/walls_jpg</init_from>
+            <init_from>walls_jpg</init_from>
           </surface>
         </newparam>
         <newparam sid="walls_jpg-sampler">
