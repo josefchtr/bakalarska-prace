@@ -72,7 +72,7 @@
       <profile_COMMON>
         <newparam sid="door_jamb_160_png-surface">
           <surface type="2D">
-            <init_from>../textures/door_jamb_160_png</init_from>
+            <init_from>door_jamb_160_png</init_from>
           </surface>
         </newparam>
         <newparam sid="door_jamb_160_png-sampler">
@@ -98,7 +98,7 @@
   </library_effects>
   <library_images>
     <image id="door_jamb_160_png" name="door_jamb_160_png">
-      <init_from>door_jamb_160.png</init_from>
+      <init_from>../textures/door_jamb_160.png</init_from>
     </image>
   </library_images>
   <library_materials>
