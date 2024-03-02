@@ -211,7 +211,7 @@
       <profile_COMMON>
         <newparam sid="walls_jpg-surface">
           <surface type="2D">
-            <init_from>../textures/walls_jpg</init_from>
+            <init_from>walls_jpg</init_from>
           </surface>
         </newparam>
         <newparam sid="walls_jpg-sampler">
