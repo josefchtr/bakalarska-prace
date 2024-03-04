@@ -21,6 +21,15 @@
 
 -->
 
+<model name="Walls_01">
+<include>
+    <uri>
+    model://models/Walls
+    </uri>
+</include>
+      <pose>-20 -10 0 0 0 0</pose>
+</model>
+
  <model name="door_jamb_160_01">          
 <include>
     <uri>
@@ -29,23 +38,14 @@
 </include>
       <pose>4.058 -1.04 0 0 0 0</pose>
 </model>
-
+	
 <model name="windows_4_01">          
 <include>
     <uri>
     model://models/windows_4
     </uri>
 </include>
-      <pose>0 0 0 0 0 0</pose>
-</model>
-
-<model name="Walls_01">
-<include>
-    <uri>
-    model://models/Walls
-    </uri>
-</include>
-      <pose>-20 -10 0 0 0 0</pose>
+      <pose>1.97 9.95 1.218 0 0 0</pose>
 </model>
 	
 	
