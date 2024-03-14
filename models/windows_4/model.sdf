@@ -6,6 +6,7 @@
     <link name="body">
       
         <visual name="visual">
+        <cast_shadows>false</cast_shadows>
           <geometry>
             <mesh><uri>model://models/windows_4/meshes/windows_4.dae</uri></mesh>
           </geometry>
