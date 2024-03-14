@@ -20,7 +20,6 @@
 </model>
 
 -->
-
 <model name="Walls_01">
 <include>
     <uri>
@@ -47,7 +46,70 @@
 </include>
       <pose>1.97 9.95 1.218 0 0 0</pose>
 </model>
+
+<model name="windows_4_02">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>16.407 9.95 1.218 0 0 0</pose>
+</model>
+
+<model name="windows_4_03">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>23.8 9.95 1.218 0 0 0</pose>
+</model>
 	
+<model name="windows_4_04">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>1.97 -9.85 1.218 0 0 0</pose>
+</model>
+		
+<model name="windows_4_05">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>9.19 -9.85 1.218 0 0 0</pose>
+</model>
+
+<model name="windows_4_06">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>-5.24 -9.85 1.218 0 0 0</pose>
+</model>
+	
+<model name="windows_4_07">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>-19.4219 -9.85 1.218 0 0 0</pose>
+</model>
+	
+<model name="windows_4_08">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>-19.4219 9.95 1.218 0 0 0</pose>
+</model>
+
 	
     <light name="sun" type="point">
       <pose frame="">0 0 15 0 0 0</pose>
