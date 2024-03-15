@@ -44,7 +44,7 @@
     model://models/windows_4
     </uri>
 </include>
-      <pose>1.97 9.95 1.218 0 0 0</pose>
+      <pose>1.973 9.95 1.218 0 0 0</pose>
 </model>
 
 <model name="windows_4_02">          
@@ -110,6 +110,14 @@
       <pose>-19.4219 9.95 1.218 0 0 0</pose>
 </model>
 
+<model name="windows_door_01">          
+<include>
+    <uri>
+    model://models/windows_door
+    </uri>
+</include>
+       <pose>9.189 9.95 -0.005 0 0 0</pose>
+</model>
 	
     <light name="sun" type="point">
       <pose frame="">0 0 15 0 0 0</pose>
