@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<sdf version="1.6">
+  <model name='entrance_door'>
+    <static>true</static>
+    <link name="body">
+      
+        <visual name="visual">
+          <geometry>
+            <mesh><uri>model://models/entrance_door/meshes/entrance_door.dae</uri></mesh>
+          </geometry>
+        </visual>
+
+        <collision name="collision">
+          <geometry>
+            <mesh><uri>model://models/entrance_door/meshes/entrance_door.dae</uri></mesh>
+          </geometry>
+        </collision>
+
+       
+    </link>
+  </model>
+</sdf>
