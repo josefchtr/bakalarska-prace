@@ -187,9 +187,212 @@
        <pose>29.012 -2.92 2.1 0 3.14159 3.14159</pose>
 </model>	
 	
+<!-------------------------- Dílna sklad 1.109 --------------------->		
 	
+<model name="door_jamb_160_06">          
+<include>
+    <uri>
+    model://models/door_jamb_160
+    </uri>
+</include>
+      <pose>24.96 -2.975 0 0 0 0</pose>
+</model>
+
+<model name="door_80_handle_06">          
+<include>
+    <uri>
+    model://models/door_80_handle
+    </uri>
+</include>
+      <pose>24.546 -2.92 2.1 0 3.14159 3.14159</pose>
+</model>
+
+<model name="door_80_06">          
+<include>
+    <uri>
+    model://models/door_80
+    </uri>
+</include>
+       <pose>25.361 -2.92 2.1 0 3.14159 3.14159</pose>
+</model>	
 	
+<!-------------------------- Malá dílna chemie 1.110 --------------------->			
 	
+<model name="door_jamb_160_07">          
+<include>
+    <uri>
+    model://models/door_jamb_160
+    </uri>
+</include>
+      <pose>21.601 -2.975 0 0 0 0</pose>
+</model>
+
+<model name="door_80_handle_07">          
+<include>
+    <uri>
+    model://models/door_80_handle
+    </uri>
+</include>
+      <pose>21.187 -2.92 2.1 0 3.14159 3.14159</pose>
+</model>
+
+<model name="door_80_07">          
+<include>
+    <uri>
+    model://models/door_80
+    </uri>
+</include>
+       <pose>22.002 -2.92 2.1 0 3.14159 3.14159</pose>
+</model>	
+	
+<!-------------------------- Dílna diplomantů - robotika 1.111 --------------------->				
+
+<model name="door_jamb_160_08">          
+<include>
+    <uri>
+    model://models/door_jamb_160
+    </uri>
+</include>
+      <pose>18.001 -2.975 0 0 0 0</pose>
+</model>
+
+<model name="door_80_handle_08">          
+<include>
+    <uri>
+    model://models/door_80_handle
+    </uri>
+</include>
+      <pose>17.587 -2.92 2.1 0 3.14159 3.14159</pose>
+</model>
+
+<model name="door_80_08">          
+<include>
+    <uri>
+    model://models/door_80
+    </uri>
+</include>
+       <pose>18.402 -2.92 2.1 0 3.14159 3.14159</pose>
+</model>
+
+<!-------------------------- Laboratoř teleprezence 1.112 --------------------->					
+	
+<model name="door_jamb_160_09">          
+<include>
+    <uri>
+    model://models/door_jamb_160
+    </uri>
+</include>
+      <pose>13.673 -2.975 0 0 0 0</pose>
+</model>
+
+<model name="door_80_handle_09">          
+<include>
+    <uri>
+    model://models/door_80_handle
+    </uri>
+</include>
+      <pose>12.505 -2.75 0 0 0 -3.49066</pose>
+</model>
+
+<model name="door_80_09">          
+<include>
+    <uri>
+    model://models/door_80
+    </uri>
+</include>
+       <pose>14.08 -2.921 0 0 0 0</pose>
+</model>
+	
+<!-------------------------- Laboratoř mobilních robotů 1.113 --------------------->					
+	
+<model name="door_jamb_160_10">          
+<include>
+    <uri>
+    model://models/door_jamb_160
+    </uri>
+</include>
+      <pose>3.63 -2.975 0 0 0 0</pose>
+</model>
+
+<model name="door_80_handle_10">          
+<include>
+    <uri>
+    model://models/door_80_handle
+    </uri>
+</include>
+      <pose>2.462 -2.75 0 0 0 -3.49066</pose>
+</model>
+
+<model name="door_80_10">          
+<include>
+    <uri>
+    model://models/door_80
+    </uri>
+</include>
+       <pose>4.037 -2.921 0 0 0 0</pose>
+</model>
+
+<!-------------------------- Laboratoř vibrodiagnostiky a kalibrace 1.114 --------------------->					
+	
+<model name="door_jamb_160_11">          
+<include>
+    <uri>
+    model://models/door_jamb_160
+    </uri>
+</include>
+      <pose>-1.484 -2.975 0 0 0 0</pose>
+</model>
+
+<model name="door_80_handle_11">          
+<include>
+    <uri>
+    model://models/door_80_handle
+    </uri>
+</include>
+      <pose>-1.898 -2.92 2.1 0 3.14159 3.14159</pose>
+</model>
+
+<model name="door_80_11">          
+<include>
+    <uri>
+    model://models/door_80
+    </uri>
+</include>
+       <pose>-1.083 -2.92 2.1 0 3.14159 3.14159</pose>
+</model>
+	
+<!-------------------------- Laboratoř automatizace měření 1.115 --------------------->					
+	
+<model name="door_jamb_160_12">          
+<include>
+    <uri>
+    model://models/door_jamb_160
+    </uri>
+</include>
+      <pose>-1.484 -2.975 0 0 0 0</pose>
+</model>
+
+<model name="door_80_handle_12">          
+<include>
+    <uri>
+    model://models/door_80_handle
+    </uri>
+</include>
+      <pose>-1.898 -2.92 2.1 0 3.14159 3.14159</pose>
+</model>
+
+<model name="door_80_12">          
+<include>
+    <uri>
+    model://models/door_80
+    </uri>
+</include>
+       <pose>-1.083 -2.92 2.1 0 3.14159 3.14159</pose>
+</model>
+		
+		
+		
+		
 <model name="windows_4_01">          
 <include>
     <uri>
