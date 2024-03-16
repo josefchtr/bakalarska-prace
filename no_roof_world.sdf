@@ -20,6 +20,7 @@
 </model>
 
 -->
+
 <model name="Walls_01">
 <include>
     <uri>
@@ -29,6 +30,8 @@
       <pose>-20 -10 0 0 0 0</pose>
 </model>
 
+<!-------------------------- Laboratoř snímačové techniky 1.101 -------------------------->
+
  <model name="door_jamb_160_01">          
 <include>
     <uri>
@@ -37,6 +40,155 @@
 </include>
       <pose>4.058 -1.04 0 0 0 0</pose>
 </model>
+
+<model name="door_80_handle_01">          
+<include>
+    <uri>
+    model://models/door_80_handle
+    </uri>
+</include>
+       <pose>4.45 -1.09 0 0 0 3.14159</pose>
+</model>
+
+<model name="door_80_01">          
+<include>
+    <uri>
+    model://models/door_80
+    </uri>
+</include>
+      <pose>3.66 -1.09 0 0 0 3.14159</pose>
+</model>
+	
+	
+<!-------------------------- Laboratoř robotiky - polygon 1.102 -------------------------->
+	
+<model name="door_jamb_160_02">          
+<include>
+    <uri>
+    model://models/door_jamb_160
+    </uri>
+</include>
+      <pose>13.673 -1.04 0 0 0 0</pose>
+</model>
+
+<model name="door_80_handle_02">          
+<include>
+    <uri>
+    model://models/door_80_handle
+    </uri>
+</include>
+       <pose>14.865 -1.21 0 0 0 -0.20</pose>
+</model>
+
+<model name="door_80_02">          
+<include>
+    <uri>
+    model://models/door_80
+    </uri>
+</include>
+      <pose>13.25 -1.09 0 0 0 3.14159</pose>
+</model>
+	
+<!-------------------------- Laboratoř vibrací a klimatických zkoušek 1.100 --------------------->
+	
+<model name="entrance_door_03">          
+<include>
+    <uri>
+    model://models/entrance_door
+    </uri>
+</include>
+       <pose>-2.407 -1.115 0 0 0 0</pose>
+</model>
+	
+<!-------------------------- Laboratoř pro bakaláře a diplomové práce 1.104 --------------------->
+	
+<model name="door_jamb_160_03">          
+<include>
+    <uri>
+    model://models/door_jamb_160
+    </uri>
+</include>
+      <pose>21.273 -1.04 0 0 0 0</pose>
+</model>
+
+<model name="door_80_handle_03">          
+<include>
+    <uri>
+    model://models/door_80_handle
+    </uri>
+</include>
+       <pose>21.665 -1.09 0 0 0 3.14159</pose>
+</model>
+
+<model name="door_80_03">          
+<include>
+    <uri>
+    model://models/door_80
+    </uri>
+</include>
+      <pose>20.85 -1.09 0 0 0 3.14159</pose>
+</model>	
+	
+<!-------------------------- Dílna 1.106 --------------------->	
+
+<model name="door_jamb_160_04">          
+<include>
+    <uri>
+    model://models/door_jamb_160
+    </uri>
+</include>
+      <pose>28.770 -1.04 0 0 0 0</pose>
+</model>
+
+<model name="door_80_handle_04">          
+<include>
+    <uri>
+    model://models/door_80_handle
+    </uri>
+</include>
+       <pose>29.162 -1.09 0 0 0 3.14159</pose>
+</model>
+
+<model name="door_80_04">          
+<include>
+    <uri>
+    model://models/door_80
+    </uri>
+</include>
+      <pose>28.347 -1.09 0 0 0 3.14159</pose>
+</model>
+
+<!-------------------------- Dílna svaření 1.108 --------------------->	
+	
+<model name="door_jamb_160_05">          
+<include>
+    <uri>
+    model://models/door_jamb_160
+    </uri>
+</include>
+      <pose>28.620 -2.975 0 0 0 0</pose>
+</model>
+
+<model name="door_80_handle_05">          
+<include>
+    <uri>
+    model://models/door_80_handle
+    </uri>
+</include>
+      <pose>28.197 -2.92 2.1 0 3.14159 3.14159</pose>
+</model>
+
+<model name="door_80_05">          
+<include>
+    <uri>
+    model://models/door_80
+    </uri>
+</include>
+       <pose>29.012 -2.92 2.1 0 3.14159 3.14159</pose>
+</model>	
+	
+	
+	
 	
 <model name="windows_4_01">          
 <include>
@@ -134,8 +286,10 @@
     model://models/entrance_door
     </uri>
 </include>
-       <pose>30.6 -3 0 0 0 1.5708</pose>
+       <pose>30.556 -3.08 0 0 0 1.5708</pose>
 </model>
+
+
 	
     <light name="sun1" type="point">
       <pose frame="">-10 0 15 0 0 0</pose>
@@ -164,6 +318,35 @@
       <cast_shadows>1</cast_shadows>
       <direction>0.1 0.1 -1</direction>
     </light>
+    
+    <light name="sun3" type="point">
+      <pose frame="">8 7 15 0 0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>100</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+ <light name="sun4" type="point">
+      <pose frame="">8 -7 15 0 0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>100</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
 
     <gui fullscreen='0'>
       <camera name='user_camera'>
