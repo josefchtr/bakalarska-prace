@@ -118,9 +118,41 @@
 </include>
        <pose>9.189 9.95 -0.005 0 0 0</pose>
 </model>
+
+<model name="entrance_door_01">          
+<include>
+    <uri>
+    model://models/entrance_door
+    </uri>
+</include>
+       <pose>-8.68 3.37 0 0 0 0</pose>
+</model>
 	
-    <light name="sun" type="point">
-      <pose frame="">0 0 15 0 0 0</pose>
+<model name="entrance_door_02">          
+<include>
+    <uri>
+    model://models/entrance_door
+    </uri>
+</include>
+       <pose>30.6 -3 0 0 0 1.5708</pose>
+</model>
+	
+    <light name="sun1" type="point">
+      <pose frame="">-10 0 15 0 0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>100</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+    
+     <light name="sun2" type="point">
+      <pose frame="">20 0 15 0 0 0</pose>
       <diffuse>0.5 0.5 0.5 1</diffuse>
       <specular>0.2 0.2 0.2 1</specular>
       <attenuation>
