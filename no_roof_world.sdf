@@ -369,7 +369,7 @@
     model://models/door_jamb_160
     </uri>
 </include>
-      <pose>-1.484 -2.975 0 0 0 0</pose>
+      <pose>-10.807 -2.975 0 0 0 0</pose>
 </model>
 
 <model name="door_80_handle_12">          
@@ -378,7 +378,7 @@
     model://models/door_80_handle
     </uri>
 </include>
-      <pose>-1.898 -2.92 2.1 0 3.14159 3.14159</pose>
+      <pose>-11.221 -2.92 2.1 0 3.14159 3.14159</pose>
 </model>
 
 <model name="door_80_12">          
@@ -387,8 +387,37 @@
     model://models/door_80
     </uri>
 </include>
-       <pose>-1.083 -2.92 2.1 0 3.14159 3.14159</pose>
+       <pose>-10.406 -2.92 2.1 0 3.14159 3.14159</pose>
 </model>
+		
+<!-------------------------- Laboratoř měření neelektrických veličin 1.116 --------------------->					
+	
+<model name="door_jamb_160_13">          
+<include>
+    <uri>
+    model://models/door_jamb_160
+    </uri>
+</include>
+      <pose>-13.095 -2.0065 0 0 0 1.5708</pose>
+</model>
+
+<model name="door_80_handle_13">          
+<include>
+    <uri>
+    model://models/door_80_handle
+    </uri>
+</include>
+      <pose>-13.041 -1.600 2.1 0 3.14159 1.5708</pose>
+</model>
+
+<model name="door_80_13">          
+<include>
+    <uri>
+    model://models/door_80
+    </uri>
+</include>
+       <pose>-13.041 -2.400 2.1 0 3.14159 1.5708</pose>
+</model>		
 		
 		
 		
