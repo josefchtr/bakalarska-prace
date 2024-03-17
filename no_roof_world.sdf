@@ -21,10 +21,10 @@
 
 -->
 
-<model name="Walls_01">
+<model name="walls_01">
 <include>
     <uri>
-    model://models/Walls
+    model://models/walls
     </uri>
 </include>
       <pose>-20 -10 0 0 0 0</pose>
