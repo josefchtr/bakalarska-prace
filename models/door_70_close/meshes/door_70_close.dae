@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 4.0.2 commit date:2023-12-05, commit time:07:41, hash:9be62e85b727</authoring_tool>
     </contributor>
-    <created>2024-03-17T09:40:15</created>
-    <modified>2024-03-17T09:40:15</modified>
+    <created>2024-03-17T18:52:48</created>
+    <modified>2024-03-17T18:52:48</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -70,14 +70,14 @@
   <library_effects>
     <effect id="Material_003-effect">
       <profile_COMMON>
-        <newparam sid="door_70_png-surface">
+        <newparam sid="door_70_png_001-surface">
           <surface type="2D">
-            <init_from>door_70_png</init_from>
+            <init_from>door_70_png_001</init_from>
           </surface>
         </newparam>
-        <newparam sid="door_70_png-sampler">
+        <newparam sid="door_70_png_001-sampler">
           <sampler2D>
-            <source>door_70_png-surface</source>
+            <source>door_70_png_001-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -86,7 +86,7 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <texture texture="door_70_png-sampler" texcoord="dvere_90-mesh-map-0"/>
+              <texture texture="door_70_png_001-sampler" texcoord="dvere_90-mesh-map-0"/>
             </diffuse>
             <index_of_refraction>
               <float sid="ior">1.45</float>
@@ -117,14 +117,14 @@
     </effect>
     <effect id="Material_001-effect">
       <profile_COMMON>
-        <newparam sid="door_jamb_70_png-surface">
+        <newparam sid="door_jamb_70_png_001-surface">
           <surface type="2D">
-            <init_from>door_jamb_70_png</init_from>
+            <init_from>door_jamb_70_png_001</init_from>
           </surface>
         </newparam>
-        <newparam sid="door_jamb_70_png-sampler">
+        <newparam sid="door_jamb_70_png_001-sampler">
           <sampler2D>
-            <source>door_jamb_70_png-surface</source>
+            <source>door_jamb_70_png_001-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -133,7 +133,7 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <texture texture="door_jamb_70_png-sampler" texcoord="futra_70-mesh-map-0"/>
+              <texture texture="door_jamb_70_png_001-sampler" texcoord="futra_70-mesh-map-0"/>
             </diffuse>
             <index_of_refraction>
               <float sid="ior">1.45</float>
@@ -144,10 +144,10 @@
     </effect>
   </library_effects>
   <library_images>
-    <image id="door_70_png" name="door_70_png">
+    <image id="door_70_png_001" name="door_70_png_001">
       <init_from>../textures/door_70.png</init_from>
     </image>
-    <image id="door_jamb_70_png" name="door_jamb_70_png">
+    <image id="door_jamb_70_png_001" name="door_jamb_70_png_001">
       <init_from>../textures/door_jamb_70.png</init_from>
     </image>
   </library_images>
@@ -257,7 +257,7 @@
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="dvere_90" name="dvere_90" type="NODE">
-        <matrix sid="transform">0.775 0 0 0 0 1 0 0.02 0 0 1 0 0 0 0 1</matrix>
+        <matrix sid="transform">0.775 0 0 0 0 1 0 -0.065 0 0 1 0 0 0 0 1</matrix>
         <instance_geometry url="#dvere_90-mesh" name="dvere_90">
           <bind_material>
             <technique_common>

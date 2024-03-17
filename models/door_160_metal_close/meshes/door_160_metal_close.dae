@@ -264,7 +264,7 @@
   </library_effects>
   <library_images>
     <image id="door_jamb_160_png_001" name="door_jamb_160_png_001">
-      <init_from>../textures/door_jamb_160.png.001.png</init_from>
+      <init_from>../textures/door_jamb_160.png</init_from>
     </image>
   </library_images>
   <library_materials>
