@@ -145,10 +145,10 @@
   </library_effects>
   <library_images>
     <image id="door_70_png_001" name="door_70_png_001">
-      <init_from>../textures/door_70.png.001.png</init_from>
+      <init_from>../textures/door_70.png</init_from>
     </image>
     <image id="door_jamb_70_png_001" name="door_jamb_70_png_001">
-      <init_from>../textures/door_jamb_70.png.001.png</init_from>
+      <init_from>../textures/door_jamb_70.png</init_from>
     </image>
   </library_images>
   <library_materials>
