@@ -217,7 +217,164 @@
     model://models/table_120
     </uri>
 </include>
-       <pose>15 9.360 0 0 0 0</pose>
+       <pose>14.7 9.360 0 0 0 0</pose>
+</model>
+
+<model name="monitor_keyboard_04">          
+<include>
+    <uri>
+    model://models/monitor_keyboard
+    </uri>
+</include>
+       <pose>14.7 9.500 0.76 0 0 1.5708</pose>
+</model>
+
+<model name="storage_90_01">          
+<include>
+    <uri>
+    model://models/storage_90
+    </uri>
+</include>
+       <pose>15.76 8.4 0 0 0 -1.5708</pose>
+</model>	
+	
+<model name="storage_90_02">          
+<include>
+    <uri>
+    model://models/storage_90
+    </uri>
+</include>
+       <pose>15.76 7.45 0 0 0 -1.5708</pose>
+</model>	
+	
+<model name="storage_90_03">          
+<include>
+    <uri>
+    model://models/storage_90
+    </uri>
+</include>
+       <pose>15.76 6.5 0 0 0 -1.5708</pose>
+</model>
+
+<model name="storage_90_04">          
+<include>
+    <uri>
+    model://models/storage_90
+    </uri>
+</include>
+       <pose>15.76 5.55 0 0 0 -1.5708</pose>
+</model>
+
+<model name="storage_90_05">          
+<include>
+    <uri>
+    model://models/storage_90
+    </uri>
+</include>
+       <pose>15.76 4.6 0 0 0 -1.5708</pose>
+</model>	
+	
+<!--	
+<model name="sofa_green_01">          
+<include>
+    <uri>
+    model://models/sofa_green
+    </uri>
+</include>
+       <pose>15.76 2.6 0 0 0 -1.5708</pose>
+</model>	
+-->
+	
+<model name="drawers_01">          
+<include>
+    <uri>
+    model://models/drawers
+    </uri>
+</include>
+       <pose>15.6 1.15 0 0 0 -1.5708</pose>
+</model>	
+		
+<model name="table_80_02">          
+<include>
+    <uri>
+    model://models/table_80
+    </uri>
+</include>
+       <pose>15.67 0.3 0 0 0 -1.5708</pose>
+</model>	
+
+<!--		
+<model name="trash_bin_01">          
+<include>
+    <uri>
+    model://models/trash_bin
+    </uri>
+</include>
+       <pose>15.00 -0.8 0 0 0 -1.5708</pose>
+</model>	
+-->		
+	
+<model name="table_150_02">          
+<include>
+    <uri>
+    model://models/table_150
+    </uri>
+</include>
+       <pose>11.67 1 0 0 0 3.14159</pose>
+</model>
+
+<model name="box33x15_01">          
+<include>
+    <uri>
+    model://models/Box_33x15
+    </uri>
+</include>
+       <pose>12 1.125 0 0 0 1.5708</pose>
+</model>
+
+<model name="box33x15_02">          
+<include>
+    <uri>
+    model://models/Box_33x15
+    </uri>
+</include>
+       <pose>10.77 -0.6 0 0 0 0</pose>
+</model>
+	
+<model name="storage_90_06">          
+<include>
+    <uri>
+    model://models/storage_90
+    </uri>
+</include>
+       <pose>11.60 -0.455 0 0 0 1.5708</pose>
+</model>	
+	
+<model name="table_150_03">          
+<include>
+    <uri>
+    model://models/table_150
+    </uri>
+</include>
+       <pose>11.67 3.9555 0 0 0 0</pose>
+</model>
+	
+<model name="table_120_05">          
+<include>
+    <uri>
+    model://models/table_120
+    </uri>
+</include>
+       <pose>12.02 4.96 0 0 0 -1.5708</pose>
+</model>
+	
+<model name="monitor_keyboard_05">          
+<include>
+    <uri>
+    model://models/monitor_keyboard
+    </uri>
+</include>
+       <pose>12.16 4.96  0.76 0 0 0</pose>
 </model>	
 	
 <!-------------------------- Laboratoř pro bakaláře a diplomové práce 1.104 --------------------->
