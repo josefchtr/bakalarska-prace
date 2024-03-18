@@ -1,4 +1,4 @@
-# bakalarska-prace
+# Bakalářská práce
 
 Virtuální prostředí pro simulaci v mobilní robotice
 
