@@ -99,6 +99,127 @@
        <pose>9.189 9.95 -0.005 0 0 0</pose>
 </model>
 	
+<model name="box_shelf_01">          
+<include>
+    <uri>
+    model://models/box_shelf
+    </uri>
+</include>
+       <pose>9.25 1.05 0 0 0 -1.5708</pose>
+</model>	
+	
+<model name="table_L_left_01">          
+<include>
+    <uri>
+    model://models/table_L_left
+    </uri>
+</include>
+       <pose>9.945 9.11 0 0 0 3.14159</pose>
+</model>
+
+<model name="monitor_keyboard_02">          
+<include>
+    <uri>
+    model://models/monitor_keyboard
+    </uri>
+</include>
+       <pose>9.400 9.11 0.76 0 0 2.5026</pose>
+</model>
+
+<!--	
+<model name="computer_case_01">          
+<include>
+    <uri>
+    model://models/computer_case
+    </uri>
+</include>
+       <pose>9.945 9.11 0 0 0 3.14159</pose>
+</model>	
+-->
+	
+<model name="table_120_01">          
+<include>
+    <uri>
+    model://models/table_120
+    </uri>
+</include>
+       <pose>9.195 7.859 0 0 0 1.5708</pose>
+</model>
+	
+<model name="table_150_01">          
+<include>
+    <uri>
+    model://models/table_150
+    </uri>
+</include>
+       <pose>9.195 6.5085 0 0 0 1.5708</pose>
+</model>
+
+<model name="monitor_keyboard_01">          
+<include>
+    <uri>
+    model://models/monitor_keyboard
+    </uri>
+</include>
+       <pose>9.000 6.5085 0.76 0 0 3.14159</pose>
+</model>
+	
+<!--	
+<model name="office_chair_01">          
+<include>
+    <uri>
+    model://models/office_chair
+    </uri>
+</include>
+       <pose>10 7.859 0 0 0 3.14159</pose>
+</model>	
+-->
+	
+<model name="table_120_02">          
+<include>
+    <uri>
+    model://models/table_120
+    </uri>
+</include>
+       <pose>9.195 5.158 0 0 0 1.5708</pose>
+</model>		
+	
+<model name="table_120_03">          
+<include>
+    <uri>
+    model://models/table_120
+    </uri>
+</include>
+       <pose>9.363 3.9555 0 0 0 1.5708</pose>
+</model>		
+		
+<model name="table_80_01">          
+<include>
+    <uri>
+    model://models/table_80
+    </uri>
+</include>
+       <pose>11.497 9.360 0 0 0 0</pose>
+</model>
+
+<model name="monitor_keyboard_03">          
+<include>
+    <uri>
+    model://models/monitor_keyboard
+    </uri>
+</include>
+       <pose>11.497 9.500 0.76 0 0 1.5708</pose>
+</model>
+	
+<model name="table_120_04">          
+<include>
+    <uri>
+    model://models/table_120
+    </uri>
+</include>
+       <pose>15 9.360 0 0 0 0</pose>
+</model>	
+	
 <!-------------------------- Laboratoř pro bakaláře a diplomové práce 1.104 --------------------->
 	
 <model name="door_160_close_02">          
