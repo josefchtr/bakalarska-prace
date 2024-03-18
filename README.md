@@ -2,7 +2,7 @@
 
 Virtuální prostředí pro simulaci v mobilní robotice
 
-POKYNY PRO VYPRACOVÁNÍ:
+POKYNY PRO VYPRACOVÁNÍ
 Cílem práce je vytvořit 3D virtuální prostředí pracoviště UAMT pro účely simulací v mobilní robotice. Řešení bude
 využívat framework ROS2, simulátor Gazebo a operační systém Linux (Ubuntu).
 
