@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.0.2 commit date:2023-12-05, commit time:07:41, hash:9be62e85b727</authoring_tool>
+    </contributor>
+    <created>2024-03-18T10:40:15</created>
+    <modified>2024-03-18T10:40:15</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_cameras>
+    <camera id="Camera-camera" name="Camera">
+      <optics>
+        <technique_common>
+          <perspective>
+            <xfov sid="xfov">39.59775</xfov>
+            <aspect_ratio>1.777778</aspect_ratio>
+            <znear sid="znear">0.1</znear>
+            <zfar sid="zfar">100</zfar>
+          </perspective>
+        </technique_common>
+      </optics>
+      <extra>
+        <technique profile="blender">
+          <shiftx sid="shiftx" type="float">0</shiftx>
+          <shifty sid="shifty" type="float">0</shifty>
+          <dof_distance sid="dof_distance" type="float">10</dof_distance>
+        </technique>
+      </extra>
+    </camera>
+  </library_cameras>
+  <library_lights>
+    <light id="Light-light" name="Light">
+      <technique_common>
+        <point>
+          <color sid="color">1000 1000 1000</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="blender">
+          <type sid="type" type="int">0</type>
+          <flag sid="flag" type="int">0</flag>
+          <mode sid="mode" type="int">1</mode>
+          <red sid="red" type="float">1</red>
+          <green sid="green" type="float">1</green>
+          <blue sid="blue" type="float">1</blue>
+          <shadow_r sid="blender_shadow_r" type="float">0</shadow_r>
+          <shadow_g sid="blender_shadow_g" type="float">0</shadow_g>
+          <shadow_b sid="blender_shadow_b" type="float">0</shadow_b>
+          <energy sid="blender_energy" type="float">1000</energy>
+          <spotsize sid="spotsize" type="float">75</spotsize>
+          <spotblend sid="spotblend" type="float">0.15</spotblend>
+          <clipsta sid="clipsta" type="float">0.04999995</clipsta>
+          <clipend sid="clipend" type="float">30.002</clipend>
+          <bias sid="bias" type="float">1</bias>
+          <radius sid="radius" type="float">0.1</radius>
+          <area_shape sid="area_shape" type="int">1</area_shape>
+          <area_size sid="area_size" type="float">0.1</area_size>
+          <area_sizey sid="area_sizey" type="float">0.1</area_sizey>
+          <area_sizez sid="area_sizez" type="float">1</area_sizez>
+        </technique>
+      </extra>
+    </light>
+  </library_lights>
+  <library_effects>
+    <effect id="metalDark_001-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.0792454 0.1 0.1 1</color>
+            </diffuse>
+            <reflectivity>
+              <float sid="specular">0.8</float>
+            </reflectivity>
+            <index_of_refraction>
+              <float sid="ior">1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="metalMedium-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.368627 0.466667 0.466667 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="keyboard_left-effect">
+      <profile_COMMON>
+        <newparam sid="keyboard_left_jpg_001-surface">
+          <surface type="2D">
+            <init_from>keyboard_left_jpg_001</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="keyboard_left_jpg_001-sampler">
+          <sampler2D>
+            <source>keyboard_left_jpg_001-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="keyboard_left_jpg_001-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="keyboard_right-effect">
+      <profile_COMMON>
+        <newparam sid="keyboard_right_jpg_001-surface">
+          <surface type="2D">
+            <init_from>keyboard_right_jpg_001</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="keyboard_right_jpg_001-sampler">
+          <sampler2D>
+            <source>keyboard_right_jpg_001-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="keyboard_right_jpg_001-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="metalDark-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.1 0.1 0.1 1</color>
+            </diffuse>
+            <reflectivity>
+              <float sid="specular">0.8</float>
+            </reflectivity>
+            <index_of_refraction>
+              <float sid="ior">1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="metal-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.4006662 0.5 0.5 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="ubuntu-effect">
+      <profile_COMMON>
+        <newparam sid="ubuntu_png-surface">
+          <surface type="2D">
+            <init_from>ubuntu_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="ubuntu_png-sampler">
+          <sampler2D>
+            <source>ubuntu_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="ubuntu_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="keyboard_left_jpg_001" name="keyboard_left_jpg_001">
+      <init_from>../textures/keyboard_left.jpg</init_from>
+    </image>
+    <image id="keyboard_right_jpg_001" name="keyboard_right_jpg_001">
+      <init_from>../textures/keyboard_right.jpg</init_from>
+    </image>
+    <image id="ubuntu_png" name="ubuntu_png">
+      <init_from>../textures/ubuntu.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="metalDark_001-material" name="metalDark.001">
+      <instance_effect url="#metalDark_001-effect"/>
+    </material>
+    <material id="metalMedium-material" name="metalMedium">
+      <instance_effect url="#metalMedium-effect"/>
+    </material>
+    <material id="keyboard_left-material" name="keyboard_left">
+      <instance_effect url="#keyboard_left-effect"/>
+    </material>
+    <material id="keyboard_right-material" name="keyboard_right">
+      <instance_effect url="#keyboard_right-effect"/>
+    </material>
+    <material id="metalDark-material" name="metalDark">
+      <instance_effect url="#metalDark-effect"/>
+    </material>
+    <material id="metal-material" name="metal">
+      <instance_effect url="#metal-effect"/>
+    </material>
+    <material id="ubuntu-material" name="ubuntu">
+      <instance_effect url="#ubuntu-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="computerKeyboard-mesh" name="computerKeyboard">
+      <mesh>
+        <source id="computerKeyboard-mesh-positions">
+          <float_array id="computerKeyboard-mesh-positions-array" count="54">-0.593544 1.343873 0 0.588376 1.343873 0 0.588376 -1.478127 0 -0.593544 -1.478127 0 0.588376 1.343873 0.27556 0.377693 1.343873 0.27556 0.377693 -1.478127 0.27556 0.588376 -1.478127 0.27556 -0.427854 1.153028 0.106124 -0.593544 1.343873 0.07127296 -0.593544 -1.478127 0.07127296 -0.427854 -0.625604 0.106124 -0.427854 -0.831791 0.106124 0.2120029 -0.625604 0.240709 -0.427854 -1.287282 0.106124 0.2120029 -1.287282 0.240709 0.2120029 1.153028 0.240709 0.2120029 -0.831791 0.240709</float_array>
+          <technique_common>
+            <accessor source="#computerKeyboard-mesh-positions-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="computerKeyboard-mesh-normals">
+          <float_array id="computerKeyboard-mesh-normals-array" count="69">0 0 -1 0 0 1 -0.2058334 3.9154e-7 0.978587 -0.2058336 -6.04117e-7 0.9785871 -0.2058337 7.61863e-7 0.978587 -0.2058334 -6.38992e-7 0.978587 -0.2058333 0 0.9785872 -0.2058334 0 0.978587 -0.2058333 0 0.9785872 -0.2058331 -7.7471e-7 0.9785872 -0.2058333 3.63473e-7 0.9785872 -0.2058332 -7.52887e-7 0.9785872 -0.2058336 7.19538e-7 0.978587 1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 4.19089e-7 0 -1 5.27322e-7 0 1 1.28837e-7 0 1 0 0 1 4.8576e-7 0 1 4.27836e-7</float_array>
+          <technique_common>
+            <accessor source="#computerKeyboard-mesh-normals-array" count="23" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="computerKeyboard-mesh-map-0">
+          <float_array id="computerKeyboard-mesh-map-0-array" count="192">0 0 0 4.653228 -11.11024 4.653228 -11.11024 4.653228 -11.11024 0 0 0 0 4.653228 0 3.82377 11.11024 3.82377 11.11024 3.82377 11.11024 4.653228 0 4.653228 0.751358 0.724354 0 3.965196 0 0.05775696 0 0.05775696 11.11024 0.05775696 0.751358 0.724354 11.11024 0.05775696 7.753848 0.724354 0.751358 0.724354 11.11024 0.05775696 8.565607 0.724354 7.753848 0.724354 8.565607 0.724354 7.753848 3.2986 7.753848 0.724354 11.11024 0.05775696 10.35888 0.724354 8.565607 0.724354 11.11024 0.05775696 10.35888 3.2986 10.35888 0.724354 0 3.965196 0.751358 0.724354 0.751358 3.2986 0.751358 3.2986 11.11024 3.965196 0 3.965196 0.751358 3.2986 7.753848 3.2986 11.11024 3.965196 10.35888 3.2986 11.11024 0.05775696 11.11024 3.965196 7.753848 3.2986 8.565607 3.2986 11.11024 3.965196 7.753848 3.2986 8.565607 0.724354 8.565607 3.2986 8.565607 3.2986 10.35888 3.2986 11.11024 3.965196 -11.11024 1.084882 -11.11024 0 0 0 0 0 0 1.084882 -11.11024 1.084882 0 0 11.11024 0 11.11024 0.280603 11.11024 0.280603 0 0.280603 0 0 0 0.280603 0 0 4.653228 0 4.653228 0 3.82377 1.084882 0 0.280603 4.653228 0 4.653228 1.084882 3.82377 1.084882 0 0 0 0.280603 -3.82377 1.084882 -3.82377 1.084882 -4.653228 0 0 0 -3.82377 1.084882 -4.653228 1.084882 -4.653228 0 -0.004176795 0.9938181 -0.005569994 0.01660025 1.004177 0.006181836 1.004177 0.006181836 1.00557 0.9833998 -0.004176795 0.9938181 -0.07975417 0.9794034 -0.07141864 0.01706528 1.079754 0.0205965 1.079754 0.0205965 1.071419 0.9829346 -0.07975417 0.9794034</float_array>
+          <technique_common>
+            <accessor source="#computerKeyboard-mesh-map-0-array" count="96" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="computerKeyboard-mesh-vertices">
+          <input semantic="POSITION" source="#computerKeyboard-mesh-positions"/>
+        </vertices>
+        <triangles material="metalDark_001-material" count="28">
+          <input semantic="VERTEX" source="#computerKeyboard-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#computerKeyboard-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#computerKeyboard-mesh-map-0" offset="2" set="0"/>
+          <p>0 0 0 1 0 1 2 0 2 2 0 3 3 0 4 0 0 5 4 1 6 5 1 7 6 1 8 6 1 9 7 1 10 4 1 11 8 2 12 5 3 13 9 4 14 9 4 15 10 5 16 8 2 17 10 5 18 11 6 19 8 2 20 10 5 21 12 7 22 11 6 23 12 7 24 13 8 25 11 6 26 10 5 27 14 9 28 12 7 29 10 5 30 15 10 31 14 9 32 5 3 33 8 2 34 16 11 35 16 11 36 6 12 37 5 3 38 16 11 39 13 8 40 6 12 41 15 10 42 10 5 43 6 12 44 13 8 45 17 6 46 6 12 47 13 8 48 12 7 49 17 6 50 17 6 51 15 10 52 6 12 53 7 13 54 2 13 55 1 13 56 1 13 57 4 13 58 7 13 59 0 14 60 3 14 61 10 14 62 10 14 63 9 14 64 0 14 65 10 15 66 3 16 67 2 17 68 2 17 69 6 18 70 10 15 71 2 17 72 7 16 73 6 18 74 0 19 75 9 20 76 5 21 77 5 21 78 1 22 79 0 19 80 5 21 81 4 20 82 1 22 83</p>
+        </triangles>
+        <triangles material="keyboard_left-material" count="2">
+          <input semantic="VERTEX" source="#computerKeyboard-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#computerKeyboard-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#computerKeyboard-mesh-map-0" offset="2" set="0"/>
+          <p>16 11 84 8 2 85 11 6 86 11 6 87 13 8 88 16 11 89</p>
+        </triangles>
+        <triangles material="keyboard_right-material" count="2">
+          <input semantic="VERTEX" source="#computerKeyboard-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#computerKeyboard-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#computerKeyboard-mesh-map-0" offset="2" set="0"/>
+          <p>17 6 90 12 7 91 14 9 92 14 9 93 15 10 94 17 6 95</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="computerScreen-mesh" name="computerScreen">
+      <mesh>
+        <source id="computerScreen-mesh-positions">
+          <float_array id="computerScreen-mesh-positions-array" count="114">-0.08642095 1.882908 0.46008 -0.3334 1.882908 0.494791 0.01065194 1.882908 2.942852 0.257632 1.882908 2.908142 -0.281057 1.815151 0.555857 -0.323971 1.815151 0.561888 -0.323971 -1.976215 0.561888 -0.281057 -1.976215 0.555857 -0.3334 -2.043972 0.494791 0.01065194 -2.043972 2.942852 0.001221954 -1.976215 2.875755 0.001221954 1.815151 2.875755 -0.02210295 0.282146 0.91773 -0.08642095 -2.043972 0.46008 0.01603299 0.282146 1.18908 0.01603299 -0.281209 1.18908 -0.02210295 -0.281209 0.91773 0.257632 -2.043972 2.908142 0.04413598 1.815151 2.869724 0.04413598 -1.976215 2.869724 0.06525099 0.282146 1.18908 0.06525099 -0.281209 1.18908 2.49e-4 0.282146 0.91773 2.49e-4 0.282146 0.17334 0.216924 0.282146 0.17334 0.216924 0.282146 1.037407 2.49e-4 -0.281209 0.91773 2.49e-4 -0.281209 0.17334 0.216924 -0.281209 0.17334 0.216924 -0.281209 1.037407 0.400867 0.782523 0 -0.639173 0.782523 0 -0.509168 0.652518 0.17334 0.357532 0.652518 0.17334 -0.509168 -0.651582 0.17334 0.357532 -0.651582 0.17334 -0.639173 -0.781587 0 0.400867 -0.781587 0</float_array>
+          <technique_common>
+            <accessor source="#computerScreen-mesh-positions-array" count="38" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="computerScreen-mesh-normals">
+          <float_array id="computerScreen-mesh-normals-array" count="219">0 1 0 0.1391695 0 0.9902686 0.1391695 0 0.9902686 0.1391667 0 0.990269 0.1391667 0 0.9902691 -0.990269 -6.164e-6 0.1391668 -0.9902691 6.22726e-6 0.1391665 -0.990269 -6.22727e-6 0.1391668 -0.990268 -1.13083e-6 0.1391735 -0.9902681 -9.41195e-7 0.1391735 -0.9902681 1.02373e-6 0.1391739 -0.9902691 6.16499e-6 0.1391665 -0.990268 1.21041e-6 0.1391739 0.9902682 0 -0.1391726 0.9902682 2.63238e-7 -0.139173 0.9902682 -2.84441e-7 -0.139173 0.9902681 -1.24339e-7 -0.1391733 0.9902681 2.64835e-7 -0.1391737 0.9902681 -2.45994e-7 -0.1391736 0.9902682 0 -0.1391726 0.9902681 1.21222e-7 -0.1391733 0 -1 8.74272e-7 0 -1 1.4716e-7 0 -1 1.55845e-7 0 -1 8.82958e-7 -0.1391746 0 -0.9902679 -0.1391746 0 -0.9902679 -0.1391744 0 -0.9902679 -0.1391744 0 -0.9902679 -0.1391667 0 -0.9902691 -0.1391667 0 -0.990269 0.1391709 0 0.9902685 0.139171 0 0.9902684 0.1391692 0 0.9902687 0.139169 0 0.9902687 0 -1 0 0 1 0 0 1 1.16338e-6 0 1 1.17728e-6 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 0 0.8 0.6000002 0 0.7999997 0.6000004 0 0.7999998 0.6000005 0 0.7999999 0.6000002 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -0.8 0.6000001 0 -0.8000001 0.6 0 -0.8 0.5999999 0.7071066 0 0.7071071 0.7071069 0 0.7071067 0.7071068 0 0.7071068 0.7071064 0 0.7071072 0 0 -1 -1 0 0 0.9701426 0 0.2425355 0.9701426 0 0.2425355 0.9701426 0 0.2425355 -0.8000001 0 0.5999999 -0.8000002 0 0.5999999 -0.9902681 0 0.1391732 -0.9902681 0 0.1391732</float_array>
+          <technique_common>
+            <accessor source="#computerScreen-mesh-normals-array" count="73" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="computerScreen-mesh-map-0">
+          <float_array id="computerScreen-mesh-map-0-array" count="432">-2.176187 1.811339 -1.203828 1.947995 -2.558365 11.58603 -2.558365 11.58603 -3.530725 11.44938 -2.176187 1.811339 -0.266759 -1.091614 -0.266759 -0.921004 -15.1934 -0.921004 -15.1934 -0.921004 -15.1934 -1.091614 -0.266759 -1.091614 15.1934 2.363337 0 2.096577 15.46016 2.096577 15.46016 2.096577 15.46016 11.82933 15.1934 2.363337 15.46016 11.82933 15.1934 11.56257 15.1934 2.363337 15.46016 11.82933 0.266759 11.56257 15.1934 11.56257 0 2.096577 15.1934 2.363337 0.266759 2.363337 0.266759 2.363337 0 11.82933 0 2.096577 0.266759 2.363337 0.266759 11.56257 0 11.82933 0.266759 11.56257 15.46016 11.82933 0 11.82933 -6.302215 3.916056 -15.46016 2.096577 0 2.096577 0 2.096577 0 11.82933 -6.302215 3.916056 0 11.82933 -6.302215 4.994862 -6.302215 3.916056 0 11.82933 -8.520148 4.994862 -6.302215 4.994862 -15.46016 2.096577 -6.302215 3.916056 -8.520148 3.916056 -8.520148 3.916056 -15.46016 11.82933 -15.46016 2.096577 -8.520148 3.916056 -8.520148 4.994862 -15.46016 11.82933 -8.520148 4.994862 0 11.82933 -15.46016 11.82933 2.52124 11.32187 1.240953 2.212158 1.409903 2.188413 1.409903 2.188413 2.69019 11.29813 2.52124 11.32187 0 -0.921004 0 -1.902919 15.46016 -1.902919 15.46016 -1.902919 15.46016 -0.921004 0 -0.921004 0.266759 -0.921004 0.266759 -1.091614 15.1934 -1.091614 15.1934 -1.091614 15.1934 -0.921004 0.266759 -0.921004 0 -1.902919 0 -0.921004 -15.46016 -0.921004 -15.46016 -0.921004 -15.46016 -1.902919 0 -1.902919 2.558365 11.58603 1.203828 1.947995 2.176187 1.811339 2.176187 1.811339 3.530725 11.44938 2.558365 11.58603 -1.409903 2.188413 -1.240953 2.212158 -2.52124 11.32187 -2.52124 11.32187 -2.69019 11.29813 -1.409903 2.188413 6.302215 2.773323 6.302215 2.57955 8.520148 2.57955 8.520148 2.57955 8.520148 2.773323 6.302215 2.773323 -2.517407 3.61311 -2.429409 3.61311 -2.57955 4.681417 -2.57955 4.681417 -2.517407 0.682441 -2.517407 3.61311 -2.57955 4.681417 -3.370459 0.682441 -2.517407 0.682441 -2.57955 4.681417 -2.773323 4.681417 -3.370459 0.682441 -2.773323 4.681417 -3.370459 4.084281 -3.370459 0.682441 2.517407 3.61311 2.517407 0.682441 3.370459 0.682441 3.370459 0.682441 2.57955 4.681417 2.517407 3.61311 3.370459 0.682441 2.773323 4.681417 2.57955 4.681417 3.370459 0.682441 3.370459 4.084281 2.773323 4.681417 2.429409 3.61311 2.517407 3.61311 2.57955 4.681417 -8.520148 0.682441 -6.302215 0.682441 -6.302215 4.084281 -6.302215 4.084281 -8.520148 4.084281 -8.520148 0.682441 -4.094646 2.599335 0 2.599335 -0.511831 3.452386 -0.511831 3.452386 -3.924036 3.452386 -4.094646 2.599335 6.302215 2.517407 4.844055 3.924036 4.844055 0.511831 4.844055 0.511831 9.978307 0.511831 6.302215 2.517407 9.978307 0.511831 8.520148 2.517407 6.302215 2.517407 9.978307 0.511831 8.520148 3.370459 8.520148 2.517407 4.844055 3.924036 6.302215 2.517407 6.302215 3.370459 6.302215 3.370459 9.978307 3.924036 4.844055 3.924036 6.302215 3.370459 8.520148 3.370459 9.978307 3.924036 8.520148 3.370459 9.978307 0.511831 9.978307 3.924036 0.511831 -5.441031 0 -6.294083 4.094646 -6.294083 4.094646 -6.294083 3.924036 -5.441031 0.511831 -5.441031 -8.520148 0.504749 -6.302215 0.504749 -6.302215 1.349227 -6.302215 1.349227 -8.520148 1.349227 -8.520148 0.504749 -6.302215 2.429409 -6.302215 2.517407 -8.520148 2.517407 -8.520148 2.517407 -8.520148 2.429409 -6.302215 2.429409 6.302215 0.682441 8.520148 0.682441 8.520148 3.61311 8.520148 3.61311 6.302215 3.61311 6.302215 0.682441 -10.49014 -0.993097 -4.332224 -0.993097 -4.844055 -0.289653 -4.844055 -0.289653 -9.978307 -0.289653 -10.49014 -0.993097 -4.332224 0 -4.332224 4.094646 -10.49014 4.094646 -10.49014 4.094646 -10.49014 0 -4.332224 0 4.332224 0 10.49014 0 9.978307 0.853051 9.978307 0.853051 4.844055 0.853051 4.332224 0 0.05087304 0.01247006 0.9491269 0.01247006 0.9491269 0.9875299 0.9491269 0.9875299 0.05087304 0.9875299 0.05087304 0.01247006</float_array>
+          <technique_common>
+            <accessor source="#computerScreen-mesh-map-0-array" count="216" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="computerScreen-mesh-vertices">
+          <input semantic="POSITION" source="#computerScreen-mesh-positions"/>
+        </vertices>
+        <triangles material="metalDark-material" count="70">
+          <input semantic="VERTEX" source="#computerScreen-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#computerScreen-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#computerScreen-mesh-map-0" offset="2" set="0"/>
+          <p>0 0 0 1 0 1 2 0 2 2 0 3 3 0 4 0 0 5 4 1 6 5 2 7 6 3 8 6 3 9 7 4 10 4 1 11 6 5 12 1 6 13 8 7 14 8 7 15 9 8 16 6 5 17 9 8 18 10 9 19 6 5 20 9 8 21 11 10 22 10 9 23 1 6 24 6 5 25 5 11 26 5 11 27 2 12 28 1 6 29 5 11 30 11 10 31 2 12 32 11 10 33 9 8 34 2 12 35 12 13 36 13 14 37 0 15 38 0 15 39 3 16 40 12 13 41 3 16 42 14 17 43 12 13 44 3 16 45 15 18 46 14 17 47 13 14 48 12 13 49 16 19 50 16 19 51 17 20 52 13 14 53 16 19 54 15 18 55 17 20 56 15 18 57 3 16 58 17 20 59 11 21 60 5 22 61 4 23 62 4 23 63 18 24 64 11 21 65 1 25 66 0 26 67 13 27 68 13 27 69 8 28 70 1 25 71 11 29 72 18 30 73 19 29 74 19 29 75 10 30 76 11 29 77 3 31 78 2 32 79 9 33 80 9 33 81 17 34 82 3 31 83 9 35 84 8 35 85 13 35 86 13 35 87 17 35 88 9 35 89 7 36 90 6 0 91 10 37 92 10 37 93 19 38 94 7 36 95 20 39 96 14 39 97 15 39 98 15 39 99 21 39 100 20 39 101 22 0 102 12 0 103 14 0 104 14 0 105 23 0 106 22 0 107 14 0 108 24 0 109 23 0 110 14 0 111 20 0 112 24 0 113 20 0 114 25 0 115 24 0 116 26 40 117 27 35 118 28 41 119 28 41 120 15 42 121 26 40 122 28 41 123 21 43 124 15 42 125 28 41 126 29 35 127 21 43 128 16 35 129 26 40 130 15 42 131 28 44 132 24 44 133 25 44 134 25 44 135 29 44 136 28 44 137 30 45 138 31 46 139 32 47 140 32 47 141 33 48 142 30 45 143 23 49 144 33 50 145 32 51 146 32 51 147 34 52 148 23 49 149 34 52 150 27 53 151 23 49 152 34 52 153 28 54 154 27 53 155 33 50 156 23 49 157 24 55 158 24 55 159 35 56 160 33 50 161 24 55 162 28 54 163 35 56 164 28 54 165 34 52 166 35 56 167 34 57 168 36 57 169 37 58 170 37 58 171 35 59 172 34 57 173 29 60 174 25 61 175 20 62 176 20 62 177 21 63 178 29 60 179 12 64 180 22 64 181 26 64 182 26 64 183 16 64 184 12 64 185 23 65 186 27 65 187 26 65 188 26 65 189 22 65 190 23 65 191 37 66 192 30 66 193 33 67 194 33 67 195 35 68 196 37 66 197 31 64 198 30 64 199 37 64 200 37 64 201 36 64 202 31 64 203 31 69 204 36 69 205 34 70 206 34 70 207 32 69 208 31 69 209</p>
+        </triangles>
+        <triangles material="ubuntu-material" count="2">
+          <input semantic="VERTEX" source="#computerScreen-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#computerScreen-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#computerScreen-mesh-map-0" offset="2" set="0"/>
+          <p>4 71 210 7 71 211 19 71 212 19 71 213 18 72 214 4 71 215</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="computerKeyboard" name="computerKeyboard" type="NODE">
+        <matrix sid="transform">0.15 0 0 -0.2 0 0.15 0 0 0 0 0.15 0 0 0 0 1</matrix>
+        <instance_geometry url="#computerKeyboard-mesh" name="computerKeyboard">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="metalDark_001-material" target="#metalDark_001-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="metalMedium-material" target="#metalMedium-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="keyboard_left-material" target="#keyboard_left-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="keyboard_right-material" target="#keyboard_right-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="computerScreen" name="computerScreen" type="NODE">
+        <matrix sid="transform">0.15 0 0 0 0 0.15 0 0 0 0 0.15 0 0 0 0 1</matrix>
+        <instance_geometry url="#computerScreen-mesh" name="computerScreen">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="metalDark-material" target="#metalDark-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="metal-material" target="#metal-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="ubuntu-material" target="#ubuntu-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Camera" name="Camera" type="NODE">
+        <matrix sid="transform">0.6859207 -0.3240135 0.6515582 7.358891 0.7276763 0.3054208 -0.6141704 -6.925791 0 0.8953956 0.4452714 4.958309 0 0 0 1</matrix>
+        <instance_camera url="#Camera-camera"/>
+      </node>
+      <node id="Light" name="Light" type="NODE">
+        <matrix sid="transform">-0.2908646 -0.7711008 0.5663932 4.076245 0.9551712 -0.1998834 0.2183912 1.005454 -0.05518906 0.6045247 0.7946723 5.903862 0 0 0 1</matrix>
+        <instance_light url="#Light-light"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
