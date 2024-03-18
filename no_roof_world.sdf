@@ -30,479 +30,6 @@
       <pose>-20 -10 0 0 0 0</pose>
 </model>
 
-<!-------------------------- Laboratoř snímačové techniky 1.101 -------------------------->
-
- <model name="door_jamb_160_01">          
-<include>
-    <uri>
-    model://models/door_jamb_160
-    </uri>
-</include>
-      <pose>4.058 -1.04 0 0 0 0</pose>
-</model>
-
-<model name="door_80_handle_01">          
-<include>
-    <uri>
-    model://models/door_80_handle
-    </uri>
-</include>
-       <pose>4.45 -1.09 0 0 0 3.14159</pose>
-</model>
-
-<model name="door_80_01">          
-<include>
-    <uri>
-    model://models/door_80
-    </uri>
-</include>
-      <pose>3.66 -1.09 0 0 0 3.14159</pose>
-</model>
-	
-	
-<!-------------------------- Laboratoř robotiky - polygon 1.102 -------------------------->
-	
-<model name="door_jamb_160_02">          
-<include>
-    <uri>
-    model://models/door_jamb_160
-    </uri>
-</include>
-      <pose>13.673 -1.04 0 0 0 0</pose>
-</model>
-
-<model name="door_80_handle_02">          
-<include>
-    <uri>
-    model://models/door_80_handle
-    </uri>
-</include>
-       <pose>14.865 -1.21 0 0 0 -0.20</pose>
-</model>
-
-<model name="door_80_02">          
-<include>
-    <uri>
-    model://models/door_80
-    </uri>
-</include>
-      <pose>13.25 -1.09 0 0 0 3.14159</pose>
-</model>
-	
-<!-------------------------- Laboratoř vibrací a klimatických zkoušek 1.100 --------------------->
-	
-<model name="entrance_door_03">          
-<include>
-    <uri>
-    model://models/entrance_door
-    </uri>
-</include>
-       <pose>-2.407 -1.115 0 0 0 0</pose>
-</model>
-	
-<!-------------------------- Laboratoř pro bakaláře a diplomové práce 1.104 --------------------->
-	
-<model name="door_jamb_160_03">          
-<include>
-    <uri>
-    model://models/door_jamb_160
-    </uri>
-</include>
-      <pose>21.273 -1.04 0 0 0 0</pose>
-</model>
-
-<model name="door_80_handle_03">          
-<include>
-    <uri>
-    model://models/door_80_handle
-    </uri>
-</include>
-       <pose>21.665 -1.09 0 0 0 3.14159</pose>
-</model>
-
-<model name="door_80_03">          
-<include>
-    <uri>
-    model://models/door_80
-    </uri>
-</include>
-      <pose>20.85 -1.09 0 0 0 3.14159</pose>
-</model>	
-	
-<!-------------------------- Dílna 1.106 --------------------->	
-
-<model name="door_jamb_160_04">          
-<include>
-    <uri>
-    model://models/door_jamb_160
-    </uri>
-</include>
-      <pose>28.770 -1.04 0 0 0 0</pose>
-</model>
-
-<model name="door_80_handle_04">          
-<include>
-    <uri>
-    model://models/door_80_handle
-    </uri>
-</include>
-       <pose>29.162 -1.09 0 0 0 3.14159</pose>
-</model>
-
-<model name="door_80_04">          
-<include>
-    <uri>
-    model://models/door_80
-    </uri>
-</include>
-      <pose>28.347 -1.09 0 0 0 3.14159</pose>
-</model>
-
-<!-------------------------- Dílna svaření 1.108 --------------------->	
-	
-<model name="door_jamb_160_05">          
-<include>
-    <uri>
-    model://models/door_jamb_160
-    </uri>
-</include>
-      <pose>28.620 -2.975 0 0 0 0</pose>
-</model>
-
-<model name="door_80_handle_05">          
-<include>
-    <uri>
-    model://models/door_80_handle
-    </uri>
-</include>
-      <pose>28.197 -2.92 2.1 0 3.14159 3.14159</pose>
-</model>
-
-<model name="door_80_05">          
-<include>
-    <uri>
-    model://models/door_80
-    </uri>
-</include>
-       <pose>29.012 -2.92 2.1 0 3.14159 3.14159</pose>
-</model>	
-	
-<!-------------------------- Dílna sklad 1.109 --------------------->		
-	
-<model name="door_jamb_160_06">          
-<include>
-    <uri>
-    model://models/door_jamb_160
-    </uri>
-</include>
-      <pose>24.96 -2.975 0 0 0 0</pose>
-</model>
-
-<model name="door_80_handle_06">          
-<include>
-    <uri>
-    model://models/door_80_handle
-    </uri>
-</include>
-      <pose>24.546 -2.92 2.1 0 3.14159 3.14159</pose>
-</model>
-
-<model name="door_80_06">          
-<include>
-    <uri>
-    model://models/door_80
-    </uri>
-</include>
-       <pose>25.361 -2.92 2.1 0 3.14159 3.14159</pose>
-</model>	
-	
-<!-------------------------- Malá dílna chemie 1.110 --------------------->			
-	
-<model name="door_jamb_160_07">          
-<include>
-    <uri>
-    model://models/door_jamb_160
-    </uri>
-</include>
-      <pose>21.601 -2.975 0 0 0 0</pose>
-</model>
-
-<model name="door_80_handle_07">          
-<include>
-    <uri>
-    model://models/door_80_handle
-    </uri>
-</include>
-      <pose>21.187 -2.92 2.1 0 3.14159 3.14159</pose>
-</model>
-
-<model name="door_80_07">          
-<include>
-    <uri>
-    model://models/door_80
-    </uri>
-</include>
-       <pose>22.002 -2.92 2.1 0 3.14159 3.14159</pose>
-</model>	
-	
-<!-------------------------- Dílna diplomantů - robotika 1.111 --------------------->				
-
-<model name="door_jamb_160_08">          
-<include>
-    <uri>
-    model://models/door_jamb_160
-    </uri>
-</include>
-      <pose>18.001 -2.975 0 0 0 0</pose>
-</model>
-
-<model name="door_80_handle_08">          
-<include>
-    <uri>
-    model://models/door_80_handle
-    </uri>
-</include>
-      <pose>17.587 -2.92 2.1 0 3.14159 3.14159</pose>
-</model>
-
-<model name="door_80_08">          
-<include>
-    <uri>
-    model://models/door_80
-    </uri>
-</include>
-       <pose>18.402 -2.92 2.1 0 3.14159 3.14159</pose>
-</model>
-
-<!-------------------------- Laboratoř teleprezence 1.112 --------------------->					
-	
-<model name="door_jamb_160_09">          
-<include>
-    <uri>
-    model://models/door_jamb_160
-    </uri>
-</include>
-      <pose>13.673 -2.975 0 0 0 0</pose>
-</model>
-
-<model name="door_80_handle_09">          
-<include>
-    <uri>
-    model://models/door_80_handle
-    </uri>
-</include>
-      <pose>12.505 -2.75 0 0 0 -3.49066</pose>
-</model>
-
-<model name="door_80_09">          
-<include>
-    <uri>
-    model://models/door_80
-    </uri>
-</include>
-       <pose>14.08 -2.921 0 0 0 0</pose>
-</model>
-	
-<!-------------------------- Laboratoř mobilních robotů 1.113 --------------------->					
-	
-<model name="door_jamb_160_10">          
-<include>
-    <uri>
-    model://models/door_jamb_160
-    </uri>
-</include>
-      <pose>3.63 -2.975 0 0 0 0</pose>
-</model>
-
-<model name="door_80_handle_10">          
-<include>
-    <uri>
-    model://models/door_80_handle
-    </uri>
-</include>
-      <pose>2.462 -2.75 0 0 0 -3.49066</pose>
-</model>
-
-<model name="door_80_10">          
-<include>
-    <uri>
-    model://models/door_80
-    </uri>
-</include>
-       <pose>4.037 -2.921 0 0 0 0</pose>
-</model>
-
-<!-------------------------- Laboratoř vibrodiagnostiky a kalibrace 1.114 --------------------->					
-	
-<model name="door_jamb_160_11">          
-<include>
-    <uri>
-    model://models/door_jamb_160
-    </uri>
-</include>
-      <pose>-1.484 -2.975 0 0 0 0</pose>
-</model>
-
-<model name="door_80_handle_11">          
-<include>
-    <uri>
-    model://models/door_80_handle
-    </uri>
-</include>
-      <pose>-1.898 -2.92 2.1 0 3.14159 3.14159</pose>
-</model>
-
-<model name="door_80_11">          
-<include>
-    <uri>
-    model://models/door_80
-    </uri>
-</include>
-       <pose>-1.083 -2.92 2.1 0 3.14159 3.14159</pose>
-</model>
-	
-<!-------------------------- Laboratoř automatizace měření 1.115 --------------------->					
-	
-<model name="door_jamb_160_12">          
-<include>
-    <uri>
-    model://models/door_jamb_160
-    </uri>
-</include>
-      <pose>-10.807 -2.975 0 0 0 0</pose>
-</model>
-
-<model name="door_80_handle_12">          
-<include>
-    <uri>
-    model://models/door_80_handle
-    </uri>
-</include>
-      <pose>-11.221 -2.92 2.1 0 3.14159 3.14159</pose>
-</model>
-
-<model name="door_80_12">          
-<include>
-    <uri>
-    model://models/door_80
-    </uri>
-</include>
-       <pose>-10.406 -2.92 2.1 0 3.14159 3.14159</pose>
-</model>
-		
-<!-------------------------- Laboratoř měření neelektrických veličin 1.116 --------------------->					
-	
-<model name="door_jamb_160_13">          
-<include>
-    <uri>
-    model://models/door_jamb_160
-    </uri>
-</include>
-      <pose>-13.095 -2.0065 0 0 0 1.5708</pose>
-</model>
-
-<model name="door_80_handle_13">          
-<include>
-    <uri>
-    model://models/door_80_handle
-    </uri>
-</include>
-      <pose>-13.041 -1.600 2.1 0 3.14159 1.5708</pose>
-</model>
-
-<model name="door_80_13">          
-<include>
-    <uri>
-    model://models/door_80
-    </uri>
-</include>
-       <pose>-13.041 -2.400 2.1 0 3.14159 1.5708</pose>
-</model>		
-		
-		
-		
-		
-<model name="windows_4_01">          
-<include>
-    <uri>
-    model://models/windows_4
-    </uri>
-</include>
-      <pose>1.973 9.95 1.218 0 0 0</pose>
-</model>
-
-<model name="windows_4_02">          
-<include>
-    <uri>
-    model://models/windows_4
-    </uri>
-</include>
-      <pose>16.407 9.95 1.218 0 0 0</pose>
-</model>
-
-<model name="windows_4_03">          
-<include>
-    <uri>
-    model://models/windows_4
-    </uri>
-</include>
-      <pose>23.8 9.95 1.218 0 0 0</pose>
-</model>
-	
-<model name="windows_4_04">          
-<include>
-    <uri>
-    model://models/windows_4
-    </uri>
-</include>
-      <pose>1.97 -9.85 1.218 0 0 0</pose>
-</model>
-		
-<model name="windows_4_05">          
-<include>
-    <uri>
-    model://models/windows_4
-    </uri>
-</include>
-      <pose>9.19 -9.85 1.218 0 0 0</pose>
-</model>
-
-<model name="windows_4_06">          
-<include>
-    <uri>
-    model://models/windows_4
-    </uri>
-</include>
-      <pose>-5.24 -9.85 1.218 0 0 0</pose>
-</model>
-	
-<model name="windows_4_07">          
-<include>
-    <uri>
-    model://models/windows_4
-    </uri>
-</include>
-      <pose>-19.4219 -9.85 1.218 0 0 0</pose>
-</model>
-	
-<model name="windows_4_08">          
-<include>
-    <uri>
-    model://models/windows_4
-    </uri>
-</include>
-      <pose>-19.4219 9.95 1.218 0 0 0</pose>
-</model>
-
-<model name="windows_door_01">          
-<include>
-    <uri>
-    model://models/windows_door
-    </uri>
-</include>
-       <pose>9.189 9.95 -0.005 0 0 0</pose>
-</model>
-
 <model name="entrance_door_01">          
 <include>
     <uri>
@@ -521,7 +48,308 @@
        <pose>30.556 -3.08 0 0 0 1.5708</pose>
 </model>
 
+<!-------------------------- Laboratoř vibrací a klimatických zkoušek 1.100 --------------------->
+	
+<model name="entrance_door_03">          
+<include>
+    <uri>
+    model://models/entrance_door
+    </uri>
+</include>
+       <pose>-2.407 -1.115 0 0 0 0</pose>
+</model>
+	
+<!-------------------------- Laboratoř snímačové techniky 1.101 -------------------------->
 
+ <model name="door_160_close_01">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>4.058 -1.04 0 0 0 3.14159</pose>
+</model>
+
+<model name="windows_4_01">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>1.973 9.95 1.218 0 0 0</pose>
+</model>
+
+<!-------------------------- Laboratoř robotiky - polygon 1.102 -------------------------->
+	
+<model name="door_160_open_01">          
+<include>
+    <uri>
+    model://models/door_160_open
+    </uri>
+</include>
+      <pose>13.673 -1.04 0 0 0 3.14159</pose>
+</model>
+
+<model name="windows_door_01">          
+<include>
+    <uri>
+    model://models/windows_door
+    </uri>
+</include>
+       <pose>9.189 9.95 -0.005 0 0 0</pose>
+</model>
+	
+<!-------------------------- Laboratoř pro bakaláře a diplomové práce 1.104 --------------------->
+	
+<model name="door_160_close_02">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>21.273 -1.04 0 0 0 3.14159</pose>
+</model>
+
+<model name="windows_4_02">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>16.407 9.95 1.218 0 0 0</pose>
+</model>
+		
+<!-------------------------- Dílna 1.106 --------------------->	
+
+<model name="door_160_close_03">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>28.770 -1.04 0 0 0 3.14159</pose>
+</model>
+
+<model name="windows_4_03">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>23.8 9.95 1.218 0 0 0</pose>
+</model>
+
+<!-------------------------- Dílna svaření 1.108 --------------------->	
+	
+<model name="door_160_close_04">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>28.620 -2.975 0 0 0 0</pose>
+</model>
+	
+<!-------------------------- Dílna sklad 1.109 --------------------->		
+	
+<model name="door_160_close_05">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>24.96 -2.975 0 0 0 0</pose>
+</model>	
+	
+<!-------------------------- Malá dílna chemie 1.110 --------------------->			
+	
+<model name="door_160_close_06">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>21.601 -2.975 0 0 0 0</pose>
+</model>
+		
+<!-------------------------- Dílna diplomantů - robotika 1.111 --------------------->				
+
+<model name="door_160_close_07">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>17.955 -2.975 0 0 0 0</pose>
+</model>
+
+<!-------------------------- Laboratoř teleprezence 1.112 --------------------->					
+	
+<model name="door_160_open_02">          
+<include>
+    <uri>
+    model://models/door_160_open
+    </uri>
+</include>
+      <pose>13.673 -2.975 0 0 0 0</pose>
+</model>
+	
+<model name="windows_4_05">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>9.19 -9.85 1.218 0 0 0</pose>
+</model>
+	
+<!-------------------------- Laboratoř mobilních robotů 1.113 --------------------->					
+	
+<model name="door_160_open_3">          
+<include>
+    <uri>
+    model://models/door_160_open
+    </uri>
+</include>
+      <pose>3.63 -2.975 0 0 0 0</pose>
+</model>
+
+<model name="windows_4_04">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>1.97 -9.85 1.218 0 0 0</pose>
+</model>
+	
+
+<!-------------------------- Laboratoř vibrodiagnostiky a kalibrace 1.114 --------------------->					
+
+<model name="door_70_close_01">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>0.590 -2.975 0 0 0 3.14159</pose>
+</model>
+	
+<model name="door_160_metal_close_01">          
+<include>
+    <uri>
+    model://models/door_160_metal_close
+    </uri>
+</include>
+      <pose>-1.484 -2.975 0 0 0 0</pose>
+</model>
+
+<model name="windows_4_06">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>-5.24 -9.85 1.218 0 0 0</pose>
+</model>
+	
+	
+<!-------------------------- Laboratoř automatizace měření 1.115 --------------------->					
+	
+<model name="door_160_close_08">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>-10.807 -2.975 0 0 0 0</pose>
+</model>
+	
+<model name="windows_4_07">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>-19.4219 -9.85 1.218 0 0 0</pose>
+</model>
+	
+<!-------------------------- Laboratoř měření neelektrických veličin 1.116 --------------------->					
+	
+<model name="door_160_close_09">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>-13.095 -2.0065 0 0 0 -1.5708</pose>
+</model>
+
+<model name="windows_4_08">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>-19.4219 9.95 1.218 0 0 0</pose>
+</model>
+
+<!--------------------------  el. zařízení --------------------->	
+
+<model name="door_160_metal_close_02">          
+<include>
+    <uri>
+    model://models/door_160_metal_close
+    </uri>
+</include>
+      <pose>-8.672 0.145 0 0 0 -1.5708</pose>
+</model>						
+		
+<!-------------------------- WC muži 1.93 --------------------->						
+		
+<model name="door_70_close_02">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>-8.672 1.82 0 0 0 1.5708</pose>
+</model>		
+		
+<!-------------------------- Úklid 1.94 --------------------->							
+	
+<model name="door_70_open_01">          
+<include>
+    <uri>
+    model://models/door_70_open
+    </uri>
+</include>
+      <pose>-6.53 2.75 0 0 0 -1.5708</pose>
+</model>	
+
+<!-------------------------- WC ženy 1.95 --------------------->						
+
+<model name="door_70_close_03">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>-6.53 1.592 0 0 0 -1.5708</pose>
+</model>	
+	
+<!-------------------------- EW 15 DP1 --------------------->							
+	
+<model name="door_70_metal_close">          
+<include>
+    <uri>
+    model://models/door_70_metal_close
+    </uri>
+</include>
+       <pose>-3.2 -1.04 0 0 0 0</pose>
+</model>
+
+	
 	
     <light name="sun1" type="point">
       <pose frame="">-10 0 15 0 0 0</pose>
