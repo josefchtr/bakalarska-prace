@@ -8,7 +8,9 @@ Student: Josef Chytrý
 
 ID: 230083
 
-Ročník: 3 Akademický rok: 2023/24
+Ročník: 3 
+
+Akademický rok: 2023/24
 
 NÁZEV TÉMATU:
 
