@@ -9,18 +9,18 @@
       <real_time_update_rate>1000</real_time_update_rate>
     </physics>
 
-<!--
+
 <model name="Cube_01">          
 <include>
     <uri>
-    model://Cube
+    model://models/Cube
     </uri>
 </include>
       <pose>5 4 0 0 0 0</pose>
 </model>
 
--->
- 
+
+<!-- 
  
 <model name="Walls_01">
 <include>
@@ -31,9 +31,9 @@
       <pose>-20 -10 0 0 0 0</pose>
 </model>
 	
-	
+-->	
     <light name="sun" type="point">
-      <pose frame="">0 0 15 0 0 0</pose>
+      <pose frame="">5 15 2.5 0 0 0</pose>
       <diffuse>0.5 0.5 0.5 1</diffuse>
       <specular>0.2 0.2 0.2 1</specular>
       <attenuation>
