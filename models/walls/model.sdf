@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<sdf version="1.6">
+  <model name='walls'>
+    <static>true</static>
+    <link name="body">
+      
+        <visual name="visual">
+          <geometry>
+            <mesh><uri>model://models/walls/meshes/no_roof_UAMT.dae</uri></mesh>
+          </geometry>
+        </visual>
+
+        <collision name="collision">
+          <geometry>
+            <mesh><uri>model://models/walls/meshes/no_roof_UAMT.dae</uri></mesh>
+          </geometry>
+        </collision>
+
+       
+    </link>
+  </model>
+</sdf>
