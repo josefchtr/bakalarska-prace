@@ -135,7 +135,7 @@
 </include>
        <pose>9.945 9.11 0 0 0 3.14159</pose>
 </model>	
--->
+-->S
 	
 <model name="table_120_01">          
 <include>
@@ -155,6 +155,7 @@
        <pose>9.195 6.5085 0 0 0 1.5708</pose>
 </model>
 
+
 <model name="monitor_keyboard_01">          
 <include>
     <uri>
@@ -171,7 +172,7 @@
     model://models/office_chair
     </uri>
 </include>
-       <pose>10 7.859 0 0 0 3.14159</pose>
+       <pose>9.8 6.659 0 0 0 -1.5708</pose>
 </model>	
 -->
 	
@@ -303,7 +304,7 @@
        <pose>15.67 0.3 0 0 0 -1.5708</pose>
 </model>	
 
-<!--		
+		
 <model name="trash_bin_01">          
 <include>
     <uri>
@@ -312,7 +313,7 @@
 </include>
        <pose>15.00 -0.8 0 0 0 -1.5708</pose>
 </model>	
--->		
+		
 	
 <model name="table_150_02">          
 <include>
