@@ -80,6 +80,7 @@
 </model>
 
 <!-------------------------- Laboratoř robotiky - polygon 1.102 -------------------------->
+
 	
 <model name="door_160_open_01">          
 <include>
@@ -315,16 +316,7 @@
     </uri>
 </include>
        <pose>9.0 5.4 0.76 0 0 1.5708</pose>
-</model>		
-	
-<model name="table_120_03">          
-<include>
-    <uri>
-    model://models/table_120
-    </uri>
-</include>
-       <pose>9.363 3.9555 0 0 0 1.5708</pose>
-</model>		
+</model>				
 		
 <model name="table_80_01">          
 <include>
@@ -479,6 +471,15 @@
        <pose>15.57 1.165 0.4 0 0 3.4</pose>
 </model>
 
+<model name="backpack_green_01">          
+<include>
+    <uri>
+    model://models/backpack_green
+    </uri>
+</include>
+       <pose>15.4 2.74 0 0 0 0</pose>
+</model>
+
 <model name="drawers_01">          
 <include>
     <uri>
@@ -613,23 +614,69 @@
 </include>
        <pose>11.60 -0.455 0 0 0 1.5708</pose>
 </model>	
+
+
+<model name="table_L_right">          
+<include>
+    <uri>
+    model://models/table_L_right
+    </uri>
+</include>
+       <pose>11.26 4.555 0 0 0 3.14159</pose>
+</model>
+
+<model name="notebook_02">          
+<include>
+    <uri>
+    model://models/notebook
+    </uri>
+</include>
+       <pose>11.26 3.80 0.76 0 0 3.44159</pose>
+</model>
+
+<model name="cardboard_box_06">          
+<include>
+    <uri>
+    model://models/cardboard_box
+    </uri>
+</include>
+       <pose>10.5 3.65 0.76 0 0 0</pose>
+</model>
+
+<model name="computer_case_06">          
+<include>
+    <uri>
+    model://models/computer_case
+    </uri>
+</include>
+       <pose>10.17 3.95 0 0 0 3.14159</pose>
+</model>
+
+<model name="monitor_keyboard_06">          
+<include>
+    <uri>
+    model://models/monitor_keyboard
+    </uri>
+</include>
+       <pose>9.45 3.8 0.76 0 0 3.8</pose>
+</model>
+
+<model name="office_chair_05">          
+<include>
+    <uri>
+    model://models/office_chair
+    </uri>
+</include>
+       <pose>10.2 4.6 0 0 0 -0.64</pose>
+</model>
 	
-<model name="table_150_03">          
+<model name="table_150_05">          
 <include>
     <uri>
     model://models/table_150
     </uri>
 </include>
-       <pose>11.67 3.9555 0 0 0 0</pose>
-</model>
-	
-<model name="table_120_05">          
-<include>
-    <uri>
-    model://models/table_120
-    </uri>
-</include>
-       <pose>12.02 4.96 0 0 0 -1.5708</pose>
+       <pose>11.665 4.47 0 0 0 -1.5708</pose>
 </model>
 	
 <model name="monitor_keyboard_05">          
@@ -638,8 +685,26 @@
     model://models/monitor_keyboard
     </uri>
 </include>
-       <pose>12.16 4.96  0.76 0 0 0</pose>
+       <pose>11.8 4.65  0.76 0 0 0</pose>
 </model>	
+
+<model name="computer_case_05">          
+<include>
+    <uri>
+    model://models/computer_case
+    </uri>
+</include>
+       <pose>11.4 5.05  0 0 0 -1.5708</pose>
+</model>
+
+<model name="cardboard_box_05">          
+<include>
+    <uri>
+    model://models/cardboard_box
+    </uri>
+</include>
+       <pose>11.55 3.5  0 0 0 0</pose>
+</model>
 	
 <!-------------------------- Laboratoř pro bakaláře a diplomové práce 1.104 --------------------->
 	
