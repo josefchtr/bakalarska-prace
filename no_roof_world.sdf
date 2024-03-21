@@ -117,6 +117,24 @@
        <pose>9.945 9.11 0 0 0 3.14159</pose>
 </model>
 
+<model name="drawers_03">          
+<include>
+    <uri>
+    model://models/drawers
+    </uri>
+</include>
+       <pose>10.67 9.200 0 0 0 0</pose>
+</model>
+
+<model name="drawers_04">          
+<include>
+    <uri>
+    model://models/drawers
+    </uri>
+</include>
+       <pose>10.27 9.200 0 0 0 0</pose>
+</model>
+
 <model name="monitor_keyboard_02">          
 <include>
     <uri>
@@ -135,16 +153,16 @@
        <pose>9.850 8.64 0 0 0 -2.2</pose>
 </model>
 
-<!--	
+	
 <model name="computer_case_01">          
 <include>
     <uri>
     model://models/computer_case
     </uri>
 </include>
-       <pose>9.945 9.11 0 0 0 3.14159</pose>
+       <pose>9.945 9.15 0 0 0 0</pose>
 </model>	
--->S
+
 	
 <model name="table_120_01">          
 <include>
@@ -153,6 +171,60 @@
     </uri>
 </include>
        <pose>9.195 7.859 0 0 0 1.5708</pose>
+</model>
+
+<model name="toolbox_02">          
+<include>
+    <uri>
+    model://models/toolbox
+    </uri>
+</include>
+       <pose>9.0 8.1 0.76 0 0 1.5708</pose>
+</model>
+
+<model name="drawers_02">          
+<include>
+    <uri>
+    model://models/drawers
+    </uri>
+</include>
+       <pose>9.5 8.0 0 0 0 1.5708</pose>
+</model>
+
+<model name="tape_02">          
+<include>
+    <uri>
+    model://models/tape
+    </uri>
+</include>
+       <pose>9.27 8.0 0.76 0 0 1.5708</pose>
+</model>
+
+<model name="screwdriver_02">          
+<include>
+    <uri>
+    model://models/screwdriver
+    </uri>
+</include>
+       <pose>9.02 7.7 0.76 0 0 -0.05</pose>
+</model>
+
+<model name="screwdriver_03">          
+<include>
+    <uri>
+    model://models/screwdriver
+    </uri>
+</include>
+       <pose>9.01 7.64 0.76 0 0 0.1</pose>
+</model>
+	
+<model name="screwdriver_04">          
+<include>
+    <uri>
+    model://models/screwdriver
+    </uri>
+</include>
+       <pose>9.01 7.58 0.76 0 0 0.05</pose>
 </model>
 	
 <model name="table_150_01">          
@@ -164,6 +236,14 @@
        <pose>9.195 6.5085 0 0 0 1.5708</pose>
 </model>
 
+<model name="computer_case_02">          
+<include>
+    <uri>
+    model://models/computer_case
+    </uri>
+</include>
+       <pose>9.45 7.1 0 0 0 1.5708</pose>
+</model>
 
 <model name="monitor_keyboard_01">          
 <include>
@@ -190,6 +270,51 @@
     </uri>
 </include>
        <pose>9.195 5.158 0 0 0 1.5708</pose>
+</model>	
+
+<model name="radio_01">          
+<include>
+    <uri>
+    model://models/radio
+    </uri>
+</include>
+       <pose>9.01 4.8 0.76 0 0 1.5708</pose>
+</model>
+
+<model name="radio_02">          
+<include>
+    <uri>
+    model://models/radio
+    </uri>
+</include>
+       <pose>9.02 4.88 0.76 0 0 1.5708</pose>
+</model>	
+	
+<model name="radio_03">          
+<include>
+    <uri>
+    model://models/radio
+    </uri>
+</include>
+       <pose>8.99 4.96 0.76 0 0 1.5708</pose>
+</model>	
+
+<model name="radio_04">          
+<include>
+    <uri>
+    model://models/radio
+    </uri>
+</include>
+       <pose>9.0 5.04 0.76 0 0 1.5708</pose>
+</model>
+
+<model name="toolbox_01">          
+<include>
+    <uri>
+    model://models/toolbox
+    </uri>
+</include>
+       <pose>9.0 5.4 0.76 0 0 1.5708</pose>
 </model>		
 	
 <model name="table_120_03">          
@@ -219,6 +344,15 @@
        <pose>11.497 9.500 0.76 0 0 1.5708</pose>
 </model>
 
+<model name="computer_case_03">          
+<include>
+    <uri>
+    model://models/computer_case
+    </uri>
+</include>
+       <pose>11.697 9.15 0 0 0 0</pose>
+</model>
+
 <model name="office_chair_03">          
 <include>
     <uri>
@@ -246,6 +380,15 @@
        <pose>14.7 9.500 0.76 0 0 1.5708</pose>
 </model>
 
+<model name="computer_case_04">          
+<include>
+    <uri>
+    model://models/computer_case
+    </uri>
+</include>
+       <pose>15.145 9.120 0 0 0 0</pose>
+</model>
+
 <model name="office_chair_04">          
 <include>
     <uri>
@@ -261,7 +404,7 @@
     model://models/storage_90
     </uri>
 </include>
-       <pose>15.76 8.4 0 0 0 -1.5708</pose>
+       <pose>15.76 8.7 0 0 0 -1.5708</pose>
 </model>	
 	
 <model name="storage_90_02">          
@@ -270,7 +413,7 @@
     model://models/storage_90
     </uri>
 </include>
-       <pose>15.76 7.45 0 0 0 -1.5708</pose>
+       <pose>15.76 7.79 0 0 0 -1.5708</pose>
 </model>	
 	
 <model name="storage_90_03">          
@@ -279,7 +422,7 @@
     model://models/storage_90
     </uri>
 </include>
-       <pose>15.76 6.5 0 0 0 -1.5708</pose>
+       <pose>15.76 6.88 0 0 0 -1.5708</pose>
 </model>
 
 <model name="storage_90_04">          
@@ -288,7 +431,7 @@
     model://models/storage_90
     </uri>
 </include>
-       <pose>15.76 5.55 0 0 0 -1.5708</pose>
+       <pose>15.76 5.97 0 0 0 -1.5708</pose>
 </model>
 
 <model name="storage_90_05">          
@@ -297,39 +440,54 @@
     model://models/storage_90
     </uri>
 </include>
-       <pose>15.76 4.6 0 0 0 -1.5708</pose>
-</model>	
-	
-<!--	
-<model name="sofa_green_01">          
+       <pose>15.76 5.06 0 0 0 -1.5708</pose>
+</model>
+
+<model name="bicycle_01">          
 <include>
     <uri>
-    model://models/sofa_green
+    model://models/bicycle
     </uri>
 </include>
-       <pose>15.76 2.6 0 0 0 -1.5708</pose>
+       <pose>15.11 5.00 0.00 0 -0.1 3.14159</pose>
 </model>	
--->
-	
+
+<model name="storage_90_07">          
+<include>
+    <uri>
+    model://models/storage_90
+    </uri>
+</include>
+       <pose>15.76 4.15 0 0 0 -1.5708</pose>
+</model>
+		
+<model name="sofa_01">          
+<include>
+    <uri>
+    model://models/sofa
+    </uri>
+</include>
+       <pose>15.57 1.7 0 0 0 3.14159</pose>
+</model>	
+
+<model name="backpack_red_01">          
+<include>
+    <uri>
+    model://models/backpack_red
+    </uri>
+</include>
+       <pose>15.57 1.165 0.4 0 0 3.4</pose>
+</model>
+
 <model name="drawers_01">          
 <include>
     <uri>
     model://models/drawers
     </uri>
 </include>
-       <pose>15.6 1.15 0 0 0 -1.5708</pose>
+       <pose>15.6 0.6 0 0 0 -1.5708</pose>
 </model>	
-		
-<model name="table_80_02">          
-<include>
-    <uri>
-    model://models/table_80
-    </uri>
-</include>
-       <pose>15.67 0.3 0 0 0 -1.5708</pose>
-</model>	
-
-<!--		
+			
 <model name="trash_bin_01">          
 <include>
     <uri>
@@ -337,9 +495,17 @@
     </uri>
 </include>
        <pose>15.00 -0.8 0 0 0 -1.5708</pose>
+</model>
+
+<model name="bathroom_sink_01">          
+<include>
+    <uri>
+    model://models/bathroom_sink
+    </uri>
+</include>
+       <pose>15.4 -0.97 0.8 0 0 3.14159</pose>
 </model>	
--->		
-	
+			
 <model name="table_150_02">          
 <include>
     <uri>
@@ -349,22 +515,94 @@
        <pose>11.67 1 0 0 0 3.14159</pose>
 </model>
 
-<model name="box33x15_01">          
+<model name="notebook_01">          
 <include>
     <uri>
-    model://models/Box_33x15
+    model://models/notebook
     </uri>
 </include>
-       <pose>12 1.125 0 0 0 1.5708</pose>
+       <pose>11.47 1.1 0.76 0 0 3.14159</pose>
 </model>
 
-<model name="box33x15_02">          
+<model name="foldable_chair_01">          
 <include>
     <uri>
-    model://models/Box_33x15
+    model://models/foldable_chair
+    </uri>
+</include>
+       <pose>11.47 1.5 0 0 0 0</pose>
+</model>
+
+<model name="tape_01">          
+<include>
+    <uri>
+    model://models/tape
+    </uri>
+</include>
+       <pose>12 1.1 0.76 0 0 3.14159</pose>
+</model>
+
+<model name="screwdriver_01">          
+<include>
+    <uri>
+    model://models/screwdriver
+    </uri>
+</include>
+       <pose>12.2 1.2 0.76 0 0 1.4708</pose>
+</model>
+
+<model name="drill_01">          
+<include>
+    <uri>
+    model://models/drill
+    </uri>
+</include>
+       <pose>12.1 0.9 0.76 0 0 1.6708</pose>
+</model>
+
+<model name="hammer_01">          
+<include>
+    <uri>
+    model://models/hammer
+    </uri>
+</include>
+       <pose>12.3 0.8 0.76 0 0 1.5708</pose>
+</model>
+
+<model name="cardboard_box_01">          
+<include>
+    <uri>
+    model://models/cardboard_box
+    </uri>
+</include>
+       <pose>12 1.0 0 0 0 1.5708</pose>
+</model>
+
+<model name="cardboard_box_02">          
+<include>
+    <uri>
+    model://models/cardboard_box
     </uri>
 </include>
        <pose>10.77 -0.6 0 0 0 0</pose>
+</model>
+	
+<model name="cardboard_box_03">          
+<include>
+    <uri>
+    model://models/cardboard_box
+    </uri>
+</include>
+       <pose>10.2 -0.6 0 0 0 0</pose>
+</model>
+
+<model name="cardboard_box_04">          
+<include>
+    <uri>
+    model://models/cardboard_box
+    </uri>
+</include>
+       <pose>10.5 -0.6 0.3 0 0 0</pose>
 </model>
 	
 <model name="storage_90_06">          
