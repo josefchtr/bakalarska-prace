@@ -126,6 +126,15 @@
        <pose>9.400 9.11 0.76 0 0 2.5026</pose>
 </model>
 
+<model name="office_chair_02">          
+<include>
+    <uri>
+    model://models/office_chair
+    </uri>
+</include>
+       <pose>9.850 8.64 0 0 0 -2.2</pose>
+</model>
+
 <!--	
 <model name="computer_case_01">          
 <include>
@@ -164,17 +173,15 @@
 </include>
        <pose>9.000 6.5085 0.76 0 0 3.14159</pose>
 </model>
-	
-<!--	
+		
 <model name="office_chair_01">          
 <include>
     <uri>
     model://models/office_chair
     </uri>
 </include>
-       <pose>9.8 6.659 0 0 0 -1.5708</pose>
+       <pose>9.62 6.519 0 0 0 -1.5708</pose>
 </model>	
--->
 	
 <model name="table_120_02">          
 <include>
@@ -211,6 +218,15 @@
 </include>
        <pose>11.497 9.500 0.76 0 0 1.5708</pose>
 </model>
+
+<model name="office_chair_03">          
+<include>
+    <uri>
+    model://models/office_chair
+    </uri>
+</include>
+       <pose>11.497 8.90 0 0 0 3.14159</pose>
+</model>
 	
 <model name="table_120_04">          
 <include>
@@ -228,6 +244,15 @@
     </uri>
 </include>
        <pose>14.7 9.500 0.76 0 0 1.5708</pose>
+</model>
+
+<model name="office_chair_04">          
+<include>
+    <uri>
+    model://models/office_chair
+    </uri>
+</include>
+       <pose>14.7 8.90 0 0 0 3.14159</pose>
 </model>
 
 <model name="storage_90_01">          
@@ -304,7 +329,7 @@
        <pose>15.67 0.3 0 0 0 -1.5708</pose>
 </model>	
 
-		
+<!--		
 <model name="trash_bin_01">          
 <include>
     <uri>
@@ -313,7 +338,7 @@
 </include>
        <pose>15.00 -0.8 0 0 0 -1.5708</pose>
 </model>	
-		
+-->		
 	
 <model name="table_150_02">          
 <include>
