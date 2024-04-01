@@ -803,7 +803,7 @@
 </model>
 		
 <!-------------------------- Dílna diplomantů - robotika 1.111 --------------------->				
-<!--
+
 <model name="door_160_close_07">          
 <include>
     <uri>
@@ -2197,7 +2197,124 @@
        <pose>-3.2 -1.04 0 0 0 0</pose>
 </model>
 
+
+<!-------------------------- Chodba --------------------->	
 	
+<model name="foldable_chair_08">          
+<include>
+    <uri>
+    model://models/foldable_chair
+    </uri>
+</include>
+      <pose>-6.35 0.3 0 0 0 -1.5708</pose>
+</model>	
+	
+<model name="table_small_02">          
+<include>
+    <uri>
+    model://models/table_small
+    </uri>
+</include>
+      <pose>-6.55 0. 0 0 0 -1.5708</pose>
+</model>	
+
+<!--
+<model name="fire_extinguisher_01">          
+<include>
+    <uri>
+    model://models/fire_extinguisher
+    </uri>
+</include>
+      <pose>-6.55 0. 0 0 0 -1.5708</pose>
+</model>
+-->
+
+<!--	
+<model name="plant_01">          
+<include>
+    <uri>
+    model://models/plant
+    </uri>
+</include>
+      <pose>-6.55 0. 0 0 0 -1.5708</pose>
+</model>	
+-->
+
+<model name="foldable_chair_09">          
+<include>
+    <uri>
+    model://models/foldable_chair
+    </uri>
+</include>
+      <pose>-7.65 -2.55 0 0 0 3.14159</pose>
+</model>	
+
+<model name="foldable_chair_10">          
+<include>
+    <uri>
+    model://models/foldable_chair
+    </uri>
+</include>
+      <pose>-6.90 -2.55 0 0 0 3.14159</pose>
+</model>
+
+<model name="storage_140_01">          
+<include>
+    <uri>
+    model://models/storage_140
+    </uri>
+</include>
+      <pose>-5.85 -2.59 0 0 0 3.14159</pose>
+</model>	
+
+<model name="storage_140_02">          
+<include>
+    <uri>
+    model://models/storage_140
+    </uri>
+</include>
+      <pose>-4.45 -2.59 0 0 0 3.14159</pose>
+</model>
+
+<model name="storage_140_03">          
+<include>
+    <uri>
+    model://models/storage_140
+    </uri>
+</include>
+      <pose>-3.05 -2.59 0 0 0 3.14159</pose>
+</model>
+
+<model name="foldable_chair_11">          
+<include>
+    <uri>
+    model://models/foldable_chair
+    </uri>
+</include>
+      <pose>11.5 -1.46 0 0 0 0</pose>
+</model>	
+
+<model name="foldable_chair_12">          
+<include>
+    <uri>
+    model://models/foldable_chair
+    </uri>
+</include>
+      <pose>10.75 -1.46 0 0 0 0</pose>
+</model>
+
+<model name="foldable_chair_13">          
+<include>
+    <uri>
+    model://models/foldable_chair
+    </uri>
+</include>
+      <pose>10 -1.46 0 0 0 0</pose>
+</model>
+
+
+
+
 	
     <light name="sun1" type="point">
       <pose frame="">-10 0 15 0 0 0</pose>
