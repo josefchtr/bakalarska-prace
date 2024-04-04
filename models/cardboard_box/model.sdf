@@ -2,6 +2,7 @@
 <sdf version="1.6">
   <model name="cardboard_box">
     <pose>0 0 0.15 0 0 0</pose>
+  <static>true</static>
     <link name="link">
       <inertial>
         <mass>2</mass>
