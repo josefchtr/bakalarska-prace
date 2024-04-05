@@ -21,7 +21,7 @@
 
 -->
 
-<model name="walls_01">
+<model name="walls_roof_01">
 <include>
     <uri>
     model://models/walls_roof
@@ -39,6 +39,15 @@
 </include>
        <pose>-8.68 3.37 0 0 0 0</pose>
 </model>
+	
+<model name="door_70_close_13">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+       <pose>-5.878 5.014 0 0 0 -1.5708</pose>
+</model>	
 	
 <model name="entrance_door_02">          
 <include>
@@ -58,6 +67,15 @@
     </uri>
 </include>
        <pose>-2.407 -1.115 0 0 0 0</pose>
+</model>
+
+<model name="door_70_close_04">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+       <pose>-1.51 8.538 0 0 0 3.14159</pose>
 </model>
 	
 <!-------------------------- Laboratoř snímačové techniky 1.101 -------------------------->
@@ -99,7 +117,7 @@
 </include>
        <pose>9.189 9.95 -0.005 0 0 0</pose>
 </model>
-	
+
 <model name="box_shelf_01">          
 <include>
     <uri>
@@ -748,6 +766,15 @@
 </include>
       <pose>16.407 9.95 1.218 0 0 0</pose>
 </model>
+	
+<model name="door_70_close_05">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>19.51 0.3 0 0 0 -1.5708</pose>
+</model>
 		
 <!-------------------------- Dílna 1.106 --------------------->	
 
@@ -769,6 +796,33 @@
       <pose>23.8 9.95 1.218 0 0 0</pose>
 </model>
 
+<model name="windows_2_01">          
+<include>
+    <uri>
+    model://models/windows_2
+    </uri>
+</include>
+      <pose>30.4 6.41 1.218 0 0 1.5708</pose>
+</model>
+
+<model name="door_160_metal_close_03">          
+<include>
+    <uri>
+    model://models/door_160_metal_close
+    </uri>
+</include>
+      <pose>30.32 1.738 0 0 0 -1.5708</pose>
+</model>
+
+<model name="door_70_close_06">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>26.76 0.21 0 0 0 -1.5708</pose>
+</model>
+
 <!-------------------------- Dílna svaření 1.108 --------------------->	
 	
 <model name="door_160_close_04">          
@@ -779,6 +833,24 @@
 </include>
       <pose>28.620 -2.975 0 0 0 0</pose>
 </model>
+	
+<model name="windows_O_01">          
+<include>
+    <uri>
+    model://models/windows_O
+    </uri>
+</include>
+      <pose>27.599 -9.88 0.907 0 0 0</pose>
+</model>
+
+<model name="windows_O_02">          
+<include>
+    <uri>
+    model://models/windows_O
+    </uri>
+</include>
+      <pose>30.45 -8.575 0.907 0 0 1.5708</pose>
+</model>	
 	
 <!-------------------------- Dílna sklad 1.109 --------------------->		
 	
@@ -791,6 +863,15 @@
       <pose>24.96 -2.975 0 0 0 0</pose>
 </model>	
 	
+<model name="windows_O_03">          
+<include>
+    <uri>
+    model://models/windows_O
+    </uri>
+</include>
+      <pose>24.112 -9.88 0.907 0 0 0</pose>
+</model>	
+	
 <!-------------------------- Malá dílna chemie 1.110 --------------------->			
 
 <model name="door_160_close_06">          
@@ -800,6 +881,15 @@
     </uri>
 </include>
       <pose>21.601 -2.975 0 0 0 0</pose>
+</model>
+
+<model name="windows_O_04">          
+<include>
+    <uri>
+    model://models/windows_O
+    </uri>
+</include>
+      <pose>20.45 -9.88 0.907 0 0 0</pose>
 </model>
 		
 <!-------------------------- Dílna diplomantů - robotika 1.111 --------------------->				
@@ -813,6 +903,15 @@
       <pose>17.955 -2.975 0 0 0 0</pose>
 </model>
 
+<model name="windows_O_05">          
+<include>
+    <uri>
+    model://models/windows_O
+    </uri>
+</include>
+      <pose>16.975 -9.88 0.907 0 0 0</pose>
+</model>
+
 <!-------------------------- Laboratoř teleprezence 1.112 --------------------->					
 
 <model name="door_160_fully_open_02">          
@@ -823,7 +922,7 @@
 </include>
       <pose>13.673 -2.975 0 0 0 0</pose>
 </model>
-	
+
 <model name="windows_4_05">          
 <include>
     <uri>
@@ -2112,6 +2211,15 @@
       <pose>-19.4219 -9.85 1.218 0 0 0</pose>
 </model>
 
+<model name="windows_2_02">          
+<include>
+    <uri>
+    model://models/windows_2
+    </uri>
+</include>
+      <pose>-19.8 -9.47 1.218 0 0 1.5708</pose>
+</model>
+
 <model name="windows_4_09">          
 <include>
     <uri>
@@ -2119,6 +2227,15 @@
     </uri>
 </include>
       <pose>-12.486 -9.85 1.218 0 0 0</pose>
+</model>
+
+<model name="door_70_close_07">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>-10.4 -7.646 0 0 0 0</pose>
 </model>
 	
 <!-------------------------- Laboratoř měření neelektrických veličin 1.116 --------------------->					
@@ -2139,6 +2256,42 @@
     </uri>
 </include>
       <pose>-19.4219 9.95 1.218 0 0 0</pose>
+</model>
+
+<model name="windows_1_01">          
+<include>
+    <uri>
+    model://models/windows_1
+    </uri>
+</include>
+      <pose>-19.8 -2.74 1.218 0 0 1.5708</pose>
+</model>
+
+<model name="windows_O_06">          
+<include>
+    <uri>
+    model://models/windows_O
+    </uri>
+</include>
+      <pose>-19.8 0.275 0.907 0 0 1.5708</pose>
+</model>
+
+<model name="windows_2_03">          
+<include>
+    <uri>
+    model://models/windows_2
+    </uri>
+</include>
+      <pose>-19.8 6.4 1.218 0 0 1.5708</pose>
+</model>
+
+<model name="door_70_close_08">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>-15.14 -1.55 0 0 0 -1.5708</pose>
 </model>
 
 <!--------------------------  el. zařízení --------------------->	
@@ -2164,12 +2317,21 @@
       <pose>-8.672 1.82 0 0 0 1.5708</pose>
 </model>		
 		
-<!-------------------------- Úklid 1.94 --------------------->	
-						
-<model name="door_70_open_01">          
+<model name="door_70_close_09">          
 <include>
     <uri>
-    model://models/door_70_open
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>-10.14 1.125 0 0 0 0</pose>
+</model>		
+		
+<!-------------------------- Úklid 1.94 --------------------->	
+						
+<model name="door_70_close_10">          
+<include>
+    <uri>
+    model://models/door_70_close
     </uri>
 </include>
       <pose>-6.53 2.75 0 0 0 -1.5708</pose>
@@ -2185,6 +2347,24 @@
 </include>
       <pose>-6.53 1.592 0 0 0 -1.5708</pose>
 </model>	
+
+<model name="door_70_close_11">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>-5.39 0.77 0 0 0 0</pose>
+</model>
+
+<model name="door_70_close_12">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>-4.21 0.77 0 0 0 0</pose>
+</model>
 	
 <!-------------------------- EW 15 DP1 --------------------->							
 
