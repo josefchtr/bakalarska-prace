@@ -9,6 +9,11 @@
       <real_time_update_rate>1000</real_time_update_rate>
     </physics>
 
+
+
+<!-------------------------- Modely -------------------------->
+
+<!-------------------------- Demo model kostky -------------------------->
 <!--
 <model name="Cube_01">          
 <include>
@@ -18,8 +23,9 @@
 </include>
       <pose>5 4 0 0 0 0</pose>
 </model>
-
 -->
+
+<!-------------------------- Zdi a vstupní dveře -------------------------->
 
 <model name="walls_01">
 <include>
@@ -2494,14 +2500,32 @@
 
 
 
+<!-------------------------- Osvětlení --------------------->	
+<!--
+  <light name="ceiling_light_01" type="point">
+      <pose frame="">11 7 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.6</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
 
+<!-------------------------- Laboratoř robotiky - polygon 1.102 -------------------------->
 	
-    <light name="sun1" type="point">
-      <pose frame="">-10 0 15 0 0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.2 0.2 0.2 1</specular>
+    <light name="ceiling_light_01" type="point">
+      <pose frame="">11 7 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.2</intensity>
       <attenuation>
-        <range>100</range>
+        <range>10</range>
         <constant>0.3</constant>
         <linear>0.01</linear>
         <quadratic>0.001</quadratic>
@@ -2510,12 +2534,13 @@
       <direction>0.1 0.1 -1</direction>
     </light>
     
-     <light name="sun2" type="point">
-      <pose frame="">20 0 15 0 0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.2 0.2 0.2 1</specular>
+     <light name="ceiling_light_02" type="point">
+      <pose frame="">14 7 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.2</intensity>
       <attenuation>
-        <range>100</range>
+        <range>10</range>
         <constant>0.3</constant>
         <linear>0.01</linear>
         <quadratic>0.001</quadratic>
@@ -2524,12 +2549,30 @@
       <direction>0.1 0.1 -1</direction>
     </light>
     
-    <light name="sun3" type="point">
-      <pose frame="">8 7 15 0 0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.2 0.2 0.2 1</specular>
+    
+     <light name="ceiling_light_03" type="point">
+      <pose frame="">11 2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.2</intensity>
       <attenuation>
-        <range>100</range>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+    
+    
+     <light name="ceiling_light_04" type="point">
+      <pose frame="">14 2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.2</intensity>
+      <attenuation>
+        <range>10</range>
         <constant>0.3</constant>
         <linear>0.01</linear>
         <quadratic>0.001</quadratic>
@@ -2538,12 +2581,16 @@
       <direction>0.1 0.1 -1</direction>
     </light>
 
- <light name="sun4" type="point">
-      <pose frame="">8 -7 15 0 0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.2 0.2 0.2 1</specular>
+
+<!-------------------------- Laboratoř teleprezence 1.112 --------------------->					
+
+  <light name="ceiling_light_05" type="point">
+      <pose frame="">12.5 -6.2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.55</intensity>
       <attenuation>
-        <range>100</range>
+        <range>6</range>
         <constant>0.3</constant>
         <linear>0.01</linear>
         <quadratic>0.001</quadratic>
@@ -2551,6 +2598,213 @@
       <cast_shadows>1</cast_shadows>
       <direction>0.1 0.1 -1</direction>
     </light>
+
+<!-------------------------- Laboratoř mobilních robotů 1.113 --------------------->	
+
+<!--				
+  <light name="ceiling_light_06" type="point">
+      <pose frame="">5.2 -6.3 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>6</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+-->
+
+  <light name="ceiling_light_07" type="point">
+      <pose frame="">3.2 -4.3 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.22</intensity>
+      <attenuation>
+        <range>9</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+    
+      <light name="ceiling_light_08" type="point">
+      <pose frame="">3.2 -8.3 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.22</intensity>
+      <attenuation>
+        <range>9</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+  <light name="ceiling_light_09" type="point">
+      <pose frame="">7.2 -4.3 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.22</intensity>
+      <attenuation>
+        <range>9</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+    
+      <light name="ceiling_light_10" type="point">
+      <pose frame="">7.2 -8.3 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.22</intensity>
+      <attenuation>
+        <range>9</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+
+<!-------------------------- Laboratoř vibrodiagnostiky a kalibrace 1.114 --------------------->					
+
+  <light name="ceiling_light_11" type="point">
+      <pose frame="">-1.5 -6.3 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+ <light name="ceiling_light_12" type="point">
+      <pose frame="">-6 -6.3 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+<!-------------------------- Laboratoř automatizace měření 1.115 --------------------->		
+
+ <light name="ceiling_light_13" type="point">
+      <pose frame="">-12.5 -6.3 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+ <light name="ceiling_light_14" type="point">
+      <pose frame="">-17 -6.3 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+<light name="ceiling_light_15" type="point">
+      <pose frame="">-10.1 -8.8 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.5</intensity>
+      <attenuation>
+        <range>5</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+<!-------------------------- Laboratoř měření neelektrických veličin 1.116 --------------------->					
+
+<light name="ceiling_light_16" type="point">
+      <pose frame="">-17 -2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.5</intensity>
+      <attenuation>
+        <range>5</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+ <light name="ceiling_light_17" type="point">
+      <pose frame="">-16 2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+ <light name="ceiling_light_18" type="point">
+      <pose frame="">-16 7 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
 
 
     <gui fullscreen='0'>
