@@ -2588,7 +2588,7 @@
       <pose frame="">12.5 -6.2 3.21824 0 0 0</pose>
       <diffuse>1 1 1 1</diffuse>
       <specular>1 1 1 1</specular>
-      <intensity>0.55</intensity>
+      <intensity>0.6</intensity>
       <attenuation>
         <range>6</range>
         <constant>0.3</constant>
@@ -2601,6 +2601,7 @@
 
 <!-------------------------- Laboratoř mobilních robotů 1.113 --------------------->	
 
+<!-------------------------- Světlo pro střed místnosti --------------------->	
 <!--				
   <light name="ceiling_light_06" type="point">
       <pose frame="">5.2 -6.3 3.21824 0 0 0</pose>
@@ -2622,7 +2623,7 @@
       <pose frame="">3.2 -4.3 3.21824 0 0 0</pose>
       <diffuse>1 1 1 1</diffuse>
       <specular>1 1 1 1</specular>
-      <intensity>0.22</intensity>
+      <intensity>0.2</intensity>
       <attenuation>
         <range>9</range>
         <constant>0.3</constant>
@@ -2637,7 +2638,7 @@
       <pose frame="">3.2 -8.3 3.21824 0 0 0</pose>
       <diffuse>1 1 1 1</diffuse>
       <specular>1 1 1 1</specular>
-      <intensity>0.22</intensity>
+      <intensity>0.2</intensity>
       <attenuation>
         <range>9</range>
         <constant>0.3</constant>
@@ -2652,7 +2653,7 @@
       <pose frame="">7.2 -4.3 3.21824 0 0 0</pose>
       <diffuse>1 1 1 1</diffuse>
       <specular>1 1 1 1</specular>
-      <intensity>0.22</intensity>
+      <intensity>0.2</intensity>
       <attenuation>
         <range>9</range>
         <constant>0.3</constant>
@@ -2667,7 +2668,7 @@
       <pose frame="">7.2 -8.3 3.21824 0 0 0</pose>
       <diffuse>1 1 1 1</diffuse>
       <specular>1 1 1 1</specular>
-      <intensity>0.22</intensity>
+      <intensity>0.2</intensity>
       <attenuation>
         <range>9</range>
         <constant>0.3</constant>
@@ -2677,7 +2678,6 @@
       <cast_shadows>1</cast_shadows>
       <direction>0.1 0.1 -1</direction>
     </light>
-
 
 <!-------------------------- Laboratoř vibrodiagnostiky a kalibrace 1.114 --------------------->					
 
@@ -2805,8 +2805,428 @@
       <direction>0.1 0.1 -1</direction>
     </light>
 
+<!-------------------------- WC muži 1.93 --------------------->
+
+ <light name="ceiling_light_19" type="point">
+      <pose frame="">-10 2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>5</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+<light name="ceiling_light_20" type="point">
+      <pose frame="">-11 0 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>5</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+    
+<!-------------------------- Úklid 1.94 --------------------->	
+
+<light name="ceiling_light_21" type="point">
+      <pose frame="">-5 2.8 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>5</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+<!-------------------------- WC ženy 1.95 --------------------->						
+
+<light name="ceiling_light_22" type="point">
+      <pose frame="">-5 1.5 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>5</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+<light name="ceiling_light_23" type="point">
+      <pose frame="">-4.3 0 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>5</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+    
+    <light name="ceiling_light_24" type="point">
+      <pose frame="">-5.3 0 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>5</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
 
 
+<!-------------------------- Chodba --------------------->	
+   
+ <light name="ceiling_light_25" type="point">
+      <pose frame="">-7.8 1.4 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>5.5</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>    
+
+ <light name="ceiling_light_26" type="point">
+      <pose frame="">-11 -2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>4.1</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>  
+
+ <light name="ceiling_light_27" type="point">
+      <pose frame="">-2 -2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>5.7</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>  
+      
+
+<light name="ceiling_light_28" type="point">
+      <pose frame="">8.6 -2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>8</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+    
+ <light name="ceiling_light_29" type="point">
+      <pose frame="">20 -2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>11</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>   
+  
+     <light name="ceiling_light_30" type="point">
+      <pose frame="">25 -2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light> 
+
+<!------------------------- Laboratoř vibrací a klimatických zkoušek 1.100 -------------------->
+
+  <light name="ceiling_light_31" type="point">
+      <pose frame="">-1 5 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light> 
+    
+     <light name="ceiling_light_32" type="point">
+      <pose frame="">-0.5 9.2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light> 
+    
+
+<!-------------------------- Laboratoř snímačové techniky 1.101 -------------------------->  
+
+  <light name="ceiling_light_33" type="point">
+      <pose frame="">5 5 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light> 
+    
+<!------------------------- Laboratoř pro bakaláře a diplomové práce 1.104 --------------------->
+
+ <light name="ceiling_light_34" type="point">
+      <pose frame="">20 5 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light> 
+
+ <light name="ceiling_light_35" type="point">
+      <pose frame="">18 0 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light> 
+    
+<!-------------------------- Dílna 1.106 --------------------->	
+    
+<light name="ceiling_light_36" type="point">
+      <pose frame="">27 5 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light> 
+
+ <light name="ceiling_light_37" type="point">
+      <pose frame="">25 0 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light> 
+    
+<!-------------------------- Dílna svaření 1.108 --------------------->	
+
+ <light name="ceiling_light_38" type="point">
+      <pose frame="">28.5 -6 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.6</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light> 
+
+<!-------------------------- Dílna sklad 1.109 --------------------->		
+
+ <light name="ceiling_light_39" type="point">
+      <pose frame="">25 -6 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.6</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light> 
+
+<!------------------------- Malá dílna chemie 1.110 ------------------>			    
+
+ <light name="ceiling_light_40" type="point">
+      <pose frame="">21.5 -6 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.6</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light> 
+
+<!-------------------------- Dílna diplomantů - robotika 1.111 --------------------->	
+
+<light name="ceiling_light_41" type="point">
+      <pose frame="">18 -6 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.6</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light> 
+
+<!-------------------------- Výtah a schody --------------------->
+
+<light name="ceiling_light_42" type="point">
+      <pose frame="">-7.6 8 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.6</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+<light name="ceiling_light_43" type="point">
+      <pose frame="">-11 8 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.6</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>			
+    
+<!-------------------------- WC - invalidé --------------------->    
+    
+<light name="ceiling_light_44" type="point">
+      <pose frame="">-4.7 4.6 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>    
+    
     <gui fullscreen='0'>
       <camera name='user_camera'>
         <pose frame=''>-4.70385 10.895 16.2659 -0 0.921795 -1.12701</pose>
