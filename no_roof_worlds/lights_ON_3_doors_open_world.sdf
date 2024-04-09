@@ -1,0 +1,3239 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.6">
+  <world name="default">
+    
+    <gravity>0 0 -9.8</gravity>
+    <physics default="0" name="default_physics" type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+
+
+
+<!-------------------------- Modely -------------------------->
+
+<!-------------------------- Demo model kostky -------------------------->
+<!--
+<model name="Cube_01">          
+<include>
+    <uri>
+    model://Cube
+    </uri>
+</include>
+      <pose>5 4 0 0 0 0</pose>
+</model>
+-->
+
+<!-------------------------- Zdi a vstupní dveře -------------------------->
+
+<model name="walls_01">
+<include>
+    <uri>
+    model://models/walls
+    </uri>
+</include>
+      <pose>-20 -10 0 0 0 0</pose>
+</model>
+
+
+<model name="entrance_door_01">          
+<include>
+    <uri>
+    model://models/entrance_door
+    </uri>
+</include>
+       <pose>-8.68 3.37 0 0 0 0</pose>
+</model>
+	
+<model name="door_70_close_13">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+       <pose>-5.878 5.014 0 0 0 -1.5708</pose>
+</model>	
+	
+<model name="entrance_door_02">          
+<include>
+    <uri>
+    model://models/entrance_door
+    </uri>
+</include>
+       <pose>30.556 -3.08 0 0 0 1.5708</pose>
+</model>
+
+<!-------------------------- Laboratoř vibrací a klimatických zkoušek 1.100 --------------------->
+	
+<model name="entrance_door_03">          
+<include>
+    <uri>
+    model://models/entrance_door
+    </uri>
+</include>
+       <pose>-2.407 -1.115 0 0 0 0</pose>
+</model>
+
+<model name="door_70_close_04">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+       <pose>-1.51 8.538 0 0 0 3.14159</pose>
+</model>
+	
+<!-------------------------- Laboratoř snímačové techniky 1.101 -------------------------->
+
+ <model name="door_160_close_01">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>4.058 -1.04 0 0 0 3.14159</pose>
+</model>
+
+<model name="windows_4_01">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>1.973 9.95 1.218 0 0 0</pose>
+</model>
+
+<!-------------------------- Laboratoř robotiky - polygon 1.102 -------------------------->
+
+<model name="door_160_fully_open_01">          
+<include>
+    <uri>
+    model://models/door_160_fully_open
+    </uri>
+</include>
+      <pose>13.673 -1.04 0 0 0 3.14159</pose>
+</model>
+
+<model name="windows_door_01">          
+<include>
+    <uri>
+    model://models/windows_door
+    </uri>
+</include>
+       <pose>9.189 9.95 -0.005 0 0 0</pose>
+</model>
+
+<model name="box_shelf_01">          
+<include>
+    <uri>
+    model://models/box_shelf
+    </uri>
+</include>
+       <pose>9.25 1.05 0 0 0 -1.5708</pose>
+</model>	
+	
+<model name="table_L_left_01">          
+<include>
+    <uri>
+    model://models/table_L_left
+    </uri>
+</include>
+       <pose>9.945 9.11 0 0 0 3.14159</pose>
+</model>
+
+<model name="drawers_03">          
+<include>
+    <uri>
+    model://models/drawers
+    </uri>
+</include>
+       <pose>10.67 9.200 0 0 0 0</pose>
+</model>
+
+<model name="drawers_04">          
+<include>
+    <uri>
+    model://models/drawers
+    </uri>
+</include>
+       <pose>10.27 9.200 0 0 0 0</pose>
+</model>
+
+<model name="monitor_keyboard_02">          
+<include>
+    <uri>
+    model://models/monitor_keyboard
+    </uri>
+</include>
+       <pose>9.400 9.11 0.76 0 0 2.5026</pose>
+</model>
+
+<model name="office_chair_02">          
+<include>
+    <uri>
+    model://models/office_chair
+    </uri>
+</include>
+       <pose>9.850 8.64 0 0 0 -2.2</pose>
+</model>
+
+	
+<model name="computer_case_01">          
+<include>
+    <uri>
+    model://models/computer_case
+    </uri>
+</include>
+       <pose>9.945 9.15 0 0 0 0</pose>
+</model>	
+
+	
+<model name="table_120_01">          
+<include>
+    <uri>
+    model://models/table_120
+    </uri>
+</include>
+       <pose>9.195 7.859 0 0 0 1.5708</pose>
+</model>
+
+<model name="toolbox_02">          
+<include>
+    <uri>
+    model://models/toolbox
+    </uri>
+</include>
+       <pose>9.0 8.1 0.76 0 0 1.5708</pose>
+</model>
+
+<model name="drawers_02">          
+<include>
+    <uri>
+    model://models/drawers
+    </uri>
+</include>
+       <pose>9.5 8.0 0 0 0 1.5708</pose>
+</model>
+
+<model name="tape_02">          
+<include>
+    <uri>
+    model://models/tape
+    </uri>
+</include>
+       <pose>9.27 8.0 0.76 0 0 1.5708</pose>
+</model>
+
+<model name="screwdriver_02">          
+<include>
+    <uri>
+    model://models/screwdriver
+    </uri>
+</include>
+       <pose>9.02 7.7 0.76 0 0 -0.05</pose>
+</model>
+
+<model name="screwdriver_03">          
+<include>
+    <uri>
+    model://models/screwdriver
+    </uri>
+</include>
+       <pose>9.01 7.64 0.76 0 0 0.1</pose>
+</model>
+	
+<model name="screwdriver_04">          
+<include>
+    <uri>
+    model://models/screwdriver
+    </uri>
+</include>
+       <pose>9.01 7.58 0.76 0 0 0.05</pose>
+</model>
+	
+<model name="table_150_01">          
+<include>
+    <uri>
+    model://models/table_150
+    </uri>
+</include>
+       <pose>9.195 6.5085 0 0 0 1.5708</pose>
+</model>
+
+<model name="computer_case_02">          
+<include>
+    <uri>
+    model://models/computer_case
+    </uri>
+</include>
+       <pose>9.45 7.1 0 0 0 1.5708</pose>
+</model>
+
+<model name="monitor_keyboard_01">          
+<include>
+    <uri>
+    model://models/monitor_keyboard
+    </uri>
+</include>
+       <pose>9.000 6.5085 0.76 0 0 3.14159</pose>
+</model>
+		
+<model name="office_chair_03">          
+<include>
+    <uri>
+    model://models/office_chair
+    </uri>
+</include>
+       <pose>9.62 6.519 0 0 0 -1.5708</pose>
+</model>	
+	
+<model name="table_120_02">          
+<include>
+    <uri>
+    model://models/table_120
+    </uri>
+</include>
+       <pose>9.195 5.158 0 0 0 1.5708</pose>
+</model>	
+
+<model name="radio_01">          
+<include>
+    <uri>
+    model://models/radio
+    </uri>
+</include>
+       <pose>9.01 4.8 0.76 0 0 1.5708</pose>
+</model>
+
+<model name="radio_02">          
+<include>
+    <uri>
+    model://models/radio
+    </uri>
+</include>
+       <pose>9.02 4.88 0.76 0 0 1.5708</pose>
+</model>	
+	
+<model name="radio_03">          
+<include>
+    <uri>
+    model://models/radio
+    </uri>
+</include>
+       <pose>8.99 4.96 0.76 0 0 1.5708</pose>
+</model>	
+
+<model name="radio_04">          
+<include>
+    <uri>
+    model://models/radio
+    </uri>
+</include>
+       <pose>9.0 5.04 0.76 0 0 1.5708</pose>
+</model>
+
+<model name="toolbox_01">          
+<include>
+    <uri>
+    model://models/toolbox
+    </uri>
+</include>
+       <pose>9.0 5.4 0.76 0 0 1.5708</pose>
+</model>				
+		
+<model name="table_80_01">          
+<include>
+    <uri>
+    model://models/table_80
+    </uri>
+</include>
+       <pose>11.497 9.360 0 0 0 0</pose>
+</model>
+
+ 
+<model name="mug_01">          
+<include>
+    <uri>
+    model://models/mug
+    </uri>
+</include>
+       <pose>10.497 9.360 0-76 0 0 0</pose>
+</model>
+
+
+
+<model name="monitor_keyboard_03">          
+<include>
+    <uri>
+    model://models/monitor_keyboard
+    </uri>
+</include>
+       <pose>11.497 9.500 0.76 0 0 1.5708</pose>
+</model>
+
+<model name="computer_case_03">          
+<include>
+    <uri>
+    model://models/computer_case
+    </uri>
+</include>
+       <pose>11.697 9.15 0 0 0 0</pose>
+</model>
+
+<model name="office_chair_04">          
+<include>
+    <uri>
+    model://models/office_chair
+    </uri>
+</include>
+       <pose>11.497 8.90 0 0 0 3.14159</pose>
+</model>
+	
+<model name="table_120_04">          
+<include>
+    <uri>
+    model://models/table_120
+    </uri>
+</include>
+       <pose>14.7 9.360 0 0 0 0</pose>
+</model>
+
+<model name="monitor_keyboard_04">          
+<include>
+    <uri>
+    model://models/monitor_keyboard
+    </uri>
+</include>
+       <pose>14.7 9.500 0.76 0 0 1.5708</pose>
+</model>
+
+<model name="computer_case_04">          
+<include>
+    <uri>
+    model://models/computer_case
+    </uri>
+</include>
+       <pose>15.145 9.120 0 0 0 0</pose>
+</model>
+
+<model name="office_chair_05">          
+<include>
+    <uri>
+    model://models/office_chair
+    </uri>
+</include>
+       <pose>14.7 8.90 0 0 0 3.14159</pose>
+</model>
+
+<model name="storage_90_01">          
+<include>
+    <uri>
+    model://models/storage_90
+    </uri>
+</include>
+       <pose>15.76 8.7 0 0 0 -1.5708</pose>
+</model>	
+	
+<model name="storage_90_02">          
+<include>
+    <uri>
+    model://models/storage_90
+    </uri>
+</include>
+       <pose>15.76 7.79 0 0 0 -1.5708</pose>
+</model>	
+	
+<model name="storage_90_03">          
+<include>
+    <uri>
+    model://models/storage_90
+    </uri>
+</include>
+       <pose>15.76 6.88 0 0 0 -1.5708</pose>
+</model>
+
+<model name="storage_90_04">          
+<include>
+    <uri>
+    model://models/storage_90
+    </uri>
+</include>
+       <pose>15.76 5.97 0 0 0 -1.5708</pose>
+</model>
+
+<model name="storage_90_05">          
+<include>
+    <uri>
+    model://models/storage_90
+    </uri>
+</include>
+       <pose>15.76 5.06 0 0 0 -1.5708</pose>
+</model>
+
+<model name="bicycle_01">          
+<include>
+    <uri>
+    model://models/bicycle
+    </uri>
+</include>
+       <pose>15.11 5.00 0.00 0 -0.1 3.14159</pose>
+</model>	
+
+<model name="storage_90_07">          
+<include>
+    <uri>
+    model://models/storage_90
+    </uri>
+</include>
+       <pose>15.76 4.15 0 0 0 -1.5708</pose>
+</model>
+		
+<model name="sofa_01">          
+<include>
+    <uri>
+    model://models/sofa
+    </uri>
+</include>
+       <pose>15.57 1.7 0 0 0 3.14159</pose>
+</model>	
+
+<model name="whiteboard_01">          
+<include>
+    <uri>
+    model://models/whiteboard
+    </uri>
+</include>
+       <pose>16.05 2 1 0 0 -1.5708</pose>
+</model>
+
+<model name="backpack_red_01">          
+<include>
+    <uri>
+    model://models/backpack_red
+    </uri>
+</include>
+       <pose>15.57 1.165 0.4 0 0 3.4</pose>
+</model>
+
+<model name="backpack_green_01">          
+<include>
+    <uri>
+    model://models/backpack_green
+    </uri>
+</include>
+       <pose>15.4 2.74 0 0 0 0</pose>
+</model>
+
+<model name="table_small_01">          
+<include>
+    <uri>
+    model://models/table_small
+    </uri>
+</include>
+       <pose>15.45 0.6 0 0 0 -1.5708</pose>
+</model>	
+			
+<model name="trash_bin_01">          
+<include>
+    <uri>
+    model://models/trash_bin
+    </uri>
+</include>
+       <pose>15.00 -0.8 0 0 0 -1.5708</pose>
+</model>
+
+<model name="bathroom_sink_01">          
+<include>
+    <uri>
+    model://models/bathroom_sink
+    </uri>
+</include>
+       <pose>15.4 -0.97 0.8 0 0 3.14159</pose>
+</model>	
+			
+<model name="table_150_02">          
+<include>
+    <uri>
+    model://models/table_150
+    </uri>
+</include>
+       <pose>11.67 1 0 0 0 3.14159</pose>
+</model>
+
+<model name="notebook_01">          
+<include>
+    <uri>
+    model://models/notebook
+    </uri>
+</include>
+       <pose>11.47 1.1 0.76 0 0 3.14159</pose>
+</model>
+
+<model name="foldable_chair_01">          
+<include>
+    <uri>
+    model://models/foldable_chair
+    </uri>
+</include>
+       <pose>11.47 1.5 0 0 0 0</pose>
+</model>
+
+<model name="tape_01">          
+<include>
+    <uri>
+    model://models/tape
+    </uri>
+</include>
+       <pose>12 1.1 0.76 0 0 3.14159</pose>
+</model>
+
+<model name="screwdriver_01">          
+<include>
+    <uri>
+    model://models/screwdriver
+    </uri>
+</include>
+       <pose>12.2 1.2 0.76 0 0 1.4708</pose>
+</model>
+
+<model name="drill_01">          
+<include>
+    <uri>
+    model://models/drill
+    </uri>
+</include>
+       <pose>12.1 0.9 0.76 0 0 1.6708</pose>
+</model>
+
+<model name="hammer_01">          
+<include>
+    <uri>
+    model://models/hammer
+    </uri>
+</include>
+       <pose>12.3 0.8 0.76 0 0 1.5708</pose>
+</model>
+
+<model name="cardboard_box_01">          
+<include>
+    <uri>
+    model://models/cardboard_box
+    </uri>
+</include>
+       <pose>12 1.0 0 0 0 1.5708</pose>
+</model>
+
+<model name="cardboard_box_02">          
+<include>
+    <uri>
+    model://models/cardboard_box
+    </uri>
+</include>
+       <pose>10.77 -0.6 0 0 0 0</pose>
+</model>
+	
+<model name="cardboard_box_03">          
+<include>
+    <uri>
+    model://models/cardboard_box
+    </uri>
+</include>
+       <pose>10.2 -0.6 0 0 0 0</pose>
+</model>
+
+<model name="cardboard_box_04">          
+<include>
+    <uri>
+    model://models/cardboard_box
+    </uri>
+</include>
+       <pose>10.5 -0.6 0.3 0 0 0</pose>
+</model>
+	
+<model name="storage_90_06">          
+<include>
+    <uri>
+    model://models/storage_90
+    </uri>
+</include>
+       <pose>11.60 -0.455 0 0 0 1.5708</pose>
+</model>	
+
+
+<model name="table_L_right_01">          
+<include>
+    <uri>
+    model://models/table_L_right
+    </uri>
+</include>
+       <pose>11.26 4.555 0 0 0 3.14159</pose>
+</model>
+
+<model name="notebook_02">          
+<include>
+    <uri>
+    model://models/notebook
+    </uri>
+</include>
+       <pose>11.26 3.80 0.76 0 0 3.44159</pose>
+</model>
+
+<model name="cardboard_box_06">          
+<include>
+    <uri>
+    model://models/cardboard_box
+    </uri>
+</include>
+       <pose>10.5 3.65 0.76 0 0 0</pose>
+</model>
+
+<model name="computer_case_06">          
+<include>
+    <uri>
+    model://models/computer_case
+    </uri>
+</include>
+       <pose>10.17 3.95 0 0 0 3.14159</pose>
+</model>
+
+<model name="monitor_keyboard_06">          
+<include>
+    <uri>
+    model://models/monitor_keyboard
+    </uri>
+</include>
+       <pose>9.45 3.8 0.76 0 0 3.8</pose>
+</model>
+
+<model name="office_chair_06">          
+<include>
+    <uri>
+    model://models/office_chair
+    </uri>
+</include>
+       <pose>10.2 4.6 0 0 0 -0.64</pose>
+</model>
+	
+<model name="table_150_03">          
+<include>
+    <uri>
+    model://models/table_150
+    </uri>
+</include>
+       <pose>11.665 4.47 0 0 0 -1.5708</pose>
+</model>
+	
+<model name="monitor_keyboard_05">          
+<include>
+    <uri>
+    model://models/monitor_keyboard
+    </uri>
+</include>
+       <pose>11.8 4.65  0.76 0 0 0</pose>
+</model>	
+
+<model name="computer_case_05">          
+<include>
+    <uri>
+    model://models/computer_case
+    </uri>
+</include>
+       <pose>11.4 5.05  0 0 0 -1.5708</pose>
+</model>
+
+<model name="cardboard_box_05">          
+<include>
+    <uri>
+    model://models/cardboard_box
+    </uri>
+</include>
+       <pose>11.55 3.5  0 0 0 0</pose>
+</model>
+
+
+	
+<!-------------------------- Laboratoř pro bakaláře a diplomové práce 1.104 --------------------->
+	
+<model name="door_160_close_02">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>21.273 -1.04 0 0 0 3.14159</pose>
+</model>
+
+<model name="windows_4_02">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>16.407 9.95 1.218 0 0 0</pose>
+</model>
+	
+<model name="door_70_close_05">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>19.51 0.3 0 0 0 -1.5708</pose>
+</model>
+		
+<!-------------------------- Dílna 1.106 --------------------->	
+
+<model name="door_160_close_03">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>28.770 -1.04 0 0 0 3.14159</pose>
+</model>
+
+<model name="windows_4_03">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>23.8 9.95 1.218 0 0 0</pose>
+</model>
+
+<model name="windows_2_01">          
+<include>
+    <uri>
+    model://models/windows_2
+    </uri>
+</include>
+      <pose>30.4 6.41 1.218 0 0 1.5708</pose>
+</model>
+
+<model name="door_160_metal_close_03">          
+<include>
+    <uri>
+    model://models/door_160_metal_close
+    </uri>
+</include>
+      <pose>30.32 1.738 0 0 0 -1.5708</pose>
+</model>
+
+<model name="door_70_close_06">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>26.76 0.21 0 0 0 -1.5708</pose>
+</model>
+
+<!-------------------------- Dílna svaření 1.108 --------------------->	
+	
+<model name="door_160_close_04">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>28.620 -2.975 0 0 0 0</pose>
+</model>
+	
+<model name="windows_O_01">          
+<include>
+    <uri>
+    model://models/windows_O
+    </uri>
+</include>
+      <pose>27.599 -9.88 0.907 0 0 0</pose>
+</model>
+
+<model name="windows_O_02">          
+<include>
+    <uri>
+    model://models/windows_O
+    </uri>
+</include>
+      <pose>30.45 -8.575 0.907 0 0 1.5708</pose>
+</model>	
+	
+<!-------------------------- Dílna sklad 1.109 --------------------->		
+	
+<model name="door_160_close_05">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>24.96 -2.975 0 0 0 0</pose>
+</model>	
+	
+<model name="windows_O_03">          
+<include>
+    <uri>
+    model://models/windows_O
+    </uri>
+</include>
+      <pose>24.112 -9.88 0.907 0 0 0</pose>
+</model>	
+	
+<!-------------------------- Malá dílna chemie 1.110 --------------------->			
+
+<model name="door_160_close_06">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>21.601 -2.975 0 0 0 0</pose>
+</model>
+
+<model name="windows_O_04">          
+<include>
+    <uri>
+    model://models/windows_O
+    </uri>
+</include>
+      <pose>20.45 -9.88 0.907 0 0 0</pose>
+</model>
+		
+<!-------------------------- Dílna diplomantů - robotika 1.111 --------------------->				
+
+<model name="door_160_close_07">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>17.955 -2.975 0 0 0 0</pose>
+</model>
+
+<model name="windows_O_05">          
+<include>
+    <uri>
+    model://models/windows_O
+    </uri>
+</include>
+      <pose>16.975 -9.88 0.907 0 0 0</pose>
+</model>
+
+<!-------------------------- Laboratoř teleprezence 1.112 --------------------->					
+
+<model name="door_160_fully_open_02">          
+<include>
+    <uri>
+    model://models/door_160_fully_open
+    </uri>
+</include>
+      <pose>13.673 -2.975 0 0 0 0</pose>
+</model>
+
+<model name="windows_4_05">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>9.19 -9.85 1.218 0 0 0</pose>
+</model>
+
+<model name="bathroom_sink_02">          
+<include>
+    <uri>
+    model://models/bathroom_sink
+    </uri>
+</include>
+      <pose>15.10 -3.05 0.8 0 0 0</pose>
+</model>
+
+<model name="trash_bin_02">          
+<include>
+    <uri>
+    model://models/trash_bin
+    </uri>
+</include>
+      <pose>14.68 -3.2 0 0 0 0</pose>
+</model>
+
+<model name="drawers_05">          
+<include>
+    <uri>
+    model://models/drawers
+    </uri>
+</include>
+      <pose>14.878 -3.51 0 0 0 0</pose>
+</model>
+
+<model name="drawers_06">          
+<include>
+    <uri>
+    model://models/drawers
+    </uri>
+</include>
+      <pose>15.2 -3.51 0 0 0 0</pose>
+</model>
+
+<model name="fridge_01">          
+<include>
+    <uri>
+    model://models/fridge
+    </uri>
+</include>
+      <pose>15.4 -4.6 0 0 0 -1.5708</pose>
+</model>
+
+<model name="table_L_left_02">          
+<include>
+    <uri>
+    model://models/table_L_left
+    </uri>
+</include>
+      <pose>15.10 -6.187 0 0 0 1.5708</pose>
+</model>
+
+<model name="cardboard_box_07">          
+<include>
+    <uri>
+    model://models/cardboard_box
+    </uri>
+</include>
+      <pose>14.79 -5.39 0 0 0 1.5708</pose>
+</model>
+
+
+<model name="mug_02">          
+<include>
+    <uri>
+    model://models/mug
+    </uri>
+</include>
+      <pose>14.79 -5.39 0.76 0 0 1.5708</pose>
+</model>
+
+
+<model name="bowl_01">          
+<include>
+    <uri>
+    model://models/bowl
+    </uri>
+</include>
+      <pose>14.69 -5.29 0.76 0 0 1.5708</pose>
+</model>
+
+<model name="milk_blender_01">          
+<include>
+    <uri>
+    model://models/milk_blender
+    </uri>
+</include>
+      <pose>15 -5.29 0.76 0 0 1.5708</pose>
+</model>
+
+<model name="whiteboard_03">          
+<include>
+    <uri>
+    model://models/whiteboard
+    </uri>
+</include>
+      <pose>15.74 -6.61 1 0 0 -1.5708</pose>
+</model>
+
+<model name="whiteboard_04">          
+<include>
+    <uri>
+    model://models/whiteboard
+    </uri>
+</include>
+      <pose>15.74 -7.82 1 0 0 -1.5708</pose>
+</model>
+
+<model name="monitor_keyboard_07">          
+<include>
+    <uri>
+    model://models/monitor_keyboard
+    </uri>
+</include>
+      <pose>15.45 -6.32 0.76 0 0 0</pose>
+</model>
+
+<model name="computer_case_07">          
+<include>
+    <uri>
+    model://models/computer_case
+    </uri>
+</include>
+      <pose>15.05 -6.5 0 0 0 -1.5708</pose>
+</model>
+
+<model name="drawers_07">          
+<include>
+    <uri>
+    model://models/drawers
+    </uri>
+</include>
+      <pose>15.05 -6.8 0 0 0 -1.5708</pose>
+</model>
+
+<model name="office_chair_07">          
+<include>
+    <uri>
+    model://models/office_chair
+    </uri>
+</include>
+      <pose>14.72 -6.12 0 0 0 -4</pose>
+</model>
+
+<model name="table_L_right_02">          
+<include>
+    <uri>
+    model://models/table_L_right
+    </uri>
+</include>
+      <pose>14.45 -7.341 0 0 0 -1.5708</pose>
+</model>
+
+<model name="drawers_08">          
+<include>
+    <uri>
+    model://models/drawers
+    </uri>
+</include>
+      <pose>15.05 -7.5 0 0 0 -1.5708</pose>
+</model>
+
+<model name="drawers_09">          
+<include>
+    <uri>
+    model://models/drawers
+    </uri>
+</include>
+      <pose>15.05 -7.9 0 0 0 -1.5708</pose>
+</model>
+
+<model name="notebook_03">          
+<include>
+    <uri>
+    model://models/notebook
+    </uri>
+</include>
+      <pose>15.35 -7.8 0.76 0 0 -1.5708</pose>
+</model>
+
+<model name="foldable_chair_02">          
+<include>
+    <uri>
+    model://models/foldable_chair
+    </uri>
+</include>
+      <pose>14.6 -7.70 0 0 0 -0.2</pose>
+</model>
+
+<model name="backpack_red_02">          
+<include>
+    <uri>
+    model://models/backpack_red
+    </uri>
+</include>
+      <pose>14.6 -7.67 0.45 0 0 -0.255</pose>
+</model>
+
+<model name="office_chair_08">          
+<include>
+    <uri>
+    model://models/office_chair
+    </uri>
+</include>
+      <pose>14.65 -8.6 0 0 0 0.6</pose>
+</model>
+
+<model name="monitor_keyboard_08">          
+<include>
+    <uri>
+    model://models/monitor_keyboard
+    </uri>
+</include>
+      <pose>15.2 -9.1 0.76 0 0 -0.69</pose>
+</model>
+
+<model name="computer_case_08">          
+<include>
+    <uri>
+    model://models/computer_case
+    </uri>
+</include>
+      <pose>14.65 -9.0 0 0 0 3.145</pose>
+</model>
+
+<model name="table_150_04">          
+<include>
+    <uri>
+    model://models/table_150
+    </uri>
+</include>
+      <pose>12.75 -8.89 0 0 0 1.5708</pose>
+</model>
+
+<model name="foldable_chair_03">          
+<include>
+    <uri>
+    model://models/foldable_chair
+    </uri>
+</include>
+      <pose>13 -8.89 0 0 0 -1.5708</pose>
+</model>
+
+<model name="table_150_05">          
+<include>
+    <uri>
+    model://models/table_150
+    </uri>
+</include>
+      <pose>11.95 -8.89 0 0 0 -1.5708</pose>
+</model>
+
+<model name="foldable_chair_04">          
+<include>
+    <uri>
+    model://models/foldable_chair
+    </uri>
+</include>
+      <pose>11.7 -8.89 0 0 0 1.5708</pose>
+</model>
+
+<model name="table_160_01">          
+<include>
+    <uri>
+    model://models/table_160
+    </uri>
+</include>
+      <pose>12.35 -7.735 0 0 0 0</pose>
+</model>
+
+
+<model name="cardboard_box_08">          
+<include>
+    <uri>
+    model://models/cardboard_box
+    </uri>
+</include>
+      <pose>12.45 -7.735 0.76 0 0 0.2</pose>
+</model>
+
+<model name="cardboard_box_09">          
+<include>
+    <uri>
+    model://models/cardboard_box
+    </uri>
+</include>
+      <pose>12.34 -7.6 0 0 0 1.5708</pose>
+</model>
+
+<model name="toolbox_03">          
+<include>
+    <uri>
+    model://models/toolbox
+    </uri>
+</include>
+      <pose>12.35 -9.2 0.76 0 0 1.5708</pose>
+</model>
+
+<model name="screwdriver_05">          
+<include>
+    <uri>
+    model://models/screwdriver
+    </uri>
+</include>
+      <pose>12.75 -9.2 0.76 0 0 0.508</pose>
+</model>
+
+<model name="screwdriver_06">          
+<include>
+    <uri>
+    model://models/screwdriver
+    </uri>
+</include>
+      <pose>12.75 -9.1 0.76 0 0 0.408</pose>
+</model>
+
+<model name="tape_03">          
+<include>
+    <uri>
+    model://models/tape
+    </uri>
+</include>
+      <pose>12.65 -8.3 0.76 0 0 0.408</pose>
+</model>
+
+<model name="tape_04">          
+<include>
+    <uri>
+    model://models/tape
+    </uri>
+</include>
+      <pose>12.65 -8.3 0.805 0 0 0.408</pose>
+</model>
+
+<model name="tape_05">          
+<include>
+    <uri>
+    model://models/tape
+    </uri>
+</include>
+      <pose>12.65 -8.3 0.85 0 0 0.408</pose>
+</model>
+
+<model name="toolbox_04">          
+<include>
+    <uri>
+    model://models/toolbox
+    </uri>
+</include>
+      <pose>12.35 -8.5 0.76 0 0 -1.5708</pose>
+</model>
+
+<model name="screwdriver_07">          
+<include>
+    <uri>
+    model://models/screwdriver
+    </uri>
+</include>
+      <pose>12.00 -8.5 0.76 0 0 -3.2708</pose>
+</model>
+
+<model name="screwdriver_08">          
+<include>
+    <uri>
+    model://models/screwdriver
+    </uri>
+</include>
+      <pose>12.00 -8.3 0.76 0 0 -3.4708</pose>
+</model>
+
+<model name="drill_02">          
+<include>
+    <uri>
+    model://models/drill
+    </uri>
+</include>
+      <pose>12.05 -9.3 0.76 0 0 -2.8</pose>
+</model>
+
+<model name="foldable_chair_05">          
+<include>
+    <uri>
+    model://models/foldable_chair
+    </uri>
+</include>
+      <pose>10.7 -9.3 0 0 0 3.14159</pose>
+</model>
+
+<model name="backpack_green_02">          
+<include>
+    <uri>
+    model://models/backpack_green
+    </uri>
+</include>
+      <pose>10.7 -9.32 0.45 0 0 3.1</pose>
+</model>
+
+<model name="table_150_06">          
+<include>
+    <uri>
+    model://models/table_150
+    </uri>
+</include>
+      <pose>9.55 -9.247 0 0 0 3.14159</pose>
+</model>
+
+
+<model name="drone_01">          
+<include>
+    <uri>
+    model://models/drone
+    </uri>
+</include>
+      <pose>9.95 -9.1 0.76 0 0 -2</pose>
+</model>
+
+<model name="screwdriver_09">          
+<include>
+    <uri>
+    model://models/screwdriver
+    </uri>
+</include>
+      <pose>9.7 -9.0 0.76 0 0 1.8</pose>
+</model>
+
+<model name="cardboard_box_10">          
+<include>
+    <uri>
+    model://models/cardboard_box
+    </uri>
+</include>
+      <pose>9.45 -9.43 0.76 0 0 3.14159</pose>
+</model>
+
+<model name="table_150_07">          
+<include>
+    <uri>
+    model://models/table_150
+    </uri>
+</include>
+      <pose>9.2 -8.09 0 0 0 1.5708</pose>
+</model>
+	
+<model name="monitor_keyboard_09">          
+<include>
+    <uri>
+    model://models/monitor_keyboard
+    </uri>
+</include>
+      <pose>9.1 -8.78 0.76 0 0 3.8</pose>
+</model>	
+
+<model name="office_chair_09">          
+<include>
+    <uri>
+    model://models/office_chair
+    </uri>
+</include>
+      <pose>9.6 -8.29 0 0 0 -1.5708</pose>
+</model>
+
+<model name="drawers_10">          
+<include>
+    <uri>
+    model://models/drawers
+    </uri>
+</include>
+      <pose>9.5 -7.75 0 0 0 1.5708</pose>
+</model>
+
+<model name="notebook_04">          
+<include>
+    <uri>
+    model://models/notebook
+    </uri>
+</include>
+      <pose>9.3 -7.8 0.76 0 0 1.3708</pose>
+</model>	
+
+<model name="computer_case_09">          
+<include>
+    <uri>
+    model://models/computer_case
+    </uri>
+</include>
+      <pose>10.1 -9.0 0 0 0 3.14159</pose>
+</model>
+	
+<model name="storage_90_08">          
+<include>
+    <uri>
+    model://models/storage_90
+    </uri>
+</include>
+      <pose>9.11 -3.915 0 0 0 1.5708</pose>
+</model>
+
+<model name="cardboard_box_11">          
+<include>
+    <uri>
+    model://models/cardboard_box
+    </uri>
+</include>
+      <pose>9.11 -3.935 2.4 0 0 1.5508</pose>
+</model>
+
+<model name="storage_90_09">          
+<include>
+    <uri>
+    model://models/storage_90
+    </uri>
+</include>
+      <pose>9.11 -4.825 0 0 0 1.5708</pose>
+</model>
+
+<model name="cardboard_box_12">          
+<include>
+    <uri>
+    model://models/cardboard_box
+    </uri>
+</include>
+      <pose>9.11 -4.82 2.4 0 0 1.5408</pose>
+</model>
+
+<model name="storage_90_10">          
+<include>
+    <uri>
+    model://models/storage_90
+    </uri>
+</include>
+      <pose>9.11 -5.735 0 0 0 1.5708</pose>
+</model>
+
+<model name="cardboard_box_13">          
+<include>
+    <uri>
+    model://models/cardboard_box
+    </uri>
+</include>
+      <pose>9.11 -5.6 2.4 0 0 1.5808</pose>
+</model>
+
+<model name="storage_90_11">          
+<include>
+    <uri>
+    model://models/storage_90
+    </uri>
+</include>
+      <pose>9.11 -6.645 0 0 0 1.5708</pose>
+</model>
+
+<model name="table_120_05">          
+<include>
+    <uri>
+    model://models/table_120
+    </uri>
+</include>
+      <pose>12.3 -3.66 0 0 0 1.5708</pose>
+</model>
+
+<model name="cardboard_box_14">          
+<include>
+    <uri>
+    model://models/cardboard_box
+    </uri>
+</include>
+      <pose>12.3 -3.5 0 0 0 1.5708</pose>
+</model>
+
+<model name="table_L_right_03">          
+<include>
+    <uri>
+    model://models/table_L_right
+    </uri>
+</include>
+      <pose>10.598 -3.06 0 0 0 -1.5708</pose>
+</model>
+
+<model name="office_chair_10">          
+<include>
+    <uri>
+    model://models/office_chair
+    </uri>
+</include>
+      <pose>10.91 -4.15 0 0 0 1.0708</pose>
+</model>
+
+<model name="whiteboard_02">          
+<include>
+    <uri>
+    model://models/whiteboard
+    </uri>
+</include>
+      <pose>10.5 -3.07 1 0 0 0</pose>
+</model>
+
+<model name="monitor_keyboard_10">          
+<include>
+    <uri>
+    model://models/monitor_keyboard
+    </uri>
+</include>
+      <pose>11.65 -3.68 0.76 0 0 0.1</pose>
+</model>
+
+<model name="monitor_keyboard_11">          
+<include>
+    <uri>
+    model://models/monitor_keyboard
+    </uri>
+</include>
+      <pose>11.65 -4.3 0.76 0 0 -0.1</pose>
+</model>
+
+<model name="notebook_05">          
+<include>
+    <uri>
+    model://models/notebook
+    </uri>
+</include>
+      <pose>11.25 -4.7 0.76 0 0 -2.4</pose>
+</model>
+
+<model name="table_80_02">          
+<include>
+    <uri>
+    model://models/table_80
+    </uri>
+</include>
+      <pose>12.3 -4.661 0 0 0 1.5708</pose>
+</model>
+
+<model name="printer_01">          
+<include>
+    <uri>
+    model://models/printer
+    </uri>
+</include>
+      <pose>12.1 -4.661 0.76 0 0 1.5708</pose>
+</model>
+
+<model name="foldable_chair_06">          
+<include>
+    <uri>
+    model://models/foldable_chair
+    </uri>
+</include>
+      <pose>12.3 -5.35 0 0 0 0</pose>
+</model>
+	
+<!-------------------------- Laboratoř mobilních robotů 1.113 --------------------->					
+
+<model name="door_160_fully_open_03">          
+<include>
+    <uri>
+    model://models/door_160_fully_open
+    </uri>
+</include>
+      <pose>3.63 -2.975 0 0 0 0</pose>
+</model>
+
+<model name="windows_4_04">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>1.97 -9.85 1.218 0 0 0</pose>
+</model>
+
+<model name="table_v_01">          
+<include>
+    <uri>
+    model://models/table_v
+    </uri>
+</include>
+      <pose>4.092 -8.34 0 0 0 3.14159</pose>
+</model>
+
+<model name="office_chair_12">          
+<include>
+    <uri>
+    model://models/office_chair
+    </uri>
+</include>
+      <pose>2.75 -8.5 0 0 0 -1.0708</pose>
+</model>
+
+<model name="monitor_keyboard_13">          
+<include>
+    <uri>
+    model://models/monitor_keyboard
+    </uri>
+</include>
+      <pose>2.102 -8.8 0.76 0 0 3.64159</pose>
+</model>
+
+<model name="computer_case_11">          
+<include>
+    <uri>
+    model://models/computer_case
+    </uri>
+</include>
+      <pose>2.402 -7.988 0.76 0 0 1.5708</pose>
+</model>
+
+<model name="foldable_chair_07">          
+<include>
+    <uri>
+    model://models/foldable_chair
+    </uri>
+</include>
+      <pose>4.35 -9.31 0 0 0 3.14159</pose>
+</model>
+
+<model name="cardboard_box_15">          
+<include>
+    <uri>
+    model://models/cardboard_box
+    </uri>
+</include>
+      <pose>3.6 -9.31 0.76 0 0 3.14159</pose>
+</model>
+
+<model name="tape_06">          
+<include>
+    <uri>
+    model://models/tape
+    </uri>
+</include>
+      <pose>3.0 -9.31 0.76 0 0 3.14159</pose>
+</model>
+
+<model name="tape_07">          
+<include>
+    <uri>
+    model://models/tape
+    </uri>
+</include>
+      <pose>2.8 -9.31 0.76 0 0 3.14159</pose>
+</model>
+
+<model name="table_80_04">          
+<include>
+    <uri>
+    model://models/table_80
+    </uri>
+</include>
+      <pose>6.306 -9.239 0 0 0 3.14159</pose>
+</model>
+
+<model name="toolbox_06">          
+<include>
+    <uri>
+    model://models/toolbox
+    </uri>
+</include>
+      <pose>6.3 -9.31 0.76 0 0 3.14159</pose>
+</model>
+
+<model name="mug_03">          
+<include>
+    <uri>
+    model://models/mug
+    </uri>
+</include>
+      <pose>7.5 -9.11 0.76 0 0 4.5</pose>
+</model>
+
+<model name="table_v_02">          
+<include>
+    <uri>
+    model://models/table_v
+    </uri>
+</include>
+      <pose>7.307 -7.34 0 0 0 -1.5708</pose>
+</model>
+
+<model name="table_150_08">          
+<include>
+    <uri>
+    model://models/table_150
+    </uri>
+</include>
+      <pose>7.857 -6.937 0 0 0 0</pose>
+</model>
+
+<model name="monitor_keyboard_14">          
+<include>
+    <uri>
+    model://models/monitor_keyboard
+    </uri>
+</include>
+      <pose>8.35 -8.5 0.76 0 0 0</pose>
+</model>
+
+<model name="cardboard_box_17">          
+<include>
+    <uri>
+    model://models/cardboard_box
+    </uri>
+</include>
+      <pose>8.31 -6.9 0.76 0 0 1.5708</pose>
+</model>
+
+<model name="Box_33x15_02">          
+<include>
+    <uri>
+    model://models/Box_33x15
+    </uri>
+</include>
+      <pose>7.67 -7 0 0 0 0</pose>
+</model>
+
+<model name="drill_03">          
+<include>
+    <uri>
+    model://models/drill
+    </uri>
+</include>
+      <pose>7.5 -6.9 0.76 0 0 0.6</pose>
+</model>
+
+<model name="computer_case_12">          
+<include>
+    <uri>
+    model://models/computer_case
+    </uri>
+</include>
+      <pose>7.9 -8.1 0 0 0 -1.5708</pose>
+</model>
+
+<model name="notebook_06">          
+<include>
+    <uri>
+    model://models/notebook
+    </uri>
+</include>
+      <pose>8.0 -9 0.76 0 0 3.9</pose>
+</model>
+
+<model name="office_chair_13">          
+<include>
+    <uri>
+    model://models/office_chair
+    </uri>
+</include>
+      <pose>7.6 -8.5 0 0 0 1.0708</pose>
+</model>
+
+<model name="table_L_left_03">          
+<include>
+    <uri>
+    model://models/table_L_left
+    </uri>
+</include>
+      <pose>5.255 -8.49 0 0 0 -1.5708</pose>
+</model>
+
+<model name="printer_03">          
+<include>
+    <uri>
+    model://models/printer
+    </uri>
+</include>
+      <pose>5.0 -9.31 0.76 0 0 3.14159</pose>
+</model>
+
+<model name="cardboard_box_16">          
+<include>
+    <uri>
+    model://models/cardboard_box
+    </uri>
+</include>
+      <pose>5.0 -7.8 0.76 0 0 3.0</pose>
+</model>
+
+<model name="Box_15x30_01">          
+<include>
+    <uri>
+    model://models/Box_15x30
+    </uri>
+</include>
+      <pose>5.0 -7.8 0 0 0 0</pose>
+</model>
+
+<model name="screwdriver_10">          
+<include>
+    <uri>
+    model://models/screwdriver
+    </uri>
+</include>
+      <pose>5.0 -8.5 0.76 0 0 -3.0</pose>
+</model>
+
+<model name="screwdriver_11">          
+<include>
+    <uri>
+    model://models/screwdriver
+    </uri>
+</include>
+      <pose>5.05 -8.6 0.76 0 0 2.8</pose>
+</model>
+
+<model name="table_150_09">          
+<include>
+    <uri>
+    model://models/table_150
+    </uri>
+</include>
+      <pose>2.192 -6.988 0 0 0 1.5708</pose>
+</model>
+
+<model name="office_chair_11">          
+<include>
+    <uri>
+    model://models/office_chair
+    </uri>
+</include>
+      <pose>2.592 -6.988 0 0 0 -1.5708</pose>
+</model>
+
+<model name="monitor_keyboard_12">          
+<include>
+    <uri>
+    model://models/monitor_keyboard
+    </uri>
+</include>
+      <pose>2.102 -6.988 0.76 0 0 3.14159</pose>
+</model>
+
+<model name="mug_04">          
+<include>
+    <uri>
+    model://models/mug
+    </uri>
+</include>
+      <pose>2.302 -6.5 0.76 0 0 3.14159</pose>
+</model>
+
+<model name="computer_case_10">          
+<include>
+    <uri>
+    model://models/computer_case
+    </uri>
+</include>
+      <pose>2.522 -7.57 0 0 0 1.5708</pose>
+</model>
+
+<model name="table_150_10">          
+<include>
+    <uri>
+    model://models/table_150
+    </uri>
+</include>
+      <pose>2.192 -5.487 0 0 0 1.5708</pose>
+</model>
+
+<model name="milk_blender_02">          
+<include>
+    <uri>
+    model://models/milk_blender
+    </uri>
+</include>
+      <pose>2.1 -5.0 0.76 0 0 1.5708</pose>
+</model>
+
+<model name="printer_02">          
+<include>
+    <uri>
+    model://models/printer
+    </uri>
+</include>
+      <pose>2.1 -5.8 0.76 0 0 1.5708</pose>
+</model>
+
+<model name="hammer_02">          
+<include>
+    <uri>
+    model://models/hammer
+    </uri>
+</include>
+      <pose>2.392 -5.187 0.76 0 0 1.5708</pose>
+</model>
+
+<model name="Box_33x15_01">          
+<include>
+    <uri>
+    model://models/Box_33x15
+    </uri>
+</include>
+      <pose>2.192 -5.587 0 0 0 1.5708</pose>
+</model>
+
+<model name="storage_90_low_01">          
+<include>
+    <uri>
+    model://models/storage_90_low
+    </uri>
+</include>
+      <pose>2.12 -4.28 0 0 0 1.5708</pose>
+</model>
+
+<model name="toolbox_05">          
+<include>
+    <uri>
+    model://models/toolbox
+    </uri>
+</include>
+      <pose>2.12 -4.28 0.79 0 0 1.5708</pose>
+</model>
+
+<model name="storage_90_low_02">          
+<include>
+    <uri>
+    model://models/storage_90_low
+    </uri>
+</include>
+      <pose>8.29 -6.085 0 0 0 -1.5708</pose>
+</model>
+
+<model name="whiteboard_05">          
+<include>
+    <uri>
+    model://models/whiteboard
+    </uri>
+</include>
+      <pose>8.6 -5.7 1 0 0 -1.5708</pose>
+</model>
+
+<model name="storage_90_low_03">          
+<include>
+    <uri>
+    model://models/storage_90_low
+    </uri>
+</include>
+      <pose>8.29 -5.18 0 0 0 -1.5708</pose>
+</model>
+
+<model name="bathroom_sink_03">          
+<include>
+    <uri>
+    model://models/bathroom_sink
+    </uri>
+</include>
+      <pose>4.85 -3.05 0.8 0 0 0</pose>
+</model>
+
+<model name="storage_90_12">          
+<include>
+    <uri>
+    model://models/storage_90
+    </uri>
+</include>
+      <pose>5.942 -3.38 0 0 0 0</pose>
+</model>
+
+<model name="storage_90_13">          
+<include>
+    <uri>
+    model://models/storage_90
+    </uri>
+</include>
+      <pose>6.846 -3.38 0 0 0 0</pose>
+</model>
+
+<model name="storage_90_14">          
+<include>
+    <uri>
+    model://models/storage_90
+    </uri>
+</include>
+      <pose>7.75 -3.38 0 0 0 0</pose>
+</model>
+
+
+
+<model name="truss_01">          
+<include>
+    <uri>
+    model://models/truss
+    </uri>
+</include>
+      <pose>4.4 -7 0.765 1.5708 0 0</pose>
+</model>
+
+<model name="truss_02">          
+<include>
+    <uri>
+    model://models/truss
+    </uri>
+</include>
+      <pose>4.4 -7 2.289 1.5708 0 0</pose>
+</model>	
+
+<model name="truss_03">          
+<include>
+    <uri>
+    model://models/truss
+    </uri>
+</include>
+      <pose>5.05 -7.0047 2.909 0 0 1.5708</pose>
+</model>
+
+<model name="truss_04">          
+<include>
+    <uri>
+    model://models/truss
+    </uri>
+</include>
+      <pose>6.2653 -7.0047 2.909 0 0 1.5708</pose>
+</model>
+
+<model name="truss_05">          
+<include>
+    <uri>
+    model://models/truss
+    </uri>
+</include>
+      <pose>6.9087 -7 2.289 1.5708 0 0</pose>
+</model>
+
+<model name="truss_06">          
+<include>
+    <uri>
+    model://models/truss
+    </uri>
+</include>
+      <pose>6.9 -7 0.765 1.5708 0 0</pose>
+</model>
+
+
+<model name="truss_07">          
+<include>
+    <uri>
+    model://models/truss
+    </uri>
+</include>
+      <pose>4.4 -6.3547 2.909 0 0 0</pose>
+</model>
+
+<model name="truss_08">          
+<include>
+    <uri>
+    model://models/truss
+    </uri>
+</include>
+      <pose>4.4 -5.1394 2.909 0 0 0</pose>
+</model>
+
+
+
+<model name="truss_09">          
+<include>
+    <uri>
+    model://models/truss
+    </uri>
+</include>
+      <pose>6.9087 -6.3547 2.909 0 0 0</pose>
+</model>
+
+<model name="truss_10">          
+<include>
+    <uri>
+    model://models/truss
+    </uri>
+</include>
+      <pose>6.9087 -5.1394 2.909 0 0 0</pose>
+</model>
+
+
+
+<model name="truss_11">          
+<include>
+    <uri>
+    model://models/truss
+    </uri>
+</include>
+      <pose>4.4 -4.4913 0.765 1.5708 0 0</pose>
+</model>
+
+<model name="truss_12">          
+<include>
+    <uri>
+    model://models/truss
+    </uri>
+</include>
+      <pose>4.4 -4.4913 2.289 1.5708 0 0</pose>
+</model>	
+
+<model name="truss_13">          
+<include>
+    <uri>
+    model://models/truss
+    </uri>
+</include>
+      <pose>5.05 -4.496 2.909 0 0 1.5708</pose>
+</model>
+
+<model name="truss_14">          
+<include>
+    <uri>
+    model://models/truss
+    </uri>
+</include>
+      <pose>6.2653 -4.496 2.909 0 0 1.5708</pose>
+</model>
+
+<model name="truss_15">          
+<include>
+    <uri>
+    model://models/truss
+    </uri>
+</include>
+      <pose>6.9087 -4.4913 2.289 1.5708 0 0</pose>
+</model>
+
+<model name="truss_16">          
+<include>
+    <uri>
+    model://models/truss
+    </uri>
+</include>
+      <pose>6.9 -4.4913 0.765 1.5708 0 0</pose>
+</model>
+
+
+<!-------------------------- Laboratoř vibrodiagnostiky a kalibrace 1.114 --------------------->					
+
+<model name="door_70_close_01">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>0.590 -2.975 0 0 0 3.14159</pose>
+</model>
+	
+<model name="door_160_metal_close_01">          
+<include>
+    <uri>
+    model://models/door_160_metal_close
+    </uri>
+</include>
+      <pose>-1.484 -2.975 0 0 0 0</pose>
+</model>
+
+<model name="windows_4_06">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>-5.24 -9.85 1.218 0 0 0</pose>
+</model>
+	
+	
+<!-------------------------- Laboratoř automatizace měření 1.115 --------------------->		
+			
+<model name="door_160_close_08">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>-10.807 -2.975 0 0 0 0</pose>
+</model>
+	
+<model name="windows_4_07">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>-19.4219 -9.85 1.218 0 0 0</pose>
+</model>
+
+<model name="windows_2_02">          
+<include>
+    <uri>
+    model://models/windows_2
+    </uri>
+</include>
+      <pose>-19.8 -9.47 1.218 0 0 1.5708</pose>
+</model>
+
+<model name="windows_4_09">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>-12.486 -9.85 1.218 0 0 0</pose>
+</model>
+
+<model name="door_70_close_07">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>-10.4 -7.646 0 0 0 0</pose>
+</model>
+	
+<!-------------------------- Laboratoř měření neelektrických veličin 1.116 --------------------->					
+
+<model name="door_160_close_09">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>-13.095 -2.0065 0 0 0 -1.5708</pose>
+</model>
+
+<model name="windows_4_08">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>-19.4219 9.95 1.218 0 0 0</pose>
+</model>
+
+<model name="windows_1_01">          
+<include>
+    <uri>
+    model://models/windows_1
+    </uri>
+</include>
+      <pose>-19.8 -2.74 1.218 0 0 1.5708</pose>
+</model>
+
+<model name="windows_O_06">          
+<include>
+    <uri>
+    model://models/windows_O
+    </uri>
+</include>
+      <pose>-19.8 0.275 0.907 0 0 1.5708</pose>
+</model>
+
+<model name="windows_2_03">          
+<include>
+    <uri>
+    model://models/windows_2
+    </uri>
+</include>
+      <pose>-19.8 6.4 1.218 0 0 1.5708</pose>
+</model>
+
+<model name="door_70_close_08">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>-15.14 -1.55 0 0 0 -1.5708</pose>
+</model>
+
+<!--------------------------  el. zařízení --------------------->	
+
+<model name="door_160_metal_close_02">          
+<include>
+    <uri>
+    model://models/door_160_metal_close
+    </uri>
+</include>
+      <pose>-8.672 0.145 0 0 0 -1.5708</pose>
+</model>						
+		
+<!-------------------------- WC muži 1.93 --------------------->
+
+							
+<model name="door_70_close_02">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>-8.672 1.82 0 0 0 1.5708</pose>
+</model>		
+		
+<model name="door_70_close_09">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>-10.14 1.125 0 0 0 0</pose>
+</model>		
+		
+<!-------------------------- Úklid 1.94 --------------------->	
+						
+<model name="door_70_close_10">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>-6.53 2.75 0 0 0 -1.5708</pose>
+</model>	
+
+<!-------------------------- WC ženy 1.95 --------------------->						
+
+<model name="door_70_close_03">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>-6.53 1.592 0 0 0 -1.5708</pose>
+</model>	
+
+<model name="door_70_close_11">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>-5.39 0.77 0 0 0 0</pose>
+</model>
+
+<model name="door_70_close_12">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>-4.21 0.77 0 0 0 0</pose>
+</model>
+	
+<!-------------------------- EW 15 DP1 --------------------->							
+
+<model name="door_70_metal_close">          
+<include>
+    <uri>
+    model://models/door_70_metal_close
+    </uri>
+</include>
+       <pose>-3.2 -1.04 0 0 0 0</pose>
+</model>
+
+
+<!-------------------------- Chodba --------------------->	
+	
+<model name="foldable_chair_08">          
+<include>
+    <uri>
+    model://models/foldable_chair
+    </uri>
+</include>
+      <pose>-6.35 0.3 0 0 0 -1.5708</pose>
+</model>	
+	
+<model name="table_small_02">          
+<include>
+    <uri>
+    model://models/table_small
+    </uri>
+</include>
+      <pose>-6.55 0. 0 0 0 -1.5708</pose>
+</model>	
+
+<!--
+<model name="fire_extinguisher_01">          
+<include>
+    <uri>
+    model://models/fire_extinguisher
+    </uri>
+</include>
+      <pose>-6.55 0. 0 0 0 -1.5708</pose>
+</model>
+-->
+
+<!--	
+<model name="plant_01">          
+<include>
+    <uri>
+    model://models/plant
+    </uri>
+</include>
+      <pose>-6.55 0. 0 0 0 -1.5708</pose>
+</model>	
+-->
+
+<model name="foldable_chair_09">          
+<include>
+    <uri>
+    model://models/foldable_chair
+    </uri>
+</include>
+      <pose>-7.65 -2.55 0 0 0 3.14159</pose>
+</model>	
+
+<model name="foldable_chair_10">          
+<include>
+    <uri>
+    model://models/foldable_chair
+    </uri>
+</include>
+      <pose>-6.90 -2.55 0 0 0 3.14159</pose>
+</model>
+
+<model name="storage_140_01">          
+<include>
+    <uri>
+    model://models/storage_140
+    </uri>
+</include>
+      <pose>-5.85 -2.59 0 0 0 3.14159</pose>
+</model>	
+
+<model name="storage_140_02">          
+<include>
+    <uri>
+    model://models/storage_140
+    </uri>
+</include>
+      <pose>-4.45 -2.59 0 0 0 3.14159</pose>
+</model>
+
+<model name="storage_140_03">          
+<include>
+    <uri>
+    model://models/storage_140
+    </uri>
+</include>
+      <pose>-3.05 -2.59 0 0 0 3.14159</pose>
+</model>
+
+<model name="foldable_chair_11">          
+<include>
+    <uri>
+    model://models/foldable_chair
+    </uri>
+</include>
+      <pose>11.5 -1.46 0 0 0 0</pose>
+</model>	
+
+<model name="foldable_chair_12">          
+<include>
+    <uri>
+    model://models/foldable_chair
+    </uri>
+</include>
+      <pose>10.75 -1.46 0 0 0 0</pose>
+</model>
+
+<model name="foldable_chair_13">          
+<include>
+    <uri>
+    model://models/foldable_chair
+    </uri>
+</include>
+      <pose>10 -1.46 0 0 0 0</pose>
+</model>
+
+
+
+<!-------------------------- Osvětlení --------------------->	
+<!--
+  <light name="ceiling_light_01" type="point">
+      <pose frame="">11 7 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.6</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+<!-------------------------- Laboratoř robotiky - polygon 1.102 -------------------------->
+	
+    <light name="ceiling_light_01" type="point">
+      <pose frame="">11 7 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.2</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+    
+     <light name="ceiling_light_02" type="point">
+      <pose frame="">14 7 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.2</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+    
+    
+     <light name="ceiling_light_03" type="point">
+      <pose frame="">11 2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.2</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+    
+    
+     <light name="ceiling_light_04" type="point">
+      <pose frame="">14 2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.2</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+
+<!-------------------------- Laboratoř teleprezence 1.112 --------------------->					
+
+  <light name="ceiling_light_05" type="point">
+      <pose frame="">12.5 -6.2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.6</intensity>
+      <attenuation>
+        <range>6</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+<!-------------------------- Laboratoř mobilních robotů 1.113 --------------------->	
+
+<!-------------------------- Světlo pro střed místnosti --------------------->	
+<!--				
+  <light name="ceiling_light_06" type="point">
+      <pose frame="">5.2 -6.3 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>6</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+-->
+
+  <light name="ceiling_light_07" type="point">
+      <pose frame="">3.2 -4.3 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.2</intensity>
+      <attenuation>
+        <range>9</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+    
+      <light name="ceiling_light_08" type="point">
+      <pose frame="">3.2 -8.3 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.2</intensity>
+      <attenuation>
+        <range>9</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+  <light name="ceiling_light_09" type="point">
+      <pose frame="">7.2 -4.3 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.2</intensity>
+      <attenuation>
+        <range>9</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+    
+      <light name="ceiling_light_10" type="point">
+      <pose frame="">7.2 -8.3 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.2</intensity>
+      <attenuation>
+        <range>9</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+<!-------------------------- Laboratoř vibrodiagnostiky a kalibrace 1.114 --------------------->					
+
+  <light name="ceiling_light_11" type="point">
+      <pose frame="">-1.5 -6.3 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+ <light name="ceiling_light_12" type="point">
+      <pose frame="">-6 -6.3 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+<!-------------------------- Laboratoř automatizace měření 1.115 --------------------->		
+
+ <light name="ceiling_light_13" type="point">
+      <pose frame="">-12.5 -6.3 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+ <light name="ceiling_light_14" type="point">
+      <pose frame="">-17 -6.3 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+<light name="ceiling_light_15" type="point">
+      <pose frame="">-10.1 -8.8 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.5</intensity>
+      <attenuation>
+        <range>5</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+<!-------------------------- Laboratoř měření neelektrických veličin 1.116 --------------------->					
+
+<light name="ceiling_light_16" type="point">
+      <pose frame="">-17 -2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.5</intensity>
+      <attenuation>
+        <range>5</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+ <light name="ceiling_light_17" type="point">
+      <pose frame="">-16 2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+ <light name="ceiling_light_18" type="point">
+      <pose frame="">-16 7 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+<!-------------------------- WC muži 1.93 --------------------->
+
+ <light name="ceiling_light_19" type="point">
+      <pose frame="">-10 2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>5</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+<light name="ceiling_light_20" type="point">
+      <pose frame="">-11 0 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>5</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+    
+<!-------------------------- Úklid 1.94 --------------------->	
+
+<light name="ceiling_light_21" type="point">
+      <pose frame="">-5 2.8 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>5</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+<!-------------------------- WC ženy 1.95 --------------------->						
+
+<light name="ceiling_light_22" type="point">
+      <pose frame="">-5 1.5 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>5</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+<light name="ceiling_light_23" type="point">
+      <pose frame="">-4.3 0 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>5</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+    
+    <light name="ceiling_light_24" type="point">
+      <pose frame="">-5.3 0 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>5</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+
+<!-------------------------- Chodba --------------------->	
+   
+ <light name="ceiling_light_25" type="point">
+      <pose frame="">-7.8 1.4 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>5.5</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>    
+
+ <light name="ceiling_light_26" type="point">
+      <pose frame="">-11 -2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>4.1</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>  
+
+ <light name="ceiling_light_27" type="point">
+      <pose frame="">-2 -2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>5.7</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>  
+      
+
+<light name="ceiling_light_28" type="point">
+      <pose frame="">8.6 -2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>8</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+    
+ <light name="ceiling_light_29" type="point">
+      <pose frame="">20 -2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>11</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>   
+  
+     <light name="ceiling_light_30" type="point">
+      <pose frame="">25 -2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light> 
+
+<!------------------------- Laboratoř vibrací a klimatických zkoušek 1.100 -------------------->
+
+  <light name="ceiling_light_31" type="point">
+      <pose frame="">-1 5 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light> 
+    
+     <light name="ceiling_light_32" type="point">
+      <pose frame="">-0.5 9.2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light> 
+    
+
+<!-------------------------- Laboratoř snímačové techniky 1.101 -------------------------->  
+
+  <light name="ceiling_light_33" type="point">
+      <pose frame="">5 5 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light> 
+    
+<!------------------------- Laboratoř pro bakaláře a diplomové práce 1.104 --------------------->
+
+ <light name="ceiling_light_34" type="point">
+      <pose frame="">20 5 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light> 
+
+ <light name="ceiling_light_35" type="point">
+      <pose frame="">18 0 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light> 
+    
+<!-------------------------- Dílna 1.106 --------------------->	
+    
+<light name="ceiling_light_36" type="point">
+      <pose frame="">27 5 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light> 
+
+ <light name="ceiling_light_37" type="point">
+      <pose frame="">25 0 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light> 
+    
+<!-------------------------- Dílna svaření 1.108 --------------------->	
+
+ <light name="ceiling_light_38" type="point">
+      <pose frame="">28.5 -6 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.6</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light> 
+
+<!-------------------------- Dílna sklad 1.109 --------------------->		
+
+ <light name="ceiling_light_39" type="point">
+      <pose frame="">25 -6 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.6</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light> 
+
+<!------------------------- Malá dílna chemie 1.110 ------------------>			    
+
+ <light name="ceiling_light_40" type="point">
+      <pose frame="">21.5 -6 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.6</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light> 
+
+<!-------------------------- Dílna diplomantů - robotika 1.111 --------------------->	
+
+<light name="ceiling_light_41" type="point">
+      <pose frame="">18 -6 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.6</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light> 
+
+<!-------------------------- Výtah a schody --------------------->
+
+<light name="ceiling_light_42" type="point">
+      <pose frame="">-7.6 8 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.6</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+<light name="ceiling_light_43" type="point">
+      <pose frame="">-11 8 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.6</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>			
+    
+<!-------------------------- WC - invalidé --------------------->    
+    
+<light name="ceiling_light_44" type="point">
+      <pose frame="">-4.7 4.6 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>    
+    
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose frame=''>-4.70385 10.895 16.2659 -0 0.921795 -1.12701</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+
+  </world>
+</sdf>
