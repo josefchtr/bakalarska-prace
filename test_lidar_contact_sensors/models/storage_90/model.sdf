@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<sdf version="1.6">
+  <model name='storage_90'>
+    <static>true</static>
+    <link name="body">
+      
+        <visual name="visual">
+          <geometry>
+            <mesh><uri>model://models/storage_90/meshes/storage_90.dae</uri></mesh>
+          </geometry>
+        </visual>
+
+        <collision name="collision">
+          <geometry>
+            <mesh><uri>model://models/storage_90/meshes/storage_90.dae</uri></mesh>
+          </geometry>
+        </collision>
+
+<sensor name='sensor_contact' type='contact'>
+    <contact>
+        <collision>collision</collision>
+    </contact>
+</sensor>
+       
+    </link>
+   
+    <plugin filename="gz-sim-touchplugin-system"
+        name="gz::sim::systems::TouchPlugin">
+    <target>vehicle_blue</target>
+    <namespace>storage_90</namespace>
+    <time>0.001</time>
+    <enabled>true</enabled>
+</plugin>
+    
+  </model>
+</sdf>
