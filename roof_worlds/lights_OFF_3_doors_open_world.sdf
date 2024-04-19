@@ -1,0 +1,696 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.6">
+  <world name="default">
+    
+    <gravity>0 0 -9.8</gravity>
+    <physics default="0" name="default_physics" type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+
+
+
+<!-------------------------- Modely -------------------------->
+
+<model name="UAMT_models_01">          
+<include>
+    <uri>
+    model://UAMT_models.sdf
+    </uri>
+</include>
+</model>
+
+
+<!-------------------------- Demo model kostky -------------------------->
+<!--
+<model name="Cube_01">          
+<include>
+    <uri>
+    model://Cube
+    </uri>
+</include>
+      <pose>5 4 0 0 0 0</pose>
+</model>
+-->
+
+<!-------------------------- Zdi a vstupní dveře -------------------------->
+
+<model name="walls_roof_01">          
+<include>
+    <uri>
+    model://models/walls_roof
+    </uri>
+</include>
+      <pose>-20 -10 0 0 0 0</pose>
+</model>
+	
+<model name="door_70_close_13">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+       <pose>-5.878 5.014 0 0 0 -1.5708</pose>
+</model>	
+	
+
+
+<!-------------------------- Laboratoř vibrací a klimatických zkoušek 1.100 --------------------->
+	
+
+<model name="door_70_close_04">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+       <pose>-1.51 8.538 0 0 0 3.14159</pose>
+</model>
+	
+<!-------------------------- Laboratoř snímačové techniky 1.101 -------------------------->
+
+ <model name="door_160_close_01">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>4.058 -1.04 0 0 0 3.14159</pose>
+</model>
+
+
+<!-------------------------- Laboratoř robotiky - polygon 1.102 -------------------------->
+
+<model name="door_160_fully_open_01">          
+<include>
+    <uri>
+    model://models/door_160_fully_open
+    </uri>
+</include>
+      <pose>13.673 -1.04 0 0 0 3.14159</pose>
+</model>
+
+
+
+
+	
+<!-------------------------- Laboratoř pro bakaláře a diplomové práce 1.104 --------------------->
+	
+<model name="door_160_close_02">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>21.273 -1.04 0 0 0 3.14159</pose>
+</model>
+
+<model name="windows_4_02">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>16.407 9.95 1.218 0 0 0</pose>
+</model>
+	
+<model name="door_70_close_05">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>19.51 0.3 0 0 0 -1.5708</pose>
+</model>
+		
+<!-------------------------- Dílna 1.106 --------------------->	
+
+<model name="door_160_close_03">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>28.770 -1.04 0 0 0 3.14159</pose>
+</model>
+
+<model name="door_160_metal_close_03">          
+<include>
+    <uri>
+    model://models/door_160_metal_close
+    </uri>
+</include>
+      <pose>30.32 1.738 0 0 0 -1.5708</pose>
+</model>
+
+<model name="door_70_close_06">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>26.76 0.21 0 0 0 -1.5708</pose>
+</model>
+
+<!-------------------------- Dílna svaření 1.108 --------------------->	
+	
+<model name="door_160_close_04">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>28.620 -2.975 0 0 0 0</pose>
+</model>
+	
+<model name="windows_O_01">          
+<include>
+    <uri>
+    model://models/windows_O
+    </uri>
+</include>
+      <pose>27.599 -9.88 0.907 0 0 0</pose>
+</model>
+
+<model name="windows_O_02">          
+<include>
+    <uri>
+    model://models/windows_O
+    </uri>
+</include>
+      <pose>30.45 -8.575 0.907 0 0 1.5708</pose>
+</model>	
+	
+<!-------------------------- Dílna sklad 1.109 --------------------->		
+	
+<model name="door_160_close_05">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>24.96 -2.975 0 0 0 0</pose>
+</model>	
+		
+	
+<!-------------------------- Malá dílna chemie 1.110 --------------------->			
+
+<model name="door_160_close_06">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>21.601 -2.975 0 0 0 0</pose>
+</model>
+
+		
+<!-------------------------- Dílna diplomantů - robotika 1.111 --------------------->				
+
+<model name="door_160_close_07">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>17.955 -2.975 0 0 0 0</pose>
+</model>
+
+<!-------------------------- Laboratoř teleprezence 1.112 --------------------->					
+
+<model name="door_160_fully_open_02">          
+<include>
+    <uri>
+    model://models/door_160_fully_open
+    </uri>
+</include>
+      <pose>13.673 -2.975 0 0 0 0</pose>
+</model>
+
+	
+<!-------------------------- Laboratoř mobilních robotů 1.113 --------------------->					
+
+<model name="door_160_fully_open_03">          
+<include>
+    <uri>
+    model://models/door_160_fully_open
+    </uri>
+</include>
+      <pose>3.63 -2.975 0 0 0 0</pose>
+</model>
+
+
+
+<!-------------------------- Laboratoř vibrodiagnostiky a kalibrace 1.114 --------------------->					
+
+<model name="door_70_close_01">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>0.590 -2.975 0 0 0 3.14159</pose>
+</model>
+	
+<model name="door_160_metal_close_01">          
+<include>
+    <uri>
+    model://models/door_160_metal_close
+    </uri>
+</include>
+      <pose>-1.484 -2.975 0 0 0 0</pose>
+</model>
+
+<model name="windows_4_06">          
+<include>
+    <uri>
+    model://models/windows_4
+    </uri>
+</include>
+      <pose>-5.24 -9.85 1.218 0 0 0</pose>
+</model>
+	
+	
+<!-------------------------- Laboratoř automatizace měření 1.115 --------------------->		
+			
+<model name="door_160_close_08">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>-10.807 -2.975 0 0 0 0</pose>
+</model>
+	
+
+
+<model name="door_70_close_07">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>-10.4 -7.646 0 0 0 0</pose>
+</model>
+	
+<!-------------------------- Laboratoř měření neelektrických veličin 1.116 --------------------->					
+
+<model name="door_160_close_09">          
+<include>
+    <uri>
+    model://models/door_160_close
+    </uri>
+</include>
+      <pose>-13.095 -2.0065 0 0 0 -1.5708</pose>
+</model>
+
+
+
+<model name="door_70_close_08">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>-15.14 -1.55 0 0 0 -1.5708</pose>
+</model>
+
+<!--------------------------  el. zařízení --------------------->	
+
+<model name="door_160_metal_close_02">          
+<include>
+    <uri>
+    model://models/door_160_metal_close
+    </uri>
+</include>
+      <pose>-8.672 0.145 0 0 0 -1.5708</pose>
+</model>						
+		
+<!-------------------------- WC muži 1.93 --------------------->
+
+							
+<model name="door_70_close_02">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>-8.672 1.82 0 0 0 1.5708</pose>
+</model>		
+		
+<model name="door_70_close_09">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>-10.14 1.125 0 0 0 0</pose>
+</model>		
+		
+<!-------------------------- Úklid 1.94 --------------------->	
+						
+<model name="door_70_close_10">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>-6.53 2.75 0 0 0 -1.5708</pose>
+</model>	
+
+<!-------------------------- WC ženy 1.95 --------------------->						
+
+<model name="door_70_close_03">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>-6.53 1.592 0 0 0 -1.5708</pose>
+</model>	
+
+<model name="door_70_close_11">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>-5.39 0.77 0 0 0 0</pose>
+</model>
+
+<model name="door_70_close_12">          
+<include>
+    <uri>
+    model://models/door_70_close
+    </uri>
+</include>
+      <pose>-4.21 0.77 0 0 0 0</pose>
+</model>
+	
+<!-------------------------- EW 15 DP1 --------------------->							
+
+<model name="door_70_metal_close">          
+<include>
+    <uri>
+    model://models/door_70_metal_close
+    </uri>
+</include>
+       <pose>-3.2 -1.04 0 0 0 0</pose>
+</model>
+
+
+<!-------------------------- Chodba --------------------->	
+	
+
+
+
+
+<!-------------------------- Osvětlení --------------------->	
+<!--
+  <light name="ceiling_light_01" type="point">
+      <pose frame="">11 7 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.6</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+<!-------------------------- Laboratoř robotiky - polygon 1.102 -------------------------->
+	
+    <light name="ceiling_light_01" type="point">
+      <pose frame="">11 7 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.2</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+    
+     <light name="ceiling_light_02" type="point">
+      <pose frame="">14 7 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.2</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+    
+    
+     <light name="ceiling_light_03" type="point">
+      <pose frame="">11 2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.2</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+    
+    
+     <light name="ceiling_light_04" type="point">
+      <pose frame="">14 2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.2</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+
+<!-------------------------- Laboratoř teleprezence 1.112 --------------------->					
+
+  <light name="ceiling_light_05" type="point">
+      <pose frame="">12.5 -6.2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.6</intensity>
+      <attenuation>
+        <range>6</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+<!-------------------------- Laboratoř mobilních robotů 1.113 --------------------->	
+
+<!-------------------------- Světlo pro střed místnosti --------------------->	
+<!--				
+  <light name="ceiling_light_06" type="point">
+      <pose frame="">5.2 -6.3 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.4</intensity>
+      <attenuation>
+        <range>6</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+-->
+
+  <light name="ceiling_light_07" type="point">
+      <pose frame="">3.2 -4.3 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.2</intensity>
+      <attenuation>
+        <range>9</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+    
+      <light name="ceiling_light_08" type="point">
+      <pose frame="">3.2 -8.3 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.2</intensity>
+      <attenuation>
+        <range>9</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+  <light name="ceiling_light_09" type="point">
+      <pose frame="">7.2 -4.3 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.2</intensity>
+      <attenuation>
+        <range>9</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+    
+      <light name="ceiling_light_10" type="point">
+      <pose frame="">7.2 -8.3 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.2</intensity>
+      <attenuation>
+        <range>9</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+
+
+
+<!-------------------------- Chodba --------------------->	
+   
+ <light name="ceiling_light_25" type="point">
+      <pose frame="">-7.8 1.4 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>5.5</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>    
+
+ <light name="ceiling_light_26" type="point">
+      <pose frame="">-11 -2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>4.1</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>  
+
+ <light name="ceiling_light_27" type="point">
+      <pose frame="">-2 -2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>5.7</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>  
+      
+
+<light name="ceiling_light_28" type="point">
+      <pose frame="">8.6 -2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>8</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+    
+ <light name="ceiling_light_29" type="point">
+      <pose frame="">20 -2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>11</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>   
+  
+     <light name="ceiling_light_30" type="point">
+      <pose frame="">25 -2 3.21824 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>1 1 1 1</specular>
+      <intensity>0.7</intensity>
+      <attenuation>
+        <range>10</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light> 
+
+
+    
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose frame=''>-4.70385 10.895 16.2659 -0 0.921795 -1.12701</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+
+  </world>
+</sdf>
