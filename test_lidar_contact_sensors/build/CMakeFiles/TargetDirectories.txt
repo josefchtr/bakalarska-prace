@@ -1,3 +1,0 @@
-/home/josefchytry/gazebo_ws/test_robot/build/CMakeFiles/lidar_node.dir
-/home/josefchytry/gazebo_ws/test_robot/build/CMakeFiles/edit_cache.dir
-/home/josefchytry/gazebo_ws/test_robot/build/CMakeFiles/rebuild_cache.dir
