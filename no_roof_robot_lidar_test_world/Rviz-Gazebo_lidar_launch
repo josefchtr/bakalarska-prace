@@ -1,0 +1,37 @@
+
+
+
+
+1. terminál
+
+
+supstit simulai gz launch .....gzlaunch
+
+
+
+2. teminál
+
+
+ros2 run ros_gz_bridge parameter_bridge /lidar@sensor_msgs/msg/LaserScan[ignition.msgs.LaserScan --ros-args -r /lidar:=/laser_scan
+
+
+
+
+
+
+
+
+
+
+3. terminál
+
+source /opt/ros/humble/setup.bash
+rviz2
+
+
+
+
+
+
+
+
