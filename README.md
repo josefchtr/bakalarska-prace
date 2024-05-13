@@ -37,11 +37,13 @@ I also reference the following models from https://app.gazebosim.org/fuel/models
 1) Download the zip file of the repository, extract it and save it in a suitable directory on your local disk where you will have easy access to the files.
 2) Set the GZ_SIM_RESOURCE_PATH environment variable to the directory that contains the model or world
 Enter this command in the terminal:
+```bash
 export GZ_SIM_RESOURCE_PATH="$HOME/path/to/folder/workplace-VUT-FEKT-UAMT-world"
+```
 (enter actual path instead of /path/to/folder)
-3) Change the target directory where the world we want to run is located
+4) Change the target directory where the world we want to run is located
 Example of running the world no_roof_worlds/lights_ON_all_doors_open_world. Enter this command in the terminal:
 cd ~/path/to/folder/workplace-VUT-FEKT-UAMT-world/worlds/no_roof_worlds
 (enter actual path instead of /path/to/folder)
-4) Run the simulation:
+5) Run the simulation:
 gz sim lights_ON_all_doors_open_world.sdf
