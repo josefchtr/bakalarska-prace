@@ -9,16 +9,16 @@ This world is intended for UAMT scientists to test the optimization of robot beh
 
 ## 3D Models included in this Gazebo World
 
-| Model (/models)       | Picture           |
+| Model (/models)       |
 | :------------- |:-------------:|
-| **aws_robomaker_warehouse_Bucket_01**    | ![Model: Buckets](docs/images/models_buckets.png)
-| **aws_robomaker_warehouse_ClutteringA_01, aws_robomaker_warehouse_ClutteringC_01, aws_robomaker_warehouse_ClutteringD_01**     | ![Model: Box Clusters](docs/images/models_boxes.png) |
-| **aws_robomaker_warehouse_DeskC_01**    | ![Model: Desk](docs/images/models_desk.png)
-| **aws_robomaker_warehouse_GroundB_01**    | ![Model: Ground Paint](docs/images/models_warehouse_ground_paint.png)
-| **aws_robomaker_warehouse_TrashCanC_01**   | ![Model: Humans](docs/images/models_trashcan.png)
-| **aws_robomaker_warehouse_Lamp_01**    | ![Model: Ceiling Lamp](docs/images/models_ceiling_lamp.png)
-| **aws_robomaker_warehouse_PalletJackB_01**    | ![Model: Pallet Jack](docs/images/models_lift.png)
-| **aws_robomaker_warehouse_ShelfD_01, aws_robomaker_warehouse_ShelfE_01, aws_robomaker_warehouse_ShelfF_01**    | ![Model: Pallet Jack](docs/images/models_shelves.png)
+| **aws_robomaker_warehouse_Bucket_01**    
+| **aws_robomaker_warehouse_ClutteringA_01, aws_robomaker_warehouse_ClutteringC_01, aws_robomaker_warehouse_ClutteringD_01**    
+| **aws_robomaker_warehouse_DeskC_01**    
+| **aws_robomaker_warehouse_GroundB_01**    
+| **aws_robomaker_warehouse_TrashCanC_01**   
+| **aws_robomaker_warehouse_Lamp_01**    
+| **aws_robomaker_warehouse_PalletJackB_01**    
+| **aws_robomaker_warehouse_ShelfD_01, aws_robomaker_warehouse_ShelfE_01, aws_robomaker_warehouse_ShelfF_01**    )
 
 ## Building and Launching the Gazebo World with your ROS Applications
 
