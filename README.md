@@ -29,7 +29,7 @@ I also reference the following models from https://app.gazebosim.org/fuel/models
 | Laboratory       | Picture           |
 | :------------- |:-------------:|
 | **Robotics - polygon**     | ![lab1](docs/images/laboratory_1.102.png) |
-| **Mobile robot laboratory**     | ![lab2](docs/images/laboratory_1.112.png) |
+| **Mobile robots**     | ![lab2](docs/images/laboratory_1.112.png) |
 | **Telepresence**    | ![lab3](docs/images/laboratory_1.113.png)
 
 ## Building and Launching the Gazebo World with your ROS Applications
