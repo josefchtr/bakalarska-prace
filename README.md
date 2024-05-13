@@ -2,8 +2,8 @@
 
 ![Gazebo01](docs/images/workplace_UAMT.png)
 
-### Supported versions of Gazebo Garden
-7.7.0+ 
+### Supported versions of Gazebo 
+Garden v7.7.0+ 
 
 This Gazebo world is well suited for organizations who are building and testing robot applications for warehouse and logistics use cases. 
 
