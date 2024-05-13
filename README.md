@@ -11,14 +11,14 @@ This world is intended for UAMT scientists to test the optimization of robot beh
 
 ### Model 
 
-| **aws_robomaker_warehouse_Bucket_01**    
-| **aws_robomaker_warehouse_ClutteringA_01, aws_robomaker_warehouse_ClutteringC_01, aws_robomaker_warehouse_ClutteringD_01**    
-| **aws_robomaker_warehouse_DeskC_01**    
-| **aws_robomaker_warehouse_GroundB_01**    
-| **aws_robomaker_warehouse_TrashCanC_01**   
-| **aws_robomaker_warehouse_Lamp_01**    
-| **aws_robomaker_warehouse_PalletJackB_01**    
-| **aws_robomaker_warehouse_ShelfD_01, aws_robomaker_warehouse_ShelfE_01, aws_robomaker_warehouse_ShelfF_01**    
+**aws_robomaker_warehouse_Bucket_01**    
+**aws_robomaker_warehouse_ClutteringA_01, aws_robomaker_warehouse_ClutteringC_01, aws_robomaker_warehouse_ClutteringD_01**    
+**aws_robomaker_warehouse_DeskC_01**    
+**aws_robomaker_warehouse_GroundB_01**    
+**aws_robomaker_warehouse_TrashCanC_01**   
+**aws_robomaker_warehouse_Lamp_01**    
+**aws_robomaker_warehouse_PalletJackB_01**    
+**aws_robomaker_warehouse_ShelfD_01, aws_robomaker_warehouse_ShelfE_01, aws_robomaker_warehouse_ShelfF_01**    
 
 ## Building and Launching the Gazebo World with your ROS Applications
 
