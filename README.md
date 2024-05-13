@@ -9,14 +9,18 @@ This world is intended for UAMT scientists to test the optimization of robot beh
 
 ## 3D Models included in this Gazebo World
 
-**computer_case**    
+**computer_case** 
+**monitor_keyboard**    
 **door_70_close, door_70_open**    
 **door_80, door_80_handle**    
 **door_160_close, door_160_fully_open, door_160_metal_close, door_160_metal_fully_open, door_160_open**    
-**aws_robomaker_warehouse_TrashCanC_01**   
-**aws_robomaker_warehouse_Lamp_01**    
-**aws_robomaker_warehouse_PalletJackB_01**    
-**aws_robomaker_warehouse_ShelfD_01, aws_robomaker_warehouse_ShelfE_01, aws_robomaker_warehouse_ShelfF_01**    
+**entrance_door**   
+**storage_90, storage_90_low**    
+**storage_140**    
+**table_80, table_100, table_120, table_150, table_160, table_180, table_200, table L_left, table_L_right, table_small, table_v**    
+**walls, walls_roof**    
+**windows_1, windows_2, windows_4, windows_door, windows_door_open, windows_O**    
+
 
 ## Building and Launching the Gazebo World with your ROS Applications
 
