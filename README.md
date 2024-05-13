@@ -37,7 +37,7 @@ I also reference the following models from https://app.gazebosim.org/fuel/models
 Enter this command in the terminal:
 
 ```bash
-export GZ_SIM_RESOURCE_PATH="$HOME/path/to/folder/workplace-VUT-FEKT-UAMT-world"
+export GZ_SIM_RESOURCE_PATH="$HOME/path/to/folder/workplace-VUT-FEKT-UAMT-world-main"
 ```
 
   * (enter actual path instead of /path/to/folder)
@@ -45,7 +45,7 @@ export GZ_SIM_RESOURCE_PATH="$HOME/path/to/folder/workplace-VUT-FEKT-UAMT-world"
   * Example of running the world no_roof_worlds/lights_ON_all_doors_open_world. Enter this command in the terminal:
 
 ```bash
-cd ~/path/to/folder/workplace-VUT-FEKT-UAMT-world/worlds/no_roof_worlds
+cd ~/path/to/folder/workplace-VUT-FEKT-UAMT-world-main/worlds/no_roof_worlds
 ```
 
   * (enter actual path instead of /path/to/folder)
