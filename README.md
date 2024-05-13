@@ -1,4 +1,4 @@
-# AWS RoboMaker Small Warehouse World
+# Workplace of the Department of Control and Instrumentation
 
 ![Gazebo01](docs/images/small_warehouse_gazebo.png)
 
