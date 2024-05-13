@@ -17,10 +17,14 @@ This world is intended for UAMT scientists to test the optimization of robot beh
 **entrance_door**   
 **storage_90, storage_90_low**    
 **storage_140**    
+**Box_15x30, Box_33x25**    
 **table_80, table_100, table_120, table_150, table_160, table_180, table_200, table L_left, table_L_right, table_small, table_v**    
 **walls, walls_roof**    
 **windows_1, windows_2, windows_4, windows_door, windows_door_open, windows_O**    
 
+I also reference the following models from https://app.gazebosim.org/fuel/models:
+
+*Actor, JanSport Backpack Red, Bicycle, shelf, Cardboard box, Cordless Drill, Parrot Bebop 2, OfficeChairBlack, foldable_chair, Fridge, Cole_Hardware_Hammer_Black, Aroma_Stainless_Steel_Milk_Frother_2_Cup, Travel_Mate_P_series_Notebook, Radio, Craftsman_Grip_Screwdriver_Phillips_Cushion, Sofa,  Shurtape_Gaffers_Tape_Silver_2_x_60_yd, Toolbox, truss*
 
 ## Building and Launching the Gazebo World with your ROS Applications
 
