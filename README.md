@@ -26,6 +26,16 @@ I also reference the following models from https://app.gazebosim.org/fuel/models
 
 *Actor, JanSport Backpack Red, Bicycle, shelf, Cardboard box, Cordless Drill, Parrot Bebop 2, OfficeChairBlack, foldable_chair, Fridge, Cole_Hardware_Hammer_Black, Aroma_Stainless_Steel_Milk_Frother_2_Cup, Travel_Mate_P_series_Notebook, Radio, Craftsman_Grip_Screwdriver_Phillips_Cushion, Sofa,  Shurtape_Gaffers_Tape_Silver_2_x_60_yd, Toolbox, truss*
 
+![Gazebo02](docs/images/laboratory_1.102.png)
+![Gazebo03](docs/images/laboratory_1.112.png)
+![Gazebo04](docs/images/laboratory_1.113.png)
+
+| Laboratory (/laboratory)       | Picture           |
+| :------------- |:-------------:|
+| **Laboratory 1.102**     | ![lab1](docs/images/laboratory_1.102.png) |
+| **laboratory 1.112**     | ![lab2](docs/images/laboratory_1.112.png |
+| **laboratory 1.113**    | ![lab3](docs/images/laboratory_1.113.png)
+
 ## Building and Launching the Gazebo World with your ROS Applications
 
 * Create or update a **.rosinstall** file in the root directory of your ROS workspace. Add the following line to **.rosintall**:
