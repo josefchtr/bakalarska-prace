@@ -9,12 +9,10 @@ This world is intended for UAMT scientists to test the optimization of robot beh
 
 ## 3D Models included in this Gazebo World
 
-### Model 
-
-**aws_robomaker_warehouse_Bucket_01**    
-**aws_robomaker_warehouse_ClutteringA_01, aws_robomaker_warehouse_ClutteringC_01, aws_robomaker_warehouse_ClutteringD_01**    
-**aws_robomaker_warehouse_DeskC_01**    
-**aws_robomaker_warehouse_GroundB_01**    
+**computer_case**    
+**door_70_close, door_70_open**    
+**door_80, door_80_handle**    
+**door_160_close, door_160_fully_open, door_160_metal_close, door_160_metal_fully_open, door_160_open**    
 **aws_robomaker_warehouse_TrashCanC_01**   
 **aws_robomaker_warehouse_Lamp_01**    
 **aws_robomaker_warehouse_PalletJackB_01**    
