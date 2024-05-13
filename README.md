@@ -2,9 +2,8 @@
 
 ![Gazebo01](docs/images/workplace_UAMT.png)
 
-## AWS Robomaker Small Warehouse World on Gzweb
-
-![Gzweb01](docs/images/gzweb_aws_warehouse.png)
+### Supported versions of Gazebo Garden
+7.7.0+ 
 
 This Gazebo world is well suited for organizations who are building and testing robot applications for warehouse and logistics use cases. 
 
