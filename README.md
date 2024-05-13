@@ -5,8 +5,6 @@
 ### Supported versions of Gazebo 
 Garden v7.7.0+ 
 
-This world is intended for UAMT scientists to test the optimization of robot behavior without the need to run physical devices.
-
 ## 3D Models included in this Gazebo World
 
 **computer_case** 
