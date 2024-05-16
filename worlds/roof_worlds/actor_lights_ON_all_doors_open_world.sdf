@@ -34,7 +34,7 @@
       </waypoint>
       <waypoint>
         <time>2</time>
-        <pose>13 0.4 1.0 0 0 0</pose> <!-- Prodlouženo v ose X -->
+        <pose>13 0.4 1.0 0 0 0</pose> 
       </waypoint>
       <waypoint>
         <time>2.5</time>
@@ -42,7 +42,7 @@
       </waypoint>
       <waypoint>
         <time>4</time>
-        <pose>13 2.4 1.0 0 0 1.57</pose> <!-- Y osa je kratší o celé číslo na 2.4 -->
+        <pose>13 2.4 1.0 0 0 1.57</pose> 
       </waypoint>
       <waypoint>
         <time>4.5</time>
