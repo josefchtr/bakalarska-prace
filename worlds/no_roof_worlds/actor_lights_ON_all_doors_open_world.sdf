@@ -11,7 +11,7 @@
 
 <!------------------ Actor walking --------------------->    
  
-<actor name="actor_walking">
+<actor name="actor_01">
   <skin>
     <filename>
       model://models/actor/meshes/walk.dae
