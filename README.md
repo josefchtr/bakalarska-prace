@@ -98,7 +98,7 @@ rviz2
 ### Setting up Rviz
 **Lidar**
 - Set path Fixed frame: vehicle_blue/chassis/gpu_lidar
-- Add Lidar: ADD -> by topic -> LaserScan
+- Add lidar: ADD -> by topic -> LaserScan
 
 **Camera**
 - Set path Fixed frame: vehicle_blue/chassis/camera
