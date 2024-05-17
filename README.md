@@ -68,12 +68,12 @@ export GZ_SIM_RESOURCE_PATH="$HOME/path/to/folder/workplace-VUT-FEKT-UAMT-world-
   * Enter this command in the terminal:
 
 ```bash
-cd ~/path/to/folder/workplace-VUT-FEKT-UAMT-world-main/examples/robot_testing_world/robot_lidar_camera_world
+cd ~/path/to/folder/workplace-VUT-FEKT-UAMT-world-main/examples/robot_testing_world
 ```
 
   * (enter actual path instead of /path/to/folder)
 3) Run the simulation:
 
 ```bash
-gz sim lights_ON_all_doors_open_world.sdf
+gz sim robot_lidar_camera_world.sdf
 ```
