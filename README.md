@@ -54,3 +54,26 @@ cd ~/path/to/folder/workplace-VUT-FEKT-UAMT-world-main/worlds/no_roof_worlds
 ```bash
 gz sim lights_ON_all_doors_open_world.sdf
 ```
+## Launching the example world with the robot and setting up Rviz
+
+1) Set the GZ_SIM_RESOURCE_PATH environment variable to the directory that contains the model or world. 
+Enter this command in the terminal:
+
+```bash
+export GZ_SIM_RESOURCE_PATH="$HOME/path/to/folder/workplace-VUT-FEKT-UAMT-world-main"
+```
+
+  * (enter actual path instead of /path/to/folder)
+2) Change the target directory where the world we want to run is located.
+  * Enter this command in the terminal:
+
+```bash
+cd ~/path/to/folder/workplace-VUT-FEKT-UAMT-world-main/examples/robot_testing_world/robot_lidar_camera_world
+```
+
+  * (enter actual path instead of /path/to/folder)
+3) Run the simulation:
+
+```bash
+gz sim lights_ON_all_doors_open_world.sdf
+```
