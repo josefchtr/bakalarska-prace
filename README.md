@@ -77,3 +77,6 @@ cd ~/path/to/folder/workplace-VUT-FEKT-UAMT-world-main/examples/robot_testing_wo
 ```bash
 gz sim robot_lidar_camera_world.sdf
 ```
+After starting the simulation, we can use the ←↑ ↓ → arrows to control the robot. To stop the robot, press the right CTRL key. In the GUI Visualize Lidar tab, click the refresh button to display the lidar visualization in the simulation.
+
+# Setting up Rviz
