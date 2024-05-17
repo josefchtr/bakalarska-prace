@@ -54,7 +54,7 @@ cd ~/path/to/folder/workplace-VUT-FEKT-UAMT-world-main/worlds/no_roof_worlds
 ```bash
 gz sim lights_ON_all_doors_open_world.sdf
 ```
-## Launching the example world with the robot and setting up Rviz
+## Launching the example world with the robot
 
 1) Set the GZ_SIM_RESOURCE_PATH environment variable to the directory that contains the model or world. 
 Enter this command in the terminal:
