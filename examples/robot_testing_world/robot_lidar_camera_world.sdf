@@ -196,10 +196,6 @@
                   <height>1080</height>
                   <format>R8G8B8</format>
               </image>
-              <clip>
-                  <near>0.02</near>
-                  <far>100</far>
-              </clip>
               <noise>
                   <type>gaussian</type>
                   <mean>0</mean>
