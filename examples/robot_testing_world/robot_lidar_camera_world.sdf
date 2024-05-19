@@ -166,7 +166,7 @@
           </lidar>
         </sensor>
         
-         <sensor name="siyi_a8_mini" type="camera">
+         <sensor name="camera1" type="camera">
    	 <pose relative_to="lidar_frame">0 0 0 0 0 0</pose>
           <always_on>1</always_on>
           <update_rate>30.0</update_rate>
