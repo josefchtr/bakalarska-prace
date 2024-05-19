@@ -56,6 +56,8 @@ gz sim lights_ON_all_doors_open_world.sdf
 ```
 ## Launching the example world with the robot
 
+![robot1](docs/images/robot.png)
+
 1) Set the GZ_SIM_RESOURCE_PATH environment variable to the directory that contains the model or world. 
 Enter this command in the terminal:
 
