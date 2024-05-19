@@ -31,10 +31,6 @@
             name="gz::sim::systems::Sensors">
             <render_engine>ogre2</render_engine>
         </plugin>
-        <plugin
-            filename="gz-sim-contact-system"
-            name="gz::sim::systems::Contact">
-        </plugin>
      
   <!------------------ Actor walking --------------------->    
  
@@ -467,17 +463,8 @@
             </output>
         </plugin>
 
-        <!--stop when hit the wall-->
-         <plugin filename="gz-sim-triggered-publisher-system"
-        name="gz::sim::systems::TriggeredPublisher">
-    <input type="gz.msgs.Boolean" topic="/wall/touched">
-        <match>data: true</match>
-    </input>
-    <output type="gz.msgs.Twist" topic="/cmd_vel">
-        linear: {x: 0.0}, angular: {z: 0.0}
-    </output>
-</plugin>
 
+<!--
   <!--stop when hit the storage_90 -->
          <plugin filename="gz-sim-triggered-publisher-system"
         name="gz::sim::systems::TriggeredPublisher">
@@ -488,7 +475,8 @@
         linear: {x: 0.0}, angular: {z: 0.0}
     </output>
 </plugin>
-
+-->
+<!--
  <!--stop when hit the office_chair -->
          <plugin filename="gz-sim-triggered-publisher-system"
         name="gz::sim::systems::TriggeredPublisher">
@@ -499,6 +487,7 @@
         linear: {x: 0.0}, angular: {z: 0.0}
     </output>
 </plugin>
+-->
 <!-------------------------- Models -------------------------->
 
 <model name="UAMT_models_01">          
