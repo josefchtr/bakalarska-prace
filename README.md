@@ -80,6 +80,7 @@ gz sim robot_lidar_camera_world.sdf
 After starting the simulation, we can use the ←↑ ↓ → arrows to control the robot. To stop the robot, press the right CTRL key. In the GUI Visualize Lidar tab, click the refresh button to display the lidar visualization in the simulation.
 
 ### ROS2 integration
+#### LiDAR sensor
 1) Create a bridge link between Gazebo and ROS2.
   * In the next terminal, enter this command:
     
@@ -95,6 +96,21 @@ source /opt/ros/humble/setup.bash
 rviz2
 ```
 
+#### Camera
+1) Create a bridge link between Gazebo and ROS2.
+  * In the next terminal, enter this command:
+    
+```bash
+ros2 run ros_gz_bridge parameter_bridge /camera@sensor_msgs/msg/Image[ignition.msgs.Image --ros-args -r /camera:=/camera_image
+```
+
+2) Visualize the results in Rviz.
+  * In the next terminal, enter this command:
+
+```bash
+source /opt/ros/humble/setup.bash
+rviz2
+```
 ### Setting up Rviz
 **Lidar**
 - Set path Fixed frame: vehicle_blue/chassis/gpu_lidar
